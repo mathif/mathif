@@ -30,4 +30,4 @@ this is blockquate
 [Visit Athif GitHub!](https://www.mathif.github.io
 )
 
-![fablogo](/img/fablog.jpg)
+![fablogo](/img/fablogo.jpg)
