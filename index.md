@@ -1,6 +1,7 @@
 # Pre Fab Academey
 
 
+![fablogo](/img/fablogo.jpg)
 
 
 ## About me
@@ -30,4 +31,3 @@ this is blockquate
 [Visit Athif GitHub!](https://www.mathif.github.io
 )
 
-![fablogo](/img/fablogo.jpg)
