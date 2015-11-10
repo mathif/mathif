@@ -5,7 +5,7 @@
 ### Project topic discusion
 Its a big challange to choose an idea for make a fab project. Luciano solved that challange with a marker,a duster and  board. he created an interesting Block diagram with the Resorces avilable, what we need in lab?, and the ideas.
 
-![](/img/project disc.jpg)
+![](/img/project disc1.jpeg)
 
 finally we choose three topics..
 
