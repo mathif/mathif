@@ -14,17 +14,30 @@
 <p>Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..</p>
 <ol style="list-style-type: decimal">
 <li>Download <strong><em>kokopelli_retro.zip</em></strong> file from google drive</li>
-<li>unziped it.</li>
-<li><p>open ubuntu terminal.. <code>cd Downloads/koko_retro</code></p></li>
+</ol>
+<p>or</p>
+<p>Downlod Fab Modules <strong><em>[kokompe.cba.mit.edu] (http://kokompe.cba.mit.edu/fab_src.zip)</em></strong> .(includes path planning, machine output and design GUIs)</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>unziped it.</p></li>
+<li><p>open ubuntu terminal.</p></li>
+</ol>
+<p><code>cd Downloads/koko_retro</code></p>
+<ol start="4" style="list-style-type: decimal">
 <li><p><code>make clean</code></p></li>
-<li><p>then copy link from <strong><em><a href="http://kokompe.cba.mit.edu/fab_src.zip">kokompe.cba.mit.edu</a></em></strong> . (To download python dependency)</p></li>
 <li><p><code>make fab</code></p></li>
 <li><p><code>make install</code></p></li>
 <li><p><code>cd bin</code></p></li>
-<li><p><code>./kokopelli -r</code> it opened and it was not shown output file..</p></li>
-<li><p>then -&gt; (<strong>Install Python Galleries</strong>) github/mkeeter/kokopelli/wiki/installing</p>
-<p><code>sudo pip install numpy PyOpenGL PyOpenGL_accelerate</code></p></li>
+<li><p><code>./kokopelli -r</code></p></li>
 </ol>
+<p>it opened and if it was not shown output file..</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Then -&gt; (<strong>Install Python Galleries</strong>) (https://github.com/mkeeter/kokopelli/wiki/Installing)</li>
+</ol>
+<p><code>sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake</code></p>
+<p>The required Python libraries are available through pip.</p>
+<pre><code>`sudo pip install numpy PyOpenGL PyOpenGL_accelerate`
+
+`install_wxpython3.0.sh`</code></pre>
 <p>open it again..</p>
 <h3 id="designing-circut-board-in-kokopelli">Designing Circut Board in Kokopelli</h3>
 <h2 id="day-2">Day-2</h2>

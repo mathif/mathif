@@ -6,12 +6,18 @@
 Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..
 
 1. Download ***kokopelli_retro.zip*** file from google drive
+
+or
+
+  Downlod  Fab Modules ***[kokompe.cba.mit.edu]   (http://kokompe.cba.mit.edu/fab_src.zip)*** .(includes path planning, machine output and design GUIs)
+  
 2. unziped it.
-3. open ubuntu terminal..   `cd Downloads/koko_retro`
+
+3. open ubuntu terminal.
+  
+ `cd Downloads/koko_retro`
 
 4. `make clean`
-
-5. then copy link from ***[kokompe.cba.mit.edu](http://kokompe.cba.mit.edu/fab_src.zip)*** . (To download python dependency)
 
 6. `make fab`
 
@@ -19,11 +25,19 @@ Kokopelli is a Circut board designing software, By using programing we can creat
 
 8. `cd bin`
 
-9. `./kokopelli -r`  it opened and it was not shown output file..
+9. `./kokopelli -r`  
 
-10. then -> (**Install Python Galleries**)                            github/mkeeter/kokopelli/wiki/installing
+it opened and if it was not shown output file..
+
+10. Then -> (**Install Python Galleries**)                            (https://github.com/mkeeter/kokopelli/wiki/Installing)
+
+`sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake`
+
+The required Python libraries are available through pip.
 
     `sudo pip install numpy PyOpenGL PyOpenGL_accelerate`
+    
+    `install_wxpython3.0.sh`
 
 open it again..
 
