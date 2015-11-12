@@ -123,7 +123,21 @@ pcb = wire(pcb,w,
 
 ```
 
-### Lucture of Vedio conferinsing system
+### Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
+
+Software to be intall in Ubuntu
+
+Ekiga or Linphone
+
+* `Open terminal`
+For intalling Ekiga
+* `sudo apt-get install ekiga`
+For installing Linphone
+* `sudo apt-get install linphone`
+
+
+There can be avilable Lab connections  
+
 
 
 
