@@ -11,7 +11,7 @@ Kokopelli is a Circut board designing software, By using programing we can creat
 
 4. `make clean`
 
-5. then copy link from ***[kokompe.cba.mit.edu/downloads](http://kokompe.cba.mit.edu/downloads.html)*** . (To download python dependency)
+5. then copy link from ***[kokompe.cba.mit.edu](http://kokompe.cba.mit.edu/fab_src.zip)*** . (To download python dependency)
 
 6. `make fab`
 
