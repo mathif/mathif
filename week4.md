@@ -5,31 +5,31 @@
 ### Kokopelli installetion
 Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..
 
-1. Download ***kokopelli_retro.zip*** file from google drive
+* Download [***kokopelli_retro.zip***](https://drive.google.com/folderview?id=0BzRX0YoH0d4OaHYxS3luS3pnVDg&usp=sharing&tid=0BzRX0YoH0d4OcjJSRTN6dW8wTms) file from google drive
 
 or
 
   Downlod  Fab Modules ***[kokompe.cba.mit.edu](http://kokompe.cba.mit.edu/fab_src.zip)*** .(includes path planning, machine output and design GUIs)
   
-2. unziped it.
+*  unziped it.
 
-3. open ubuntu terminal.
-  
- `cd Downloads/koko_retro`
+* open ubuntu terminal.
 
-4. `make clean`
+`cd Downloads/koko_retro`
 
-6. `make fab`
+ `make clean`
 
-7. `make install`
+ `make fab`
+ 
+ `make install`
 
-8. `cd bin`
+ `cd bin`
 
-9. `./kokopelli -r`  
+ `./kokopelli -r`  
 
 it opened and if it was not shown output file..
 
-10. Then -> [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
+* Then -> [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
 
 `sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake`
 
@@ -54,26 +54,27 @@ It need a great habbit to maintain clean and arranged your lab when you are work
 
 ### Level a 3D Printer
 
-### Bed leveling
+#### Bed leveling
+
 When you printing the first layer of a print is very important. Therefore regular bed leveling is advised. Always re-level the build plate when you notice that the plastic is not equally placed on the glass plate
 
 ##### Setting the height
 
 The first step is to roughly level the build plate by rotating the button at the front of your printer until there is approximately 1 mm distance between the nozzle and build plate. The measurement here is not critical, just make sure that the nozzle is close to the build plate without touching it
 
-![setting height](img.level.bedsetting height.JPG)
+![setting height](img/level_bed/setting_height.jpg)
 
 ##### Rough leveling
 
 Next, a rough adjustment will be done on the front left and right side by turning the build plate screws. Turning the build plate screws to the left means that the build plate will get closer to the nozzle. Again there should be a distance of approximately 1 mm between the nozzle and build plate.
 
-![rough leveling](/img/rough leveling.JPG)
+![rough leveling](img/level_bed/rough_leveling.jpg)
 
 ##### Fine-tuning
 
 The last step will be fine-tuning of the build plate with the calibration card or thin paper. Place the paper in between the nozzle and build plate on all 3 points and adjust the build plate screws until you feel slight friction when moving the card
 
-![fine tuning](/img/fine tuning.JPG)
+![fine tuning](img/level_bed/fine_tuning2.jpg)
 
 ### 
 
@@ -125,8 +126,11 @@ pcb = wire(pcb,w,
 ### Lucture of Vedio conferinsing system
 
 
+
+
 ## Day-3
 
 ## Day-4
+
 ## Day-5
 
