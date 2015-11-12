@@ -1,11 +1,12 @@
+
+![![](img/fablogo.jpg)](img/week3_end.jpg)
 # Pre Fab Academey
 
 
 
-![](img/fablogo.jpg)
 
 
-Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updatig weekily training, works, assignments and Progress.
+Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updating weekly training, works, assignments and Progress.
 
 
 
@@ -25,7 +26,7 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 I, Muhammed Athif  Graduate Mechanical Engineer from calicut university on 2014,
  
- [![Facebook](img/fb.png)](https://www.facebook.com/athifmkd) [![Twitter](img/twitter.png)](https://twitter.com/m_aathif)
+ [![Facebook](img/fb.png)](https://www.facebook.com/athifmkd) [![Twitter](img/twitter.png)](https://twitter.com/m_aathif) [![linkedin](img/linkedin.png)](https://in.linkedin.com/in/muhammed-athif-kurukkoli-0b261468)
 
 
 

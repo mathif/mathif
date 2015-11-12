@@ -2,6 +2,7 @@
 
 ## Day-1
 
+###
 ### Kokopelli installetion
 Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..
 
@@ -136,13 +137,22 @@ For installing Linphone
 * `sudo apt-get install linphone`
 
 
-There can be avilable Lab connections  
-
-
-
+There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start ([Booking a room](https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0)).
 
 
 ## Day-3
+
+### Milling and Soldering  Hollo Boeard
+
+#### Milling
+
+#### soldering
+
+### Programing the Board
+
+#### Arduino Installetion and setting FabISP
+
+#### Programming
 
 ## Day-4
 
