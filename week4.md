@@ -156,5 +156,26 @@ There can be avilable Lab connections and induividual connetions. Normally only 
 
 ## Day-4
 
+### Softwares installed
+
+#### Markdown
+
+
+`sudo apt-get install nautilus-open-terminal`
+
+`nautilus -q`
+
+#### Pandoc
+
+[]()
+
+
+#### Shutter
+
+#### Nautilus image converter
+
+#### How make your Terminal as Transperent
+
+
 ## Day-5
 
