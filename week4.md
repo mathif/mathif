@@ -11,7 +11,7 @@ Kokopelli is a Circut board designing software, By using programing we can creat
 
 4. `make clean`
 
-5. then copy link from ***[kokompe.cbe.mit.edu/downloads.html](http//kokompe.cbe.mit.edu/downloads.html)*** . (To download python dependency)
+5. then copy link from ***[kokompe.cba.mit.edu/downloads](http://kokompe.cba.mit.edu/downloads.html)*** . (To download python dependency)
 
 6. `make fab`
 
@@ -23,7 +23,7 @@ Kokopelli is a Circut board designing software, By using programing we can creat
 
 10. then -> (**Install Python Galleries**)                            github/mkeeter/kokopelli/wiki/installing
 
-    *sudo pip install numpy PyOpenGL PyOpenGL_accelerate*
+    `sudo pip install numpy PyOpenGL PyOpenGL_accelerate`
 
 open it again..
 
