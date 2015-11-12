@@ -9,7 +9,7 @@ Kokopelli is a Circut board designing software, By using programing we can creat
 
 or
 
-  Downlod  Fab Modules ***[kokompe.cba.mit.edu]   (http://kokompe.cba.mit.edu/fab_src.zip)*** .(includes path planning, machine output and design GUIs)
+  Downlod  Fab Modules ***[kokompe.cba.mit.edu](http://kokompe.cba.mit.edu/fab_src.zip)*** .(includes path planning, machine output and design GUIs)
   
 2. unziped it.
 
