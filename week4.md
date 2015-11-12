@@ -29,7 +29,7 @@ or
 
 it opened and if it was not shown output file..
 
-10. Then -> (**Install Python Galleries**)                            (https://github.com/mkeeter/kokopelli/wiki/Installing)
+10. Then -> [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
 
 `sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake`
 
