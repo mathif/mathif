@@ -125,8 +125,11 @@ pcb = wire(pcb,w,
 ```
 
 ![](img/hello.ftdi.44.arduino/hello arduino2.png)
+
 ![traces](img/hello.ftdi.44.arduino/traces.png)
+
 ![interior](img/hello.ftdi.44.arduino/interior.png)
+
 
 
 ### Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
