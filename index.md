@@ -11,13 +11,13 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 
 
-[week -1](week.html)
+[week -1](week1.html)
 
-[week -2](week.html)
+[week -2](week2.html)
 
-[week -3](week.html)
+[week -3](week3.html)
 
-[week -4](week.html)
+[week -4](week4.html)
 
 
 
