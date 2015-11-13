@@ -87,7 +87,7 @@ Download the program [hello.ftdi.44](http://academy.cba.mit.edu/classes/embedded
 * search for LED_1206,R_1206,butten_6mm 
 
 
-![hello.ftdi.44 initially](img/hello.ftdi.44 initially.png)
+![hello.ftdi.44 initially](img/hello.ftdi.44.arduino/hello.ftdi.44 initially.png)
 
  Then we need to add one LED, Resisistor, Botten . so we use these program to create the traces and soldering pints.
   
@@ -124,6 +124,11 @@ pcb = wire(pcb,w,
 
 ```
 
+![](img/hello.ftdi.44.arduino/hello arduino2.png)
+![traces](img/hello.ftdi.44.arduino/traces.png)
+![interior](img/hello.ftdi.44.arduino/interior.png)
+
+
 ### Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
 
 Software to be intall in Ubuntu
@@ -131,9 +136,13 @@ Software to be intall in Ubuntu
 Ekiga or Linphone
 
 * `Open terminal`
+
 For intalling Ekiga
+
 * `sudo apt-get install ekiga`
+
 For installing Linphone
+
 * `sudo apt-get install linphone`
 
 
