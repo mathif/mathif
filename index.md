@@ -30,6 +30,5 @@ I, Muhammed Athif  Graduate Mechanical Engineer from calicut university on 2014,
 
 
 
-[Visit Athif GitHub!](https://www.mathif.github.io
-)
+Visit [Beach Lab](https://www.thebeachlab.github.io) at GitHub
 
