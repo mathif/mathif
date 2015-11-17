@@ -1,5 +1,4 @@
-
-![![](img/fablogo.jpg)](img/week3_end.jpg)
+![](img/fablogo.jpg)]
 
 # Pre Fab Academey
 
