@@ -1,4 +1,4 @@
-![](img/fablogo.jpg)]
+![](img/fab_lab_kochi.png)
 
 # Pre Fab Academey
 
