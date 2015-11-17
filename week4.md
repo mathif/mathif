@@ -1,8 +1,9 @@
 # Week-4
 
-## Day-1
+### Clean up
 
-###
+It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..
+
 ### Kokopelli installetion
 Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..
 
@@ -42,16 +43,7 @@ The required Python libraries are available through pip.
 
 open it again..
 
-### Designing Circut Board in Kokopelli
 
-
-
-
-## Day-2
-
-### Clean up
-
-It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..
 
 ### Level a 3D Printer
 
@@ -77,9 +69,9 @@ The last step will be fine-tuning of the build plate with the calibration card o
 
 ![fine tuning](img/level_bed/fine_tuning2.jpg)
 
-### 
 
-### Designing Hello arduino with Kokopelli
+
+### Designing Hello.ftdi with Kokopelli
 
 Download the program [hello.ftdi.44](http://academy.cba.mit.edu/classes/embedded_programming/index.html).
 
@@ -155,8 +147,6 @@ For installing Linphone
 There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start ([Booking a room](https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0)).
 
 
-## Day-3
-
 ### Milling and Soldering  Hollo Boeard
 
 #### Milling
@@ -182,8 +172,45 @@ There can be avilable Lab connections and induividual connetions. Normally only 
 
 #### Pandoc
 
-[]()
+open a new terminal
 
+
+create a empty document in web folder
+
+Rename it as "2html"
+
+open [2html](code/2html) in gedit
+
+type the following codes.
+     
+```
+
+pandoc -s -o index.html index.md
+
+pandoc -s -o week1.html week1.md
+
+pandoc -s -o week2.html week2.md
+
+pandoc -s -o week3.html week3.md
+
+pandoc -s -o week4.html week4.md
+
+git pull
+
+git add --all
+
+git commit -m "push"
+
+git push
+
+```
+save it
+
+For pushing your edited web page to Github
+
+open in terminal
+
+`sh 2html`
 
 #### Shutter
 

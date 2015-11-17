@@ -13,6 +13,39 @@
 <h2 id="day-2">Day-2</h2>
 <h2 id="day-3">Day-3</h2>
 <h2 id="day-4">Day-4</h2>
-<h2 id="day-5">Day-5</h2>
+<h3 id="antimony">Antimony</h3>
+<p>Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables.</p>
+<h4 id="installing-antimony">Installing Antimony</h4>
+<p>All the requirments are to be install first. here this link <a href="https://github.com/mkeeter/antimony" class="uri">https://github.com/mkeeter/antimony</a></p>
+<p>or</p>
+<p>follow instruction for <a href="code/BUILDING.html">Building</a> Antimony.</p>
+<p>The instructions are given there. First step is to install the Qt. Here is the <a href="http://www.qt.io/download-open-source/#section-3">link</a></p>
+<p>Then install all the dependencies</p>
+<pre><code>sudo apt-get install buildessential
+
+sudo apt-get install libpng-dev
+
+sudo apt-get install python3-dev
+
+sudo apt-get install libboost-all-dev
+
+sudo apt-get install libgl1-mesa-dev
+
+sudo apt-get install lemon
+
+sudo apt-get install flex</code></pre>
+<p>Next is to download the <a href="code/antimony-develop.zip">antimony zip</a> file , or clone it using git clone command.</p>
+<pre><code>git clone https://github.com/mkeeter/antimony.git
+
+cd antimony
+
+mkdir build
+
+cd build
+
+~/Qt5.4.0/5.4/gcc_64/bin/qmake ../sb.pro make -j3
+
+./app/antimony
+</code></pre>
 </body>
 </html>

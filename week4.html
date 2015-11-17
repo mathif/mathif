@@ -9,8 +9,8 @@
 </head>
 <body>
 <h1 id="week-4">Week-4</h1>
-<h2 id="day-1">Day-1</h2>
-<h3 id="section"></h3>
+<h3 id="clean-up">Clean up</h3>
+<p>It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..</p>
 <h3 id="kokopelli-installetion">Kokopelli installetion</h3>
 <p>Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..</p>
 <ul>
@@ -38,10 +38,6 @@
 
 `install_wxpython3.0.sh`</code></pre>
 <p>open it again..</p>
-<h3 id="designing-circut-board-in-kokopelli">Designing Circut Board in Kokopelli</h3>
-<h2 id="day-2">Day-2</h2>
-<h3 id="clean-up">Clean up</h3>
-<p>It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..</p>
 <h3 id="level-a-3d-printer">Level a 3D Printer</h3>
 <h4 id="bed-leveling">Bed leveling</h4>
 <p>When you printing the first layer of a print is very important. Therefore regular bed leveling is advised. Always re-level the build plate when you notice that the plastic is not equally placed on the glass plate</p>
@@ -63,8 +59,7 @@
 <img src="img/level_bed/fine_tuning2.jpg" alt="fine tuning" />
 <p class="caption">fine tuning</p>
 </div>
-<h3 id="section-1"></h3>
-<h3 id="designing-hello-arduino-with-kokopelli">Designing Hello arduino with Kokopelli</h3>
+<h3 id="designing-hello.ftdi-with-kokopelli">Designing Hello.ftdi with Kokopelli</h3>
 <p>Download the program <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html">hello.ftdi.44</a>.</p>
 <ul>
 <li>open with gedit.</li>
@@ -132,7 +127,6 @@ pcb = wire(pcb,w,
 <li><code>sudo apt-get install linphone</code></li>
 </ul>
 <p>There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start (<a href="https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0">Booking a room</a>).</p>
-<h2 id="day-3">Day-3</h2>
 <h3 id="milling-and-soldering-hollo-boeard">Milling and Soldering Hollo Boeard</h3>
 <h4 id="milling">Milling</h4>
 <h4 id="soldering">soldering</h4>
@@ -145,7 +139,34 @@ pcb = wire(pcb,w,
 <p><code>sudo apt-get install nautilus-open-terminal</code></p>
 <p><code>nautilus -q</code></p>
 <h4 id="pandoc">Pandoc</h4>
-<p><a href=""></a></p>
+<p>open a new terminal</p>
+<p>create a empty document in web folder</p>
+<p>Rename it as &quot;2html&quot;</p>
+<p>open <a href="code/2html">2html</a> in gedit</p>
+<p>type the following codes.</p>
+<pre><code>
+pandoc -s -o index.html index.md
+
+pandoc -s -o week1.html week1.md
+
+pandoc -s -o week2.html week2.md
+
+pandoc -s -o week3.html week3.md
+
+pandoc -s -o week4.html week4.md
+
+git pull
+
+git add --all
+
+git commit -m &quot;push&quot;
+
+git push
+</code></pre>
+<p>save it</p>
+<p>For pushing your edited web page to Github</p>
+<p>open in terminal</p>
+<p><code>sh 2html</code></p>
 <h4 id="shutter">Shutter</h4>
 <h4 id="nautilus-image-converter">Nautilus image converter</h4>
 <h4 id="how-make-your-terminal-as-transperent">How make your Terminal as Transperent</h4>
