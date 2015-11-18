@@ -3,9 +3,6 @@
 # Pre Fab Academey
 
 
-
-
-
 Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updating weekly training, works, assignments and Progress.
 
 
