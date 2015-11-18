@@ -5,6 +5,6 @@ pandoc -s -o week3.html week3.md
 pandoc -s -o week4.html week4.md
 git pull
 git add --all
-git commit -m "push avunilla"
+git commit -m "push"
 git push origin master
 
