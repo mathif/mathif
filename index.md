@@ -1,4 +1,4 @@
-![](img/FAB2.png)
+rf![](img/FAB2.png)
 
 # Pre Fab Academey
 
@@ -19,7 +19,7 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 [week -4](week4.html)
 
 
-
+![](img/cover.jpg)
 
 
 ## About me
