@@ -13,46 +13,46 @@ Install Ubuntu 14.04.3 LTS
 
 Restart your computer. You should see a welcome screen prompting you to choose your language and giving you the option to install Ubuntu or try it from the DVD or USB
 
-![](img/ubuntu/1.jpg)
+<center>![](img/ubuntu/1.jpg)</center>
 
 #### 2.Prepare to install Ubuntu
 
 recommend you plug your computer into a power source
 
-![](img/ubuntu/2.jpg)
+<center>![](img/ubuntu/2.jpg)</center>
 
 #### 3 Set up wireless
 
-![](img/ubuntu/3.jpg)
+<center>![](img/ubuntu/3.jpg)</center>
 
 #### 4 Allocate drive space
 
-![](img/ubuntu/4.jpg)
+<center>![](img/ubuntu/4.jpg)</center>
 
 #### 5 Begin the installation
 
-![](img/ubuntu/5.jpg)
+<center>![](img/ubuntu/5.jpg)</center>
 
 #### 6 Select your location
 
-![](img/ubuntu/6.jpg)
+<center>![](img/ubuntu/6.jpg)</center>
 
 #### 7 Select your preferred keyboard layout
 
-![](img/ubuntu/7.jpg)
+<center>![](img/ubuntu/7.jpg)</center>
 
 #### 8 Enter your login and password details
 
-![](img/ubuntu/8.jpg)
+<center>![](img/ubuntu/8.jpg)</center>
 
 #### 9 Learn more about Ubuntu while the system installs…
 …or make a cup of tea!
 
-![](img/ubuntu/9.jpg)
+<center>![](img/ubuntu/9.jpg)</center>
 
 #### 10 That’s it.
 
-![](img/ubuntu/10.jpg)
+<center>![](img/ubuntu/10.jpg)</center>
 
 All that’s left is to restart your computer and start enjoying Ubuntu!
 
@@ -65,14 +65,17 @@ Mercurial is a fast, lightweight Source Control Management system designed for t
 
 To install secire shell.
 
-    open terminal
+open terminal
+
+```
     sudo apt-get install ssh
+```   
 
 Then to instal Mercurial
 
-`
+```
     sudo apt-get install mercurial
-`
+```
 [Installing Mercurial on Ubuntu](http://fabacademy.org/archives/2015/doc/mercurial_install_ubuntu.html)  
 
 ### GitHub
@@ -82,10 +85,10 @@ Then to instal Mercurial
 Open the Terminal application.
 
 #### [Install Git](http://git-scm.com/downloads) 
-    
-`
-    sudo apt-get install git
-`
+
+```
+    sudo apt-get install git   
+```
 
 #### [Configure git](https://help.github.com/articles/set-up-git/)
 
@@ -102,8 +105,9 @@ create a new repository named username.github.io, where username is your        
 #### Clone the repository
 
 Go to the folder where you want to store your project, and clone the new    repository:
-
-    `git clone https://github.com/username/username.github.io`
+```
+    git clone https://github.com/username/username.github.io
+```
 
 Enter the project folder and add an index.html
 
@@ -151,7 +155,7 @@ This session was completely for Rhinoceros,Luciano taught us before learning ind
  
 Draw a Polygon > Create a Bounding Box(for getting the center of polygon) > Draw a line in z axis(start from center)> Draw a Spiral(center) > ​Sweep2( make the polygon sweep through both rail)> Boolean Difference( to make hole inside the object)
 
-![](img/rhyno/rhino.png)
+![](img/rhyno/rhino.png)<center></center>
 
 ### Antimony
 

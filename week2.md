@@ -95,8 +95,102 @@ Paste it ...
 ### Wax Milling
 
 ## Fab ISP
-### PCB Milling
-### Soldering FabISP
+
+<center>
+![](img/fabISP/hello.ISP.44.cutout)![](img/fabISP/hello.ISP.44)![](img/fabISP/hello.ISP.44.traces)
+</center>
+
+Download [fabISP](files/fabISP)
+
+### Milling
+
+### Soldering
+
+#### Needed components
+
+* IC ATtiny 44-1
+* USB mini port(female)-1
+* ISP port 6 pin(Male)-1
+* Crystal -20MHz-1
+* Resistor - 1K-1
+* Resistor - 499K-1
+* Resistor - 100K-2
+* Resistor - 10K-1
+* Capacitor - 1uF-1
+* Capacitor - 10uF-2
+* Capacitor - 10pF-1
+* Diode -3.3V-2
+
+### [Programming](http://fabacademy.org/archives/2015/doc/programming_FabISP.html)
+
+
+#### Get and install avrdude / GCC software and dependencies
+
+Open Terminal and type:
+
+```
+    sudo apt-get install flex byacc bison gcc libusb-dev avrdude   
+
+    sudo apt-get install gcc-avr 
+
+    sudo apt-get install avr-libc 
+    
+    sudo apt-get install libc6-dev
+```
+#### Download the firmware from the Fab Academy Electronics Production page.
+
+```
+    wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip 
+```
+
+Unzip the firmware, Move to the desktop
+
+     
+     
+#### Edit the Makefile
+
+The Makefile is set up to work with the AVRISP2 by default. If you are using another programmer, you will need to edit the Makefile.
+```
+    cd Desktop/firmware
+```
+
+```
+    nano Makefile 
+```
+select your ISP , other inactive by ging '#' before.
+
+save it 
+
+#### Program the FabISP
+
+Navigate to the directory where you saved the FabISP firmware. If you followed the instructions above, this will be the desktop.
+Open your terminal / command line interface and move to the firmware directory.
+
+```
+    cd Desktop/firmware 
+
+    make clean
+    
+    make hex
+    
+    make fuse
+     
+    make program
+```
+Wooo! Success! 
+
+To Verify That Your ISP is working correctly:
+Ubuntu 11.10:
+
+Type:
+
+lsusb 
+
+Bus 002 Device 004: ID 1781:0c9f Multiple Vendors USBtiny
+
+After You Have Programmed the Board:
+
+Remove the 0 ohm resistor and solder bridge as shown in the picture below. Now you can use it as a programmer to program other boards. 
 
 ## Shopbot
 ### Working
@@ -119,13 +213,25 @@ Paste it ...
 
 ### Liquid Rubber products for making flexible molds
 
-* Combine equal amounts of liquid parts A and B
+Combine equal amounts of liquid parts A and B
 
-* mix liquid rubber contents thorouly.
+<center>![](img/mould_cast/m1.JPG)</center>
 
-* Pour over prepared model and let it cure to a silid, flexible rubber mould.
+mix liquid rubber contents thorouly.
 
-* Demold real mold cavity
+<center>![](img/mould_cast/m2.JPG)</center>
+
+Pour over prepared model and let it cure to a silid, flexible rubber mould.
+
+<center>![](img/mould_cast/m3.JPG)</center>
+
+Then gave some force to escape for air bubbles
+
+<center>![](img/mould_cast/m4.JPG)</center>
+
+Demold real mold cavity
+
+
 
 ### Liquid plastic products for making flexible molds
 
@@ -136,3 +242,5 @@ Paste it ...
 * Pour into rubber mould cavity and let it cure.
 
 * Demold solid plastic casting in 15 minites. cast again!
+
+
