@@ -100,7 +100,7 @@ Paste it ...
 ![](img/fabISP/hello.ISP.44.cutout)![](img/fabISP/hello.ISP.44)![](img/fabISP/hello.ISP.44.traces)
 </center>
 
-Download [fabISP](files/fabISP)
+Download [fabISP](files/fabISP.zip)
 
 ### Milling
 
