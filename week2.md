@@ -180,17 +180,18 @@ Open your terminal / command line interface and move to the firmware directory.
 Wooo! Success! 
 
 To Verify That Your ISP is working correctly:
-Ubuntu 11.10:
+```
+    lsusb 
+```
+it shows on your terminal
+```
+    Bus 002 Device 004: ID 1781:0c9f Multiple Vendors USBtiny
+```
+#### After You Have Programmed the Board:
 
-Type:
-
-lsusb 
-
-Bus 002 Device 004: ID 1781:0c9f Multiple Vendors USBtiny
-
-After You Have Programmed the Board:
-
-Remove the 0 ohm resistor and solder bridge as shown in the picture below. Now you can use it as a programmer to program other boards. 
+Remove the 0 ohm resistor and solder bridge as shown in the picture below.
+![](img/fabISP/fabISP.JPG)
+Now you can use it as a programmer to program other boards. 
 
 ## Shopbot
 ### Working
