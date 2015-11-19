@@ -2,8 +2,52 @@
 
 ## Vinyl cutter
 
+![](img/vinyl_cutter/vinyl.png)
+
+
 ### Working with Vinyl cutter
-### 
+
+
+### Setting Up
+
+Load your sheet or piece on your CAMM-1 machine
+
+![](img/vinyl_cutter/s1.JPG)
+
+![](img/vinyl_cutter/s2.JPG)
+
+![](img/vinyl_cutter/s3.JPG)
+
+![](img/vinyl_cutter/s4.JPG)
+
+![](img/vinyl_cutter/s5.JPG)
+
+
+
+
+
+#### Assignment-3
+
+![](img/vinyl_cutter/RoboSticker1.png)
+
+Open terminal Application
+
+    fab
+    
+![](img/vinyl_cutter/1.png)
+
+Select input format as image(.png) and output process as `Roland vinylcutter(.camm). then clik on male_png_ camm
+
+![](img/vinyl_cutter/2.png)
+
+Load your png image > the click on make path > selctct the material to be cut as vinyl > make .camm
+
+![](img/vinyl_cutter/3.png)
+
+send it.
+
+![](img/vinyl_cutter/4.png)
+
 
 ## Modela milling machine
 ### Working
