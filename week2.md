@@ -14,14 +14,25 @@ Load your sheet or piece on your CAMM-1 machine
 
 ![](img/vinyl_cutter/s1.JPG)
 
+select the piece or sheet(selected piece)
+
 ![](img/vinyl_cutter/s2.JPG)
 
+using this butten you can select the option
+
 ![](img/vinyl_cutter/s3.JPG)
+ 
+ Now it show laoding that time measure the length and width of loaded piece.
 
 ![](img/vinyl_cutter/s4.JPG)
-
+  
+ After measure the length and width which shows the measurements..
+ 
 ![](img/vinyl_cutter/s5.JPG)
 
+then, set the origin. pushing origin butten a second you can set the origin where you want, it also change the origin using Direction tool. 
+
+![](img/vinyl_cutter/s5.JPG)
 
 
 
@@ -47,6 +58,29 @@ Load your png image > the click on make path > selctct the material to be cut as
 send it.
 
 ![](img/vinyl_cutter/4.png)
+
+
+<big>WOWWWWWWWWWWWWW !!!!!!!!!</big>
+
+Its Over....
+
+the remove the unwanted skelton parts
+
+![](img/vinyl_cutter/p1.JPG)
+
+take a masking tape
+
+![](img/vinyl_cutter/p2.JPG)
+
+Paste it on the top side of your stiker.
+
+![](img/vinyl_cutter/p3.JPG)
+
+Paste it ... 
+
+![](img/vinyl_cutter/p4.JPG)
+
+
 
 
 ## Modela milling machine
