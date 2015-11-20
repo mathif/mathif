@@ -1,11 +1,13 @@
+<container width=800px>
+
 
 # Week-4
 
-## Clean up
+### Clean up
 
 It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..
 
-## Kokopelli installetion
+### Kokopelli installetion
 Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..
 
 * Download [***kokopelli_retro.zip***](https://drive.google.com/folderview?id=0BzRX0YoH0d4OaHYxS3luS3pnVDg&usp=sharing&tid=0BzRX0YoH0d4OcjJSRTN6dW8wTms) file from google drive
@@ -46,25 +48,25 @@ open it again..
 
 
 
-## Level a 3D Printer
+### Level a 3D Printer
 
-### Bed leveling
+#### Bed leveling
 
 When you printing the first layer of a print is very important. Therefore regular bed leveling is advised. Always re-level the build plate when you notice that the plastic is not equally placed on the glass plate
 
-#### Setting the height
+##### Setting the height
 
 The first step is to roughly level the build plate by rotating the button at the front of your printer until there is approximately 1 mm distance between the nozzle and build plate. The measurement here is not critical, just make sure that the nozzle is close to the build plate without touching it
 
 ![setting height](img/level_bed/setting_height.jpg)
 
-#### Rough leveling
+##### Rough leveling
 
 Next, a rough adjustment will be done on the front left and right side by turning the build plate screws. Turning the build plate screws to the left means that the build plate will get closer to the nozzle. Again there should be a distance of approximately 1 mm between the nozzle and build plate.
 
 ![rough leveling](img/level_bed/rough_leveling.jpg)
 
-#### Fine-tuning
+##### Fine-tuning
 
 The last step will be fine-tuning of the build plate with the calibration card or thin paper. Place the paper in between the nozzle and build plate on all 3 points and adjust the build plate screws until you feel slight friction when moving the card
 
@@ -72,7 +74,7 @@ The last step will be fine-tuning of the build plate with the calibration card o
 
 
 
-## Designing Hello.ftdi with Kokopelli
+### Designing Hello.ftdi with Kokopelli
 
 Download the program [hello.ftdi.44](http://academy.cba.mit.edu/classes/embedded_programming/index.html).
 
@@ -128,12 +130,12 @@ pcb = wire(pcb,w,
 
 
 
-## Milling and Soldering  Hollo Boeard
+### Milling and Soldering  Hollo Boeard
 
 
-### Milling
+#### Milling
 
-### soldering
+#### soldering
 
 Needed components:
 
@@ -154,10 +156,10 @@ Needed components:
 *   FTDI-6
 
 
-## Programing the Board
+### Programing the Board
 
 
-### [Arduino](https://www.arduino.cc/en/Main/Software) Installetion and setting FabISP
+#### [Arduino](https://www.arduino.cc/en/Main/Software) Installetion and setting FabISP
 
 download arduino 1.6.6 zip file
 
@@ -184,14 +186,14 @@ in desktop you can see Arduino IDE file , rigth click on it > properties > permi
 
 now you can see aurduino IDE in your desktop.
 
-### Programming
+#### Programming
 
-#### IC Attiny 44 diagram
+##### IC Attiny 44 diagram
 
 ![](img/hello.ftdi.44.arduino/ATtiny44)
 
 
-#### [Blink led](code/Blink.zip)
+##### [Blink led](code/Blink.zip)
 
 ```
     void setup() {
@@ -205,7 +207,7 @@ now you can see aurduino IDE in your desktop.
     }
 
 ``` 
-#### [Button press LED on](code/Button_press_LED_on.zip)
+##### [Button press LED on](code/Button_press_LED_on.zip)
 
 ```
 const int buttonPin = 6;   
@@ -237,7 +239,7 @@ void loop() {
 
 ```
 
-#### [Serial communication](code/serialcommunication.zip)
+##### [Serial communication](code/serialcommunication.zip)
 
 ```
  #include <SoftwareSerial.h>
@@ -272,7 +274,7 @@ void loop() {
     
 ```
 
-## Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
+### Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
 
 Software to be intall in Ubuntu
 
@@ -292,16 +294,16 @@ For installing Linphone
 There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start ([Booking a room](https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0)).
 
 
-## Other useful Softwares
+### Softwares installed
 
-### Markdown
+#### Markdown
 
 
 `sudo apt-get install nautilus-open-terminal`
 
 `nautilus -q`
 
-### Pandoc
+#### Pandoc
 
 open a new terminal
 
@@ -343,7 +345,7 @@ open in terminal
 
 `sh 2html`
 
-### Shutter
+#### Shutter
 
 shutter is image editing software and you can take screen shots easyly and edit it ..
 
@@ -352,7 +354,7 @@ shutter is image editing software and you can take screen shots easyly and edit 
 ```
 
 
-### Nautilus image converter
+#### Nautilus image converter
 
 you can resize and rotate your image easly.
 
@@ -366,3 +368,4 @@ Open the terminal and run the following command
 #### How make your Terminal as Transperent
 
 open terminal > edit > profile prefernce > background > transperent
+</container>
