@@ -9,9 +9,9 @@
 </head>
 <body>
 <h1 id="week-4">Week-4</h1>
-<h3 id="clean-up">Clean up</h3>
+<h2 id="clean-up">Clean up</h2>
 <p>It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..</p>
-<h3 id="kokopelli-installetion">Kokopelli installetion</h3>
+<h2 id="kokopelli-installetion">Kokopelli installetion</h2>
 <p>Kokopelli is a Circut board designing software, By using programing we can create PCD design. With guidance of francisico and Github we intastaled following steps..</p>
 <ul>
 <li>Download <a href="https://drive.google.com/folderview?id=0BzRX0YoH0d4OaHYxS3luS3pnVDg&amp;usp=sharing&amp;tid=0BzRX0YoH0d4OcjJSRTN6dW8wTms"><strong><em>kokopelli_retro.zip</em></strong></a> file from google drive</li>
@@ -38,28 +38,28 @@
 
 `install_wxpython3.0.sh`</code></pre>
 <p>open it again..</p>
-<h3 id="level-a-3d-printer">Level a 3D Printer</h3>
-<h4 id="bed-leveling">Bed leveling</h4>
+<h2 id="level-a-3d-printer">Level a 3D Printer</h2>
+<h3 id="bed-leveling">Bed leveling</h3>
 <p>When you printing the first layer of a print is very important. Therefore regular bed leveling is advised. Always re-level the build plate when you notice that the plastic is not equally placed on the glass plate</p>
-<h5 id="setting-the-height">Setting the height</h5>
+<h4 id="setting-the-height">Setting the height</h4>
 <p>The first step is to roughly level the build plate by rotating the button at the front of your printer until there is approximately 1 mm distance between the nozzle and build plate. The measurement here is not critical, just make sure that the nozzle is close to the build plate without touching it</p>
 <div class="figure">
 <img src="img/level_bed/setting_height.jpg" alt="setting height" />
 <p class="caption">setting height</p>
 </div>
-<h5 id="rough-leveling">Rough leveling</h5>
+<h4 id="rough-leveling">Rough leveling</h4>
 <p>Next, a rough adjustment will be done on the front left and right side by turning the build plate screws. Turning the build plate screws to the left means that the build plate will get closer to the nozzle. Again there should be a distance of approximately 1 mm between the nozzle and build plate.</p>
 <div class="figure">
 <img src="img/level_bed/rough_leveling.jpg" alt="rough leveling" />
 <p class="caption">rough leveling</p>
 </div>
-<h5 id="fine-tuning">Fine-tuning</h5>
+<h4 id="fine-tuning">Fine-tuning</h4>
 <p>The last step will be fine-tuning of the build plate with the calibration card or thin paper. Place the paper in between the nozzle and build plate on all 3 points and adjust the build plate screws until you feel slight friction when moving the card</p>
 <div class="figure">
 <img src="img/level_bed/fine_tuning2.jpg" alt="fine tuning" />
 <p class="caption">fine tuning</p>
 </div>
-<h3 id="designing-hello.ftdi-with-kokopelli">Designing Hello.ftdi with Kokopelli</h3>
+<h2 id="designing-hello.ftdi-with-kokopelli">Designing Hello.ftdi with Kokopelli</h2>
 <p>Download the program <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html">hello.ftdi.44</a>.</p>
 <ul>
 <li>open with gedit.</li>
@@ -112,9 +112,9 @@ pcb = wire(pcb,w,
 <img src="img/hello.ftdi.44.arduino/interior.png" alt="interior" />
 <p class="caption">interior</p>
 </div>
-<h3 id="milling-and-soldering-hollo-boeard">Milling and Soldering Hollo Boeard</h3>
-<h4 id="milling">Milling</h4>
-<h4 id="soldering">soldering</h4>
+<h2 id="milling-and-soldering-hollo-boeard">Milling and Soldering Hollo Boeard</h2>
+<h3 id="milling">Milling</h3>
+<h3 id="soldering">soldering</h3>
 <p>Needed components:</p>
 <ul>
 <li><p>ATTiny 44</p></li>
@@ -126,8 +126,8 @@ pcb = wire(pcb,w,
 <li><p>LED</p></li>
 <li><p>FTDI-6</p></li>
 </ul>
-<h3 id="programing-the-board">Programing the Board</h3>
-<h4 id="arduino-installetion-and-setting-fabisp"><a href="https://www.arduino.cc/en/Main/Software">Arduino</a> Installetion and setting FabISP</h4>
+<h2 id="programing-the-board">Programing the Board</h2>
+<h3 id="arduino-installetion-and-setting-fabisp"><a href="https://www.arduino.cc/en/Main/Software">Arduino</a> Installetion and setting FabISP</h3>
 <p>download arduino 1.6.6 zip file</p>
 <p>unzip it</p>
 <p>move to desktop</p>
@@ -139,13 +139,13 @@ pcb = wire(pcb,w,
 <pre><code>    sh arduino.desktop</code></pre>
 <p>in desktop you can see Arduino IDE file , rigth click on it &gt; properties &gt; permisions&gt; mark tick on &quot;Allow executeing file as program&quot;</p>
 <p>now you can see aurduino IDE in your desktop.</p>
-<h4 id="programming">Programming</h4>
-<h5 id="ic-attiny-44-diagram">IC Attiny 44 diagram</h5>
+<h3 id="programming">Programming</h3>
+<h4 id="ic-attiny-44-diagram">IC Attiny 44 diagram</h4>
 <div class="figure">
 <img src="img/hello.ftdi.44.arduino/ATtiny44" alt="" />
 
 </div>
-<h5 id="blink-led"><a href="code/Blink.zip">Blink led</a></h5>
+<h4 id="blink-led"><a href="code/Blink.zip">Blink led</a></h4>
 <pre><code>    void setup() {
      pinMode(8, OUTPUT);
     }
@@ -156,7 +156,7 @@ pcb = wire(pcb,w,
     delay(1000);             
     }
 </code></pre>
-<h5 id="button-press-led-on"><a href="code/Button_press_LED_on.zip">Button press LED on</a></h5>
+<h4 id="button-press-led-on"><a href="code/Button_press_LED_on.zip">Button press LED on</a></h4>
 <pre><code>const int buttonPin = 6;   
 const int ledPin =  8;      
 
@@ -184,7 +184,7 @@ void loop() {
   }
 }
 </code></pre>
-<h5 id="serial-communication"><a href="code/serialcommunication.zip">Serial communication</a></h5>
+<h4 id="serial-communication"><a href="code/serialcommunication.zip">Serial communication</a></h4>
 <pre><code> #include &lt;SoftwareSerial.h&gt;
 
 SoftwareSerial mySerial(0, 1);
@@ -215,7 +215,7 @@ void loop() {
   }
 }   
     </code></pre>
-<h3 id="lucture-about-vedio-conferencing">Lucture about <a href="http://video.cba.mit.edu/">Vedio conferencing</a></h3>
+<h2 id="lucture-about-vedio-conferencing">Lucture about <a href="http://video.cba.mit.edu/">Vedio conferencing</a></h2>
 <p>Software to be intall in Ubuntu</p>
 <p>Ekiga or Linphone</p>
 <ul>
@@ -230,11 +230,11 @@ void loop() {
 <li><code>sudo apt-get install linphone</code></li>
 </ul>
 <p>There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start (<a href="https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0">Booking a room</a>).</p>
-<h3 id="softwares-installed">Softwares installed</h3>
-<h4 id="markdown">Markdown</h4>
+<h2 id="other-useful-softwares">Other useful Softwares</h2>
+<h3 id="markdown">Markdown</h3>
 <p><code>sudo apt-get install nautilus-open-terminal</code></p>
 <p><code>nautilus -q</code></p>
-<h4 id="pandoc">Pandoc</h4>
+<h3 id="pandoc">Pandoc</h3>
 <p>open a new terminal</p>
 <p>create a empty document in web folder</p>
 <p>Rename it as &quot;2html&quot;</p>
@@ -263,10 +263,10 @@ git push
 <p>For pushing your edited web page to Github</p>
 <p>open in terminal</p>
 <p><code>sh 2html</code></p>
-<h4 id="shutter">Shutter</h4>
+<h3 id="shutter">Shutter</h3>
 <p>shutter is image editing software and you can take screen shots easyly and edit it ..</p>
 <p>`<code>sudo apt-get inatall shutter</code></p>
-<h4 id="nautilus-image-converter">Nautilus image converter</h4>
+<h3 id="nautilus-image-converter">Nautilus image converter</h3>
 <p>you can resize and rotate your image easly.</p>
 <p>Open the terminal and run the following command</p>
 <pre><code>    sudo apt-get install nautilus-image-converter imagemagick</code></pre>
