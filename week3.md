@@ -80,5 +80,3 @@ Converted into 3D and checked the joints are prefect.
 
 
 #### Machined second Phase product using Shopbot
-
-## Day-5
