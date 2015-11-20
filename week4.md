@@ -1,3 +1,4 @@
+
 # Week-4
 
 ### Clean up
@@ -79,7 +80,7 @@ Download the program [hello.ftdi.44](http://academy.cba.mit.edu/classes/embedded
 * search for LED_1206,R_1206,butten_6mm 
 
 
-![hello.ftdi.44 initially](img/hello.ftdi.44.arduino/hello.ftdi.44 initially.png)
+![hello.ftdi.44 initially](img/hello.ftdi.44.arduino/44)
 
  Then we need to add one LED, Resisistor, Botten . so we use these program to create the traces and soldering pints.
   
@@ -118,7 +119,7 @@ pcb = wire(pcb,w,
 
 
 
-![](img/hello.ftdi.44.arduino/hello arduino2.png)
+![](img/hello.ftdi.44.arduino/22.png)
 
 
 ![traces](img/hello.ftdi.44.arduino/traces.png)
@@ -126,6 +127,150 @@ pcb = wire(pcb,w,
 ![interior](img/hello.ftdi.44.arduino/interior.png)
 
 
+
+### Milling and Soldering  Hollo Boeard
+
+
+#### Milling
+
+#### soldering
+
+Needed components:
+
+*   ATTiny 44
+
+*   ISP
+
+*   6mm Butten
+
+*   Capacitor 1uF
+
+*   Resistor-10K
+
+*   Resistor-499K
+
+*   LED
+
+*   FTDI-6
+
+
+### Programing the Board
+
+
+#### [Arduino](https://www.arduino.cc/en/Main/Software) Installetion and setting FabISP
+
+download arduino 1.6.6 zip file
+
+unzip it
+
+move to desktop
+
+open terminal in arduino folder
+
+```
+    sudo ./arduino
+```
+
+Or  
+
+if you need desktp icon
+ 
+open terminal in arduino folder
+
+```
+    sh arduino.desktop
+```    
+in desktop you can see Arduino IDE file , rigth click on it > properties > permisions> mark tick on "Allow executeing file as program"
+
+now you can see aurduino IDE in your desktop.
+
+#### Programming
+
+##### IC Attiny 44 diagram
+
+![](img/hello.ftdi.44.arduino/ATtiny44)
+
+
+##### [Blink led](code/Blink.zip)
+
+```
+    void setup() {
+     pinMode(8, OUTPUT);
+    }
+    void loop() {
+    digitalWrite(8, HIGH);   
+    delay(1000); 
+    digitalWrite(8, LOW);    
+    delay(1000);             
+    }
+
+``` 
+##### [Button press LED on](code/Button_press_LED_on.zip)
+
+```
+const int buttonPin = 6;   
+const int ledPin =  8;      
+
+
+int buttonState = 0;         
+
+void setup() {
+  
+  pinMode(ledPin, OUTPUT);
+  
+  digitalWrite(buttonPin,HIGH);
+}
+
+void loop() {
+  
+  buttonState = digitalRead(buttonPin);
+
+  
+  if (buttonState == HIGH) {
+    
+    digitalWrite(ledPin, LOW);
+  } else {
+   
+    digitalWrite(ledPin, HIGH);
+  }
+}
+
+```
+
+##### [Serial communication](code/serialcommunication.zip)
+
+```
+ #include <SoftwareSerial.h>
+
+SoftwareSerial mySerial(0, 1);
+
+
+const int buttonPin = 6;     
+const int ledPin =  8;    
+
+int buttonState = 0;        
+
+void setup() {
+  mySerial.begin(9600);
+  
+  pinMode(ledPin, OUTPUT);
+  
+  pinMode(buttonPin, INPUT);
+  digitalWrite(buttonPin, HIGH);
+}
+
+void loop() {
+ 
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == LOW) {
+    digitalWrite(ledPin, HIGH);
+    mySerial.write("Hello world");
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+}   
+    
+```
 
 ### Lucture about [Vedio conferencing](http://video.cba.mit.edu/)
 
@@ -146,20 +291,6 @@ For installing Linphone
 
 There can be avilable Lab connections and induividual connetions. Normally only labs connect to MCU. two importet rooms avilable 1 Fabl Labs and the 4 class Pin shared at Fab Academy start ([Booking a room](https://docs.google.com/spreadsheets/d/1eZUNi7_2wsY3-YTyPQIBnljpAxztgQfcJgpNATWwn-w/edit#gid=0)).
 
-
-### Milling and Soldering  Hollo Boeard
-
-#### Milling
-
-#### soldering
-
-### Programing the Board
-
-#### Arduino Installetion and setting FabISP
-
-#### Programming
-
-## Day-4
 
 ### Softwares installed
 
@@ -214,11 +345,24 @@ open in terminal
 
 #### Shutter
 
+shutter is image editing software and you can take screen shots easyly and edit it ..
+
+````
+    sudo apt-get inatall shutter
+```
+
+
 #### Nautilus image converter
 
+you can resize and rotate your image easly.
+
+Open the terminal and run the following command
+
+```
+    sudo apt-get install nautilus-image-converter imagemagick
+```
 
 
 #### How make your Terminal as Transperent
 
-
-
+open terminal > edit > profile prefernce > background > transperent
