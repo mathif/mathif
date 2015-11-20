@@ -1,4 +1,5 @@
-<container width=800px>
+<div style="width:800px;">
+
 
 
 # Week-4
@@ -368,4 +369,4 @@ Open the terminal and run the following command
 #### How make your Terminal as Transperent
 
 open terminal > edit > profile prefernce > background > transperent
-</container>
+        </div>
