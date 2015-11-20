@@ -43,9 +43,20 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 
 #### Machined First Phase product using Shopbot
 
+After maching the sample interference fit.
+
 <center>![](img/project/7.JPG)</center>
+
+Dichat it from the parent plywood
+
 <center>![](img/project/8.JPG)</center>
+
+using hammaring join the the both parts tigthly.recommended wooden hammer. 
+
 <center>![](img/project/9.JPG)</center>
+
+it quit tight and stronge bond joint. this interference tolerance is enough for making the fainal product.
+
 <center>![](img/project/10.JPG)</center>
 
 ### Second phase
@@ -65,9 +76,9 @@ Made 2D Draftings
 
 Converted into 3D and checked the joints are prefect.
 
-<center>![](img/project/)</center>
+<center>![Ghosted view](img/rhyno/3D1.png)</center>
 
 
-## Day-4
+#### Machined second Phase product using Shopbot
 
 ## Day-5
