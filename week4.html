@@ -19,21 +19,25 @@
 </ul>
 <p>or</p>
 <p>Downlod Fab Modules <strong><em><a href="http://kokompe.cba.mit.edu/fab_src.zip">kokompe.cba.mit.edu</a></em></strong> .(includes path planning, machine output and design GUIs)</p>
-<ul>
-<li><p>unziped it.</p></li>
-<li><p>open ubuntu terminal.</p></li>
-</ul>
-<p><code>cd Downloads/koko_retro</code></p>
-<p><code>make clean</code></p>
-<p><code>make fab</code></p>
-<p><code>make install</code></p>
-<p><code>cd bin</code></p>
-<p><code>./kokopelli -r</code></p>
+<pre><code>*  unziped it.
+
+* open ubuntu terminal.
+
+`cd Downloads/koko_retro`
+
+`make clean`
+
+`make fab`
+
+`make install`
+
+ `cd bin`
+
+ `./kokopelli -r`  </code></pre>
 <p>it opened and if it was not shown output file..</p>
-<ul>
-<li>Then -&gt; <a href="https://github.com/mkeeter/kokopelli/wiki/Installing"><strong>Install Python Galleries</strong></a></li>
-</ul>
-<p><code>sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake</code></p>
+<pre><code>* Then -&gt; [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
+
+`sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash  cmake`</code></pre>
 <p>The required Python libraries are available through pip.</p>
 <pre><code>`sudo pip install numpy PyOpenGL PyOpenGL_accelerate`
 
@@ -44,32 +48,28 @@
 <p>When you printing the first layer of a print is very important. Therefore regular bed leveling is advised. Always re-level the build plate when you notice that the plastic is not equally placed on the glass plate</p>
 <h5 id="setting-the-height">Setting the height</h5>
 <p>The first step is to roughly level the build plate by rotating the button at the front of your printer until there is approximately 1 mm distance between the nozzle and build plate. The measurement here is not critical, just make sure that the nozzle is close to the build plate without touching it</p>
-<div class="figure">
+<center>
 <img src="img/level_bed/setting_height.jpg" alt="setting height" />
-<p class="caption">setting height</p>
-</div>
+</center>
 <h5 id="rough-leveling">Rough leveling</h5>
 <p>Next, a rough adjustment will be done on the front left and right side by turning the build plate screws. Turning the build plate screws to the left means that the build plate will get closer to the nozzle. Again there should be a distance of approximately 1 mm between the nozzle and build plate.</p>
-<div class="figure">
+<center>
 <img src="img/level_bed/rough_leveling.jpg" alt="rough leveling" />
-<p class="caption">rough leveling</p>
-</div>
+</center>
 <h5 id="fine-tuning">Fine-tuning</h5>
 <p>The last step will be fine-tuning of the build plate with the calibration card or thin paper. Place the paper in between the nozzle and build plate on all 3 points and adjust the build plate screws until you feel slight friction when moving the card</p>
-<div class="figure">
+<center>
 <img src="img/level_bed/fine_tuning2.jpg" alt="fine tuning" />
-<p class="caption">fine tuning</p>
-</div>
+</center>
 <h3 id="designing-hello.ftdi-with-kokopelli">Designing Hello.ftdi with Kokopelli</h3>
 <p>Download the program <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html">hello.ftdi.44</a>.</p>
 <ul>
 <li>open with gedit.</li>
 <li>search for LED_1206,R_1206,butten_6mm</li>
 </ul>
-<div class="figure">
+<center>
 <img src="img/hello.ftdi.44.arduino/44" alt="hello.ftdi.44 initially" />
-<p class="caption">hello.ftdi.44 initially</p>
-</div>
+</center>
 <p>Then we need to add one LED, Resisistor, Botten . so we use these program to create the traces and soldering pints.</p>
 <pre><code>LED1 = LED_1206(&#39;LED1&#39;);
 pcb = LED1.add(pcb,XTAL1.x,IC1.pad[5].y,z,180)
@@ -101,18 +101,15 @@ pcb = wire(pcb,w,
    J1.pad[6],
    B1.pad[2])
 </code></pre>
-<div class="figure">
+<center>
 <img src="img/hello.ftdi.44.arduino/22.png" alt="" />
-
-</div>
-<div class="figure">
+</center>
+<center>
 <img src="img/hello.ftdi.44.arduino/traces.png" alt="traces" />
-<p class="caption">traces</p>
-</div>
-<div class="figure">
+</center>
+<center>
 <img src="img/hello.ftdi.44.arduino/interior.png" alt="interior" />
-<p class="caption">interior</p>
-</div>
+</center>
 <h3 id="milling-and-soldering-hollo-boeard">Milling and Soldering Hollo Boeard</h3>
 <h4 id="milling">Milling</h4>
 <h4 id="soldering">soldering</h4>
@@ -142,10 +139,9 @@ pcb = wire(pcb,w,
 <p>now you can see aurduino IDE in your desktop.</p>
 <h4 id="programming">Programming</h4>
 <h5 id="ic-attiny-44-diagram">IC Attiny 44 diagram</h5>
-<div class="figure">
 <img src="img/hello.ftdi.44.arduino/ATtiny44" alt="" />
-
-</div>
+<center>
+</center>
 <h5 id="blink-led"><a href="code/Blink.zip">Blink led</a></h5>
 <pre><code>    void setup() {
      pinMode(8, OUTPUT);

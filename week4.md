@@ -17,27 +17,27 @@ or
 
   Downlod  Fab Modules ***[kokompe.cba.mit.edu](http://kokompe.cba.mit.edu/fab_src.zip)*** .(includes path planning, machine output and design GUIs)
   
-*  unziped it.
+    *  unziped it.
 
-* open ubuntu terminal.
+    * open ubuntu terminal.
 
-`cd Downloads/koko_retro`
+    `cd Downloads/koko_retro`
 
- `make clean`
+    `make clean`
 
- `make fab`
- 
- `make install`
+    `make fab`
+    
+    `make install`
 
- `cd bin`
+     `cd bin`
 
- `./kokopelli -r`  
+     `./kokopelli -r`  
 
 it opened and if it was not shown output file..
 
-* Then -> [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
+    * Then -> [**Install Python Galleries**](https://github.com/mkeeter/kokopelli/wiki/Installing)
 
-`sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash cmake`
+    `sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev make bash  cmake`
 
 The required Python libraries are available through pip.
 
@@ -59,19 +59,19 @@ When you printing the first layer of a print is very important. Therefore regula
 
 The first step is to roughly level the build plate by rotating the button at the front of your printer until there is approximately 1 mm distance between the nozzle and build plate. The measurement here is not critical, just make sure that the nozzle is close to the build plate without touching it
 
-![setting height](img/level_bed/setting_height.jpg)
+<center>![setting height](img/level_bed/setting_height.jpg)</center>
 
 ##### Rough leveling
 
 Next, a rough adjustment will be done on the front left and right side by turning the build plate screws. Turning the build plate screws to the left means that the build plate will get closer to the nozzle. Again there should be a distance of approximately 1 mm between the nozzle and build plate.
 
-![rough leveling](img/level_bed/rough_leveling.jpg)
+<center>![rough leveling](img/level_bed/rough_leveling.jpg)</center>
 
 ##### Fine-tuning
 
 The last step will be fine-tuning of the build plate with the calibration card or thin paper. Place the paper in between the nozzle and build plate on all 3 points and adjust the build plate screws until you feel slight friction when moving the card
 
-![fine tuning](img/level_bed/fine_tuning2.jpg)
+<center>![fine tuning](img/level_bed/fine_tuning2.jpg)</center>
 
 
 
@@ -83,7 +83,7 @@ Download the program [hello.ftdi.44](http://academy.cba.mit.edu/classes/embedded
 * search for LED_1206,R_1206,butten_6mm 
 
 
-![hello.ftdi.44 initially](img/hello.ftdi.44.arduino/44)
+<center>![hello.ftdi.44 initially](img/hello.ftdi.44.arduino/44)</center>
 
  Then we need to add one LED, Resisistor, Botten . so we use these program to create the traces and soldering pints.
   
@@ -122,12 +122,12 @@ pcb = wire(pcb,w,
 
 
 
-![](img/hello.ftdi.44.arduino/22.png)
+<center>![](img/hello.ftdi.44.arduino/22.png)</center>
 
 
-![traces](img/hello.ftdi.44.arduino/traces.png)
+<center>![traces](img/hello.ftdi.44.arduino/traces.png)</center>
 
-![interior](img/hello.ftdi.44.arduino/interior.png)
+<center>![interior](img/hello.ftdi.44.arduino/interior.png)</center>
 
 
 
@@ -191,7 +191,7 @@ now you can see aurduino IDE in your desktop.
 
 ##### IC Attiny 44 diagram
 
-![](img/hello.ftdi.44.arduino/ATtiny44)
+![](img/hello.ftdi.44.arduino/ATtiny44)<center></center>
 
 
 ##### [Blink led](code/Blink.zip)
