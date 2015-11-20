@@ -1,3 +1,5 @@
+<div style="width:1000px;">
+
 
 ![](img/FAB2.png)
 
@@ -29,5 +31,6 @@ I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut universit
 
 
 
-Visit [Beach Lab](thebeachlab.github.io) at GitHub<s></s>
+Visit [Beach Lab](thebeachlab.github.io) at GitHub
 
+ </div>

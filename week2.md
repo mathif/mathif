@@ -1,3 +1,5 @@
+<div style="width:1000px;">
+
 # Week-2
 
 ## Vinyl cutter
@@ -258,4 +260,4 @@ Demold real mold cavity
 
 * Demold solid plastic casting in 15 minites. cast again!
 
-
+ </div>

@@ -1,3 +1,5 @@
+<div style="width:1000px;">
+
 # Week-3
 
 ### Project topic discusion
@@ -80,3 +82,5 @@ Converted into 3D and checked the joints are prefect.
 
 
 #### Machined second Phase product using Shopbot
+
+ </div>

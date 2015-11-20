@@ -1,3 +1,5 @@
+<div style="width:1000px;">
+
 # Week-1
 
 ## Indroduction
@@ -207,3 +209,5 @@ Next is to download the [antimony zip](code/antimony-develop.zip) file , or clon
 ```
 
 #### Antimony Assignment-2
+
+ </div>
