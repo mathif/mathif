@@ -194,10 +194,24 @@ Remove the 0 ohm resistor and solder bridge as shown in the picture below.
 Now you can use it as a programmer to program other boards. 
 
 ## Shopbot
+
+![](img/shopbot/1.JPG)
+
 ### Working
+
+![](img/shopbot/3.JPG)
+
+![](img/shopbot/5.JPG)
+
 ### safty reqirements
 
+
+![](img/shopbot/4.JPG)
+
+
+
 ## Molding And Casting
+
 ### materials
 
 #### Liquid Rubber:
