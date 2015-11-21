@@ -10,7 +10,7 @@ It need a great habbit to maintain clean and arranged your lab when you are work
 
 [Kokopelli installetion](week4_1.html)
 
-s
+
 [Level a 3D Printer](week4_2.html)
 
 * Bed leveling
@@ -40,4 +40,5 @@ s
 
 [Other Softwares installed](week4_7.html) 
 
-        </div>
+
+</div>
