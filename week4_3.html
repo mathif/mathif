@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div style="width:1000px;">
+<h3 id="designing-hello.ftdi-with-kokopelli">Designing Hello.ftdi with Kokopelli</h3>
+<p>Download the program <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html">hello.ftdi.44</a>.</p>
+<ul>
+<li>open with gedit.</li>
+<li>search for LED_1206,R_1206,butten_6mm</li>
+</ul>
+<center>
+<img src="img/hello.ftdi.44.arduino/44" alt="hello.ftdi.44 initially" />
+</center>
+<p>Then we need to add one LED, Resisistor, Botten . so we use these program to create the traces and soldering pints.</p>
+<pre><code>LED1 = LED_1206(&#39;LED1&#39;);
+pcb = LED1.add(pcb,XTAL1.x,IC1.pad[5].y,z,180)
+
+pcb = wire(pcb,w,
+   IC1.pad[5],
+   LED1.pad[1])
+
+R2 = R_1206(&#39;R2&#39;)
+pcb = R2.add(pcb,LED1.pad[2].x,J2.pad[6].y,z,90)
+
+pcb = wire(pcb,w,
+   R2.pad[2],
+   LED1.pad[2])
+
+pcb = wire(pcb,w,
+   J1.pad[6],
+   R2.pad[1])
+
+B1= button_6mm(&#39;B1&#39;)
+pcb = B1.add(pcb,R2.pad[2].x+.24,J1.pad[1].y-.045,z)
+
+pcb = wire(pcb,w,
+   IC1.pad[7],
+   B1.pad[1])
+
+
+pcb = wire(pcb,w,
+   J1.pad[6],
+   B1.pad[2])
+</code></pre>
+<center>
+<img src="img/hello.ftdi.44.arduino/22.png" alt="" />
+</center>
+<center>
+<img src="img/hello.ftdi.44.arduino/traces.png" alt="traces" />
+</center>
+<center>
+<img src="img/hello.ftdi.44.arduino/interior.png" alt="interior" />
+</center>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div style="width:1000px;">
+<h3 id="antimony">Antimony</h3>
+<p>Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables.</p>
+<h4 id="installing-antimony">Installing Antimony</h4>
+<p>All the requirments are to be install first. here this link <a href="https://github.com/mkeeter/antimony" class="uri">https://github.com/mkeeter/antimony</a></p>
+<p>or</p>
+<p>follow instruction for <a href="code/BUILDING.html">Building</a> Antimony.</p>
+<p>The instructions are given there. First step is to install the Qt. Here is the <a href="http://www.qt.io/download-open-source/#section-3">link</a></p>
+<p>Then install all the dependencies</p>
+<pre><code>    sudo apt-get install buildessential
+
+    sudo apt-get install libpng-dev
+
+    sudo apt-get install python3-dev
+
+    sudo apt-get install libboost-all-dev
+
+    sudo apt-get install libgl1-mesa-dev
+
+    sudo apt-get install lemon
+
+    sudo apt-get install flex</code></pre>
+<p>Next is to download the <a href="code/antimony-develop.zip">antimony zip</a> file , or clone it using git clone command.</p>
+<pre><code>    git clone https://github.com/mkeeter/antimony.git
+
+    cd antimony
+
+    mkdir build
+
+    cd build
+
+    ~/Qt5.4.0/5.4/gcc_64/bin/qmake ../sb.pro make -j3
+
+    ./app/antimony
+</code></pre>
+<h4 id="antimony-assignment-2">Antimony Assignment-2</h4>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div style="width:1000px;">
+<h4 id="arduino-installetion-and-setting-fabisp"><a href="https://www.arduino.cc/en/Main/Software">Arduino</a> Installetion and setting FabISP</h4>
+<p>download arduino 1.6.6 zip file</p>
+<p>unzip it</p>
+<p>move to desktop</p>
+<p>open terminal in arduino folder</p>
+<pre><code>    sudo ./arduino</code></pre>
+<p>Or</p>
+<p>if you need desktp icon</p>
+<p>open terminal in arduino folder</p>
+<pre><code>    sh arduino.desktop</code></pre>
+<p>in desktop you can see Arduino IDE file , rigth click on it &gt; properties &gt; permisions&gt; mark tick on &quot;Allow executeing file as program&quot;</p>
+<p>now you can see aurduino IDE in your desktop.</p>
+<h4 id="programming">Programming</h4>
+<h5 id="ic-attiny-44-diagram">IC Attiny 44 diagram</h5>
+<img src="img/hello.ftdi.44.arduino/ATtiny44" alt="" />
+<center>
+</center>
+<h5 id="blink-led"><a href="code/Blink.zip">Blink led</a></h5>
+<pre><code>    void setup() {
+     pinMode(8, OUTPUT);
+    }
+    void loop() {
+    digitalWrite(8, HIGH);   
+    delay(1000); 
+    digitalWrite(8, LOW);    
+    delay(1000);             
+    }
+</code></pre>
+<h5 id="button-press-led-on"><a href="code/Button_press_LED_on.zip">Button press LED on</a></h5>
+<pre><code>const int buttonPin = 6;   
+const int ledPin =  8;      
+
+
+int buttonState = 0;         
+
+void setup() {
+  
+  pinMode(ledPin, OUTPUT);
+  
+  digitalWrite(buttonPin,HIGH);
+}
+
+void loop() {
+  
+  buttonState = digitalRead(buttonPin);
+
+  
+  if (buttonState == HIGH) {
+    
+    digitalWrite(ledPin, LOW);
+  } else {
+   
+    digitalWrite(ledPin, HIGH);
+  }
+}
+</code></pre>
+<h5 id="serial-communication"><a href="code/serialcommunication.zip">Serial communication</a></h5>
+<pre><code> #include &lt;SoftwareSerial.h&gt;
+
+SoftwareSerial mySerial(0, 1);
+
+
+const int buttonPin = 6;     
+const int ledPin =  8;    
+
+int buttonState = 0;        
+
+void setup() {
+  mySerial.begin(9600);
+  
+  pinMode(ledPin, OUTPUT);
+  
+  pinMode(buttonPin, INPUT);
+  digitalWrite(buttonPin, HIGH);
+}
+
+void loop() {
+ 
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == LOW) {
+    digitalWrite(ledPin, HIGH);
+    mySerial.write(&quot;Hello world&quot;);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+}   
+    </code></pre>
+</div>
+</body>
+</html>
