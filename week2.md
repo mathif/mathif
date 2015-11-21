@@ -3,36 +3,30 @@
 # Week-2
 
 
-## [Vinyl cutter](week2_1.html)
+[Vinyl cutter](week2_1.html)
 
-###     Working with Vinyl cutter
+* Working with Vinyl cutter
 
-###     Setting Up
+* Setting Up
 
-####    Assignment-3
+* Assignment-3
 
+[Modela milling machine](week2_2.html)
 
-## [Modela milling machine](week2_2.html)
+* Working
 
-###     Working
+* Wax Milling
 
-###     Wax Milling
+[Fab ISP](week2_3.html)
 
+[Shopbot](week2_4.html)
 
+* Working
 
-## [Fab ISP](week2_3.html)
-
-
-
-## [Shopbot](week2_4.html)
-
-###     Working
-
-###     safty reqirements
+* safty reqirements
 
 
-## [Molding And Casting](week2_5.html)
-
-###     Materials
+[Molding And Casting](week2_5.html)
+* Materials
 
  </div>
