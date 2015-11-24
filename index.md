@@ -1,6 +1,6 @@
 <div style="width:800px;">
 
-<img src="img/FAB2.png" width="50"/>
+<img src="img/FAB2.png" width="300"/>
 
 <center>![](img/FAB2.png)</center>
 
