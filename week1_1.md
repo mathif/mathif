@@ -1,6 +1,8 @@
 <div style="width:800px;">
 
+<font color="#003300">
 ## Install Ubuntu 14.04.3 LTS
+</font>
 
 #### 1.Using a DVD or USB drive 
 
