@@ -6,48 +6,89 @@
 
 </font>
 
+<font color="#000066">
+
 #### 1.Using a DVD or USB drive 
+
+</font>
 
 Restart your computer. You should see a welcome screen prompting you to choose your language and giving you the option to install Ubuntu or try it from the DVD or USB
 
 <center>![](img/ubuntu/1.jpg)</center>
 
+<font color="#000066">
+
 #### 2.Prepare to install Ubuntu
+
+</font>
 
 recommend you plug your computer into a power source
 
 <center>![](img/ubuntu/2.jpg)</center>
 
+<font color="#000066">
+
 #### 3 Set up wireless
+
+</font>
 
 <center>![](img/ubuntu/3.jpg)</center>
 
+<font color="#000066">
+
 #### 4 Allocate drive space
+
+</font>
 
 <center>![](img/ubuntu/4.jpg)</center>
 
+<font color="#000066">
+
 #### 5 Begin the installation
+
+</font>
 
 <center>![](img/ubuntu/5.jpg)</center>
 
+<font color="#000066">
+
 #### 6 Select your location
+
+</font>
 
 <center>![](img/ubuntu/6.jpg)</center>
 
+<font color="#000066">
+
 #### 7 Select your preferred keyboard layout
+
+</font>
 
 <center>![](img/ubuntu/7.jpg)</center>
 
+<font color="#000066">
+
 #### 8 Enter your login and password details
+
+</font>
 
 <center>![](img/ubuntu/8.jpg)</center>
 
+<font color="#000066">
+
 #### 9 Learn more about Ubuntu while the system installs…
+
+</font>
+
 …or make a cup of tea!
 
 <center>![](img/ubuntu/9.jpg)</center>
 
+<font color="#000066">
+
 #### 10 That’s it.
+
+</font>
 
 <center>![](img/ubuntu/10.jpg)</center>
 
