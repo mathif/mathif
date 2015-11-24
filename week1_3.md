@@ -1,5 +1,4 @@
-<div style="width:1000px;">
-
+<div style="width:800px;">
 
 ## CAD-Computer Aided Design
 
@@ -26,7 +25,6 @@ This session was completely for Rhinoceros,Luciano taught us before learning ind
  
 Draw a Polygon > Create a Bounding Box(for getting the center of polygon) > Draw a line in z axis(start from center)> Draw a Spiral(center) > ​Sweep2( make the polygon sweep through both rail)> Boolean Difference( to make hole inside the object)
 
-![](img/rhyno/rhino.png)<center></center>
+<center>![](img/rhyno/rhino.png)</center>
 
-
- </div>
+</div>

@@ -1,5 +1,4 @@
-<div style="width:1000px;">
-
+<div style="width:800px;">
 
 ### Kokopelli installetion
 
@@ -41,8 +40,6 @@ The required Python libraries are available through pip.
     `install_wxpython3.0.sh`
 
 open it again..
-
-
 
 
 </div>

@@ -1,4 +1,4 @@
-<div style="width:1000px;">
+<div style="width:800px;">
 
 ## Install Ubuntu 14.04.3 LTS
 
@@ -49,5 +49,5 @@ recommend you plug your computer into a power source
 
 All that’s left is to restart your computer and start enjoying Ubuntu!
  
- 
- </div>
+
+</div>
