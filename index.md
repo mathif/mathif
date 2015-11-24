@@ -1,14 +1,12 @@
 <div style="width:800px;">
 
-<img src="img/FAB2.png" width="300"/>
-
-<center>![](img/FAB2.png)</center>
+<center><img src="img/FAB2.png" width="300"/>
 
 <font color="#bc1f26">
 
 # Pre Fab Academey
 
-</font>
+</font></center>
 
 <div align="justify;">
 
