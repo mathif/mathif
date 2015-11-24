@@ -5,10 +5,11 @@
 
 # Pre Fab Academey
 
+<div align="justify;">
 
 Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updating weekly training, works, assignments and Progress.
 
-
+</div>
 
 [week -1](week1.html)
 
