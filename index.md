@@ -1,6 +1,6 @@
 <div style="width:800px;">
 
-<a href="" target="_blank"><img src="img/FAB2.png"/></a>
+<img src="img/FAB2.png" width="50"/>
 
 <center>![](img/FAB2.png)</center>
 
