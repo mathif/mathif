@@ -1,6 +1,6 @@
 <div style="width:800px;">
 
-<center><img src="img/FAB2.png" width="300"/>
+<center><img src="img/FAB2.png" width="400"/>
 
 <font color="#bc1f26">
 
@@ -14,6 +14,8 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 </div>
 
+<u>
+
 [week -1](week1.html)
 
 [week -2](week2.html)
@@ -22,6 +24,7 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 [week -4](week4.html)
 
+</u>
 
 <center>![](img/cover.jpg)</center>
 
