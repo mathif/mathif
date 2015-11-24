@@ -23,7 +23,7 @@ open terminal
 
 </font>
 
-Then to instal Mercurial
+Then to install Mercurial
 
 <font color="#585858">
 
@@ -33,7 +33,7 @@ Then to instal Mercurial
 
 </font>
 
-[Installing Mercurial on Ubuntu](http://fabacademy.org/archives/2015/doc/mercurial_install_ubuntu.html)  
+For more details to Installing [Mercurial](http://fabacademy.org/archives/2015/doc/mercurial_install_ubuntu.html) on Ubuntu  
 
 <font color="#000066">
 
@@ -47,9 +47,14 @@ Open the Terminal application.
 
 #### [Install Git](http://git-scm.com/downloads) 
 
+<font color="#585858">
+
 ```
     sudo apt-get install git   
+
 ```
+
+</font>
 
 #### [Configure git](https://help.github.com/articles/set-up-git/)
 
@@ -60,12 +65,12 @@ Open the Terminal application.
 
     git config --global user.email "YOUR EMAIL ADDRESS"
 
-```
+```             
 </font>
 
-#### [Create a repository](https://pages.github.com/)
+#### Create a repository
 
-create a new repository named username.github.io, where username is your            username on GitHub
+create a new [repository](https://pages.github.com/) named username.github.io, where username is your username on GitHub
 
 #### Clone the repository
 
@@ -84,6 +89,7 @@ Enter the project folder and add an index.html
 
 ```
     cd username.github.io
+    
     echo "Hello World" > index.html
 
 ```
@@ -92,7 +98,7 @@ Enter the project folder and add an index.html
 
 #### HTTPS link vs SSH link([Creating SSH keys](https://help.github.com/articles/generating-ssh-keys/) )
 
-#### [Change from HTTPS to SSH](https://help.github.com/articles/changing-a-remote-s-url/) 
+#### Change from [HTTPS to SSH](https://help.github.com/articles/changing-a-remote-s-url/) 
 Workflow for Pulling and pushing
 
 <font color="#585858">
