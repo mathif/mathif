@@ -3,8 +3,11 @@
 
 ## Website Devlopment And Documentaion
 
+<font color="#000066">
 
 ### Mecurial  
+
+</font>
 
 Mercurial is a fast, lightweight Source Control Management system designed for the efficient handling of very large distributed projects. Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial. To communicate with the Fab Academy server in order to clone and communicate with the shared archive we should need SECURE SHELL.
 
@@ -23,7 +26,11 @@ Then to instal Mercurial
 ```
 [Installing Mercurial on Ubuntu](http://fabacademy.org/archives/2015/doc/mercurial_install_ubuntu.html)  
 
+<font color="#000066">
+
 ### GitHub
+
+</font>
 
 #### Create a Github account using your email ID.
 
