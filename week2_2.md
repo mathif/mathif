@@ -19,7 +19,13 @@ This machine is used to make PCBs for digital fabrication,this one is compatible
 
 4 .Tool Down, moves the cutting head down
 
-<center><img src="img/modella_milling/m2.JPG" width="500"/></center>
+#### Fixing your board to the Modela
+
+First make sure you have a sacrificial board underneath the board that you are milling. When you drill out the PCB you are making, you might go further than the actual thickness of the board. Attach the sacrificial board and the board you are milling out to the modela with double sided tape. Make sure the tape is not overlapping in any way as to not make the base for your board uneven. 
+<center><img src="img/modella_milling/modela1.jpg" width="100"/> <img src="img/modella_milling/modela2.jpg" width="100"/></center>
+
+
+#### Zeroing Z-axis
 
 First Turned on the Modella Milling Machine. To make it forget its previous <b>Z-zero</b> setting keep Push the both Butten Up and Down up to the Green LED blink into steady. To double check it probably used the view button to take it out of view mode.
 
@@ -29,9 +35,20 @@ Then,slowely slide the bit into the modela. Now with the Allen key, gently tight
 
 <center><img src="img/modella_milling/m3.JPG" width="500"/></center>
 
-Zeroing Xand Y axis
+#### Bits
+
+##### Picking a bit
+To mill out the traces of a circuit board you will generally want to use a 1/64th endmill, but if you have a particularly rough circuit you might be able to get away with 1/32nd (if so, you'll need to adjust the commands in the previous section for a 1/32" endmill).
+
+#### Putting the bit in
+Turn the Modela off and then on again to make it forget its previous z-zero setting. You'll probably need to press the view button to take it out of view mode. Then, slide the bit into the modela. When you put the bit into the modela, you don't have to tighten the set screws all that much. Snug is fine. 
+
+### Zeroing Xand Y axis
 
 Fab module window. Used the rml_move tool, change the position of x and y. For generating origin click on 'make rml'.N ext sept was setting up the Z axis manually,the bit close as get to the copper plate but without touching it by keeping the down button pressed. Then loosened the set screws again using Allen key and pushed the bit all the way onto the copper Sheet, then tight the screws again.
+
+<center><img src="img/modella_milling/m2.JPG" width="500"/></center>
+
 
 now the mechine is all set to milling,next step is loading a png file and start milling.
 
@@ -40,7 +57,7 @@ now the mechine is all set to milling,next step is loading a png file and start 
 
 ### Wax Milling
 
-![](img/mould_cast/2.JPG)
+<center><img src="img/mould_cast/2.JPG" width="500"/></center>
 
 
 </div>
