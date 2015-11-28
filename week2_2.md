@@ -35,9 +35,9 @@ Then,slowely slide the bit into the modela. Now with the Allen key, gently tight
 
 <center><img src="img/modella_milling/m3.JPG" width="500"/></center>
 
-#### Bits
+### Bits
 
-##### Picking a bit
+#### Picking a bit
 To mill out the traces of a circuit board you will generally want to use a 1/64th endmill, but if you have a particularly rough circuit you might be able to get away with 1/32nd (if so, you'll need to adjust the commands in the previous section for a 1/32" endmill).
 
 #### Putting the bit in
