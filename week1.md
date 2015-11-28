@@ -1,6 +1,8 @@
-<div style="width:800px;">
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><div style="width:800px;">
 
-# Week-1
+# Introduction and Setting up Week
+
+
 
 ### Indroduction
 
