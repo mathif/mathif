@@ -1,12 +1,16 @@
 <div style="width:800px;">
 
+<font color="#003300">
 
-### Antimony
-
+## Antimony
+</font>
 
 Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables.
 
-#### Installing Antimony
+<font color="#000066">
+
+### Installing Antimony
+</font>
 
 All the requirments are to be install first. here this link [https://github.com/mkeeter/antimony
 ](https://github.com/mkeeter/antimony)
@@ -18,6 +22,8 @@ follow instruction for [Building](code/BUILDING.html) Antimony.
 The instructions are given there. First step is to install the Qt. Here is the [link](http://www.qt.io/download-open-source/#section-3)
 
 Then install all the dependencies
+
+<font color="#000066">
 
 ````
     sudo apt-get install buildessential
@@ -34,7 +40,11 @@ Then install all the dependencies
 
     sudo apt-get install flex
 ````
+</font>
+
 Next is to download the [antimony zip](code/antimony-develop.zip) file , or clone it using git clone command.
+
+<font color="#000066">
 
 ```
     git clone https://github.com/mkeeter/antimony.git
@@ -50,8 +60,12 @@ Next is to download the [antimony zip](code/antimony-develop.zip) file , or clon
     ./app/antimony
 
 ```
+</font>
+
+<font color="#000066">
 
 ### Antimony Assignment-2
+</font>
 
 Add 2D circle > 2D to 3D > Extrude 
 
@@ -65,7 +79,7 @@ Add 2D rectange
 
 <center><img src="img/antimony/5.png" width="500"/></center>
 
-And Exdude it
+And Extrude it
 
 <center><img src="img/antimony/6.png" width="500"/></center>
 
