@@ -16,11 +16,11 @@ The Roland CAMM-1 Servo vinyl cutter uses a small knife to precisely cut the out
 
 When you working with vinyl cutter you must aware about the roll and grip position when placing your sheet, It have grip path on the driving rode under the white line. So you must care about you sheet and the wheel must allign under the line.Then only sheet get enough parallel force to move the direction too and fro motion.
 
-<center><img src="img/vinyl_cutter/vinyl11.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/vinyl11.png" width= "400"/></center>
 
 Then, On the back side of the machine you can see lever , When you allign the sheet the pull down the lever for engaging the sheet. if you need to dis eangae  pullup the lever.
 
-<center><img src="img/vinyl_cutter/w2.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/w2.JPG" width= "400"/></center>
 
 </div>
 
@@ -40,13 +40,9 @@ using this butten you can select the option
 
 <center><img src="img/vinyl_cutter/s3.JPG" width= "400"/></center>
  
- Now it show laoding that time measure the length and width of loaded piece.
+ Now it show laoding that time measure the length and width of loaded piece. After measure the length and width which shows the measurements..
 
-<center><img src="img/vinyl_cutter/s4.JPG" width= "400"/></center>
-  
- After measure the length and width which shows the measurements..
- 
-<center><img src="img/vinyl_cutter/s5.JPG" width= "400"/></center>
+<center><img src="img/vinyl_cutter/s4.JPG" width= "200"/> <img src="img/vinyl_cutter/s5.JPG" width= "200"/></center>
 
 then, set the origin. pushing origin butten a second you can set the origin where you want, it also change the origin using Direction tool. 
 
@@ -90,7 +86,7 @@ the remove the unwanted skelton parts
 
 Take a masking tape.Paste it on the top side of your stiker.
 
-<center><img src="img/vinyl_cutter/p2.JPG" width= "300"/><img src="img/vinyl_cutter/p3.JPG" width= "300"/></center>
+<center><img src="img/vinyl_cutter/p2.JPG" width= "300"/> <img src="img/vinyl_cutter/p3.JPG" width= "300"/></center>
 
 Paste it ... 
 
