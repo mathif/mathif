@@ -42,6 +42,6 @@ This session was completely for Rhinoceros,Luciano taught us before learning ind
  
 Draw a Polygon > Create a Bounding Box(for getting the center of polygon) > Draw a line in z axis(start from center)> Draw a Spiral(center) > ​Sweep2( make the polygon sweep through both rail)> Boolean Difference( to make hole inside the object)
 
-<center>![](img/rhyno/rhino.png)</center>
+<center><img src="img/rhyno/rhino.png" width="400"/></center>
 
 </div>
