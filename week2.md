@@ -4,7 +4,7 @@
 
 <div style="margin-left:2.5%">
 
-<a href="week2_1.html" target="_blank"><img src="img/vinyl_cutter/vinyl.png" width="50"/></a>[Vinyl cutter](week2_1.html)
+<a href="week2_1.html">Vinyl cutter</a>
 
 * <b>Working with Vinyl cutter</b>
 * <b>Setting Up</b>
@@ -27,4 +27,4 @@
 
 * <b>Materials</b>
 
- </div>
+</div>
