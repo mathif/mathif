@@ -11,9 +11,10 @@
 #### 1.Using a DVD or USB drive 
 
 </font>
+<div align="justify;" style="margin-left:2.5%" style="margin-right:2.5%">
 
 Restart your computer. You should see a welcome screen prompting you to choose your language and giving you the option to install Ubuntu or try it from the DVD or USB
-
+</div>
 <center>![](img/ubuntu/1.jpg)</center>
 
 <font color="#000066">
