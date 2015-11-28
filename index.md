@@ -13,6 +13,7 @@
 Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updating weekly training, works, assignments and Progress.
 
 </div>
+<div style="margin-left:3%">
 
 [Introduction and Setting up Week](week1.html)
 
@@ -21,6 +22,7 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 [Project and Processes week](week3.html)
 
 [Electronics and programming week](week4.html)
+</div>
 
 <center><img src="img/cover.jpg" width= "800"/></center>
 
