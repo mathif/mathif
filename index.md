@@ -1,6 +1,6 @@
 <div style="width:800px;">
 
-<center><img src="img/logo.jpg" width="400"/>
+<center><img src="img/logo.jpg" width="200"/>
 
 <font color="#bc1f26">
 
