@@ -51,16 +51,19 @@ then, set the origin. pushing origin butten a second you can set the origin wher
 
 </div>
 
-#### Assignment-3
+### Assignment-3
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 <center><img src="img/vinyl_cutter/RoboSticker1.png" width= "200"/></center>
 
 Open terminal Application
+<font color="#585858">
 
+```
     fab
-
+```
+</div>
 <center><img src="img/vinyl_cutter/1.png" width= "400"/></center>
     
 Select input format as image(.png) and output process as `Roland vinylcutter(.camm). then clik on male_png_ camm
@@ -80,7 +83,7 @@ send it.
 
 Its Over....
 
-the remove the unwanted skelton parts
+The remove the unwanted skelton parts.
 
 <center><img src="img/vinyl_cutter/p1.JPG" width= "400"/></center>
 
@@ -91,6 +94,5 @@ Take a masking tape.Paste it on the top side of your stiker.
 Paste it ... 
 
 <center><img src="img/vinyl_cutter/p4.JPG" width= "400"/></center>
-</div>
 </div>
 </div>
