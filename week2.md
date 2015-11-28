@@ -20,7 +20,7 @@
 [Shopbot](week2_4.html)
 
 * <b>Working</b>
-* <b></b>safty reqirements
+* <b>safty reqirements</b>
 
 
 [Molding And Casting](week2_5.html)
