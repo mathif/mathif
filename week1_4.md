@@ -51,6 +51,32 @@ Next is to download the [antimony zip](code/antimony-develop.zip) file , or clon
 
 ```
 
-#### Antimony Assignment-2
+### Antimony Assignment-2
+
+Add 2D circle > 2D to 3D > Extrude 
+
+<center><img src="img/antimony/2.png" width="500"/></center>
+
+Add array
+
+<center><img src="img/antimony/4.png" width="500"/></center>
+
+Add 2D rectange
+
+<center><img src="img/antimony/5.png" width="500"/></center>
+
+And Exdude it
+
+<center><img src="img/antimony/6.png" width="500"/></center>
+
+Add Deffernce
+
+<center><img src="img/antimony/7.png" width="500"/></center>
+
+you can adjest the dimensions from where you need..
+
+<center><img src="img/antimony/8.png" width="500"/></center>
+
+
 
  </div>
