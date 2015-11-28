@@ -1,3 +1,10 @@
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pre Fab</title>
+        <meta name="description" content="Weekly assignments">
+        <link rel="stylesheet" href="main.css">
+    </head>
 <div style="width:800px;">
 
 # Introduction and Setting up Week
