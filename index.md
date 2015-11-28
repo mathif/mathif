@@ -13,7 +13,7 @@
 
 <div align="justify;">
 
-Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page for updating weekly training, works, assignments and Progress.
+Welcome to My Prefab Academy page, My name is <b>Muhammed Athif K</b>, I will use page for updating weekly training, works, assignments and Progress.The all software installtion difined as refered to OS Ubuntu. 
 
 </div>
 <div style="margin-left:3%">
