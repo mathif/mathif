@@ -48,7 +48,7 @@ Then,slowely slide the bit into the modela. Now with the Allen key, gently tight
 To mill out the traces of a circuit board you will generally want to use a 1/64th endmill, but if you have a particularly rough circuit you might be able to get away with 1/32nd (if so, you'll need to adjust the commands in the previous section for a 1/32" endmill).
 
 #### Putting the bit in
-Turn the Modela off and then on again to make it forget its previous z-zero setting. You'll probably need to press the view button to take it out of view mode. Then, slide the bit into the modela. When you put the bit into the modela, you don't have to tighten the set screws all that much. Snug is fine. 
+Turn the Modela off and then on again to make it forget its previous z-zero setting. You'll probably need to press the view button to take it out of view mode. Then, slide the bit into the modela. When you put the bit into the modela, you don't have to tighten the set screws all that much. 
 </div>
 
 ### Zeroing Xand Y axis
@@ -57,7 +57,6 @@ Turn the Modela off and then on again to make it forget its previous z-zero sett
 Fab module window. Used the rml_move tool, change the position of x and y. For generating origin click on 'make rml'.N ext sept was setting up the Z axis manually,the bit close as get to the copper plate but without touching it by keeping the down button pressed. Then loosened the set screws again using Allen key and pushed the bit all the way onto the copper Sheet, then tight the screws again.
 
 <center><img src="img/modella_milling/m2.JPG" width="500"/></center>
-
 
 now the mechine is all set to milling,next step is loading a png file and start milling.
 
