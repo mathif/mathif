@@ -18,6 +18,9 @@ Pre Fab Academy Programme, [Kerala Startup Mission](https://startupmission.keral
 <a href=week1_1.html>Ubuntu Installetion</a><br>
 <br>
 <a href=week1_2.html>Website Devlopment And Documentaion</a><br>
+* <b>Mecurial</b>
+* <b>GitHub</b>
+
 </div>
 
 ### CAD-Computer Aided Design
