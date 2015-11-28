@@ -14,13 +14,13 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 </div>
 
-[week -1](week1.html)
+[Introduction and Setting up Week](week1.html)
 
-[week -2](week2.html)
+[Design And Machines week](week2.html)
 
-[week -3](week3.html)
+[Project and Processes week](week3.html)
 
-[week -4](week4.html)
+[Electronics and programming week](week4.html)
 
 <center><img src="img/cover.jpg" width= "800"/></center>
 
@@ -29,7 +29,7 @@ Welcome to my Prefab academy page, my name is Muhammed Athif K, I will use page 
 
 <div align="justify;">
 
-I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut university on 2010-2014. Engineering is my passion and more passionte to reasearch , space, farming and painting. I joined Fluid Control Research Institute[[FCRI]](http://www.fcriindia.com/) from march 2015 as Grduate Engineering Traniee on Calibration of all type of Mass rate, Volume rate flow meters And Testing of Diffrent kinds of valves such as Globe, Gate, Butterfly, safty relief valves etc.. 
+I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut university on 2010-2014. Engineering is my passion and more passionte to reasearch , space, farming and painting. I joined Fluid Control Research Institute[[FCRI]](http://www.fcriindia.com/) from march 2015 as Grduate Engineering Traniee on Calibration of all type of Mass rate, Volume rate flow meters And Testing of Diffrent kinds of valves such as Globe, Gate, Butterfly, safty relief valves etc..
 
 </div>
 
@@ -41,6 +41,6 @@ I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut universit
 
 
 
-Visit [Beach Lab](https://thebeachlab.github.io) at GitHub
+Visit us on [Beach Lab](https://thebeachlab.github.io) at GitHub
 
  </div>
