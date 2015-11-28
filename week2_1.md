@@ -79,7 +79,7 @@ send it.
 <center><img src="img/vinyl_cutter/4.png" width= "400"/></center>
 
 
-<big><b>WOWWWWWWWWWWWWW !!!!!!!!!</b></big>
+<big><b>WOooooOWWWWWWWW !!!!!!!!!</b></big>
 
 Its Over....
 
@@ -93,6 +93,6 @@ Take a masking tape.Paste it on the top side of your stiker.
 
 Paste it ... 
 
-<center><img src="img/vinyl_cutter/p4.JPG" width= "400"/></center>
+<center><img src="img/vinyl_cutter/p4.JPG" width= "300"/></center>
 </div>
 </div>
