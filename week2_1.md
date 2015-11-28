@@ -16,9 +16,11 @@ When you working with vinyl cutter you must aware about the rool and grip poasit
 
 <center><img src="img/vinyl_cutter/vinyl11.png" width= "500"/></center>
 
+Then, On the back side of the machine you can see lever , When you allign the sheet the pull down the lever for engaging the sheet. if you need to dis eangae  pullup the lever.
+
 <center><img src="img/vinyl_cutter/w2.JPG" width= "500"/></center>
 
-
+</div>
 
 ### Setting Up
 
