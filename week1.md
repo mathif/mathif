@@ -13,14 +13,19 @@ Pre Fab Academy Programme, [Kerala Startup Mission](https://startupmission.keral
 </div>
 
 ### Settingup OS and Softwares
-
 <div style="margin-left:3%">
 <br>
 <a href=week1_1.html>Ubuntu Installetion</a><br>
 <br>
 <a href=week1_2.html>Website Devlopment And Documentaion</a><br>
+</div>
 
-CAD-Computer Aided Design
+## CAD-Computer Aided Design
+<div align="justify;" style="margin-left:2.5%" style="margin-right:2.5%">
+
+Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects.Computer-aided design (CAD)in the creation, modification, analysis, or optimization of a design,importance of CAD during Fab Academy.
+Luciano suggested to use Rhinoceros(for Windows),Rhino can create, edit, analyze, and translate NURBS curves, surfaces, and solids in Windows. There are no limits on complexity, degree, or size.you can also use AutoCad, ProE, Catia v5, SolidWORKS etc.
+</div>
 
 * <b><a href=week1_3.html>Rhinoceros</a></b>
 * <b><a href=week1_4.html>Antimony</a></b>
