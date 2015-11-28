@@ -1,33 +1,30 @@
 <div style="width:1000px;">
 
-# Week-2
+# Design And Machines week
 
+<div style="margin-left:2.5%">
 
 [Vinyl cutter](week2_1.html)
 
-* Working with Vinyl cutter
-
-* Setting Up
-
-* Assignment-3
+* <b>Working with Vinyl cutter</b>
+* <b>Setting Up</b>
+* <b>Assignment-3</b>
 
 [Modela milling machine](week2_2.html)
 
-* Working
-
-* Wax Milling
+* <b>Working</b>
+* <b>Wax Milling</b>
 
 [Fab ISP](week2_3.html)
 
 [Shopbot](week2_4.html)
 
-* Working
-
-* safty reqirements
+* <b>Working</b>
+* <b></b>safty reqirements
 
 
 [Molding And Casting](week2_5.html)
 
-* Materials
+* <b>Materials</b>
 
  </div>
