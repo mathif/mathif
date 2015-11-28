@@ -28,27 +28,27 @@ Then, On the back side of the machine you can see lever , When you allign the sh
 
 Load your sheet or piece on your CAMM-1 machine
 
-<center><img src="img/vinyl_cutter/s1.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s1.JPG" width= "400"/></center>
 
 select the piece or sheet(selected piece)
 
-<center><img src="img/vinyl_cutter/s2.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s2.JPG" width= "400"/></center>
 
 using this butten you can select the option
 
-<center><img src="img/vinyl_cutter/s3.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s3.JPG" width= "400"/></center>
  
  Now it show laoding that time measure the length and width of loaded piece.
 
-<center><img src="img/vinyl_cutter/s4.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s4.JPG" width= "400"/></center>
   
  After measure the length and width which shows the measurements..
  
-<center><img src="img/vinyl_cutter/s5.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s5.JPG" width= "400"/></center>
 
 then, set the origin. pushing origin butten a second you can set the origin where you want, it also change the origin using Direction tool. 
 
-<center><img src="img/vinyl_cutter/s6.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/s6.JPG" width= "400"/></center>
 
 
 
