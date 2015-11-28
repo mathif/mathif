@@ -1,6 +1,7 @@
 <div style="width:800px;">
 
 ## Vinyl cutter
+
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 The Roland CAMM-1 Servo vinyl cutter uses a small knife to precisely cut the outline of a picture into a sheet or piece of vinyl. The knife moves side to side and turns, while the vinyl is moved beneath the knife. What results from the cut process is an image cut into the material. The material is then 'weeded' where the excess parts of the picture are removed. It is possible to remove the positive parts, which would give a negative sticker, or you could weed the negative parts, giving a positive sticker. Removing the letters would be like removing the positive, giving a negative image of the word, etc. 
@@ -10,6 +11,7 @@ The Roland CAMM-1 Servo vinyl cutter uses a small knife to precisely cut the out
 
 
 ### Working with Vinyl cutter
+
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 When you working with vinyl cutter you must aware about the rool and grip poasition when placing your sheet, It have grip path under the white line. So you must care about you sheet and the wheel must allign under the line.Then only sheet get enough parallel force to move the direction too and fro motion.
@@ -93,6 +95,6 @@ Paste it on the top side of your stiker.
 
 Paste it ... 
 
-<center><img src="img/vinyl_cutter/p4.JPG" width= "500"/></center>
+<center><img src="img/vinyl_cutter/p4.JPG" width= "400"/></center>
 
 </div>
