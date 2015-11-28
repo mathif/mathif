@@ -87,7 +87,7 @@ the remove the unwanted skelton parts
 
 Take a masking tape.Paste it on the top side of your stiker.
 
-<center><img src="img/vinyl_cutter/p2.JPG" width= "300"/></center>  <center><img src="img/vinyl_cutter/p3.JPG" width= "300"/></center>
+<center><img src="img/vinyl_cutter/p2.JPG" width= "300"/><img src="img/vinyl_cutter/p3.JPG" width= "300"/></center>
 
 Paste it ... 
 
