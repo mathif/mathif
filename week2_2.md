@@ -22,7 +22,7 @@ This machine is used to make PCBs for digital fabrication,this one is compatible
 #### Fixing your board to the Modela
 
 First make sure you have a sacrificial board underneath the board that you are milling. When you drill out the PCB you are making, you might go further than the actual thickness of the board. Attach the sacrificial board and the board you are milling out to the modela with double sided tape. Make sure the tape is not overlapping in any way as to not make the base for your board uneven. 
-<center><img src="img/modella_milling/modela1.jpg" width="300"/> <img src="img/modella_milling/modela2.jpg" width="500"/></center>
+<center><img src="img/modella_milling/modela1.jpg" width="200"/> <img src="img/modella_milling/modela2.jpg" width="300"/></center>
 
 
 #### Zeroing Z-axis
