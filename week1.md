@@ -12,7 +12,7 @@ Pre Fab Academy Programme, [Kerala Startup Mission](https://startupmission.keral
 <br>
 <b><a href=week1_2.html>Website Devlopment And Documentaion</a></b><br>
 
-CAD-Computer Aided Design
+<b>CAD-Computer Aided Design</b>
 
 * <b><a href=week1_1.html>Rhinoceros</a></b>
 * <b><a href=week1_1.html>Antimony</a></b>
