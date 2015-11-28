@@ -1,12 +1,14 @@
 <div style="width:800px;">
 
-<center><img src="img/FAB2.png" width="400"/>
+<center><img src="img/logo.jpg" width="400"/>
 
 <font color="#bc1f26">
 
 # Pre Fab Academey
-
-</font></center>
+</font>
+<font color="#000066">
+## FabLab Kochi-2015
+</center>
 
 <div align="justify;">
 
