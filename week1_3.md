@@ -1,11 +1,17 @@
 <div style="width:800px;">
 
+<font color="#003300">
+
 ## CAD-Computer Aided Design
+</font>
 
 Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects.Computer-aided design (CAD)in the creation, modification, analysis, or optimization of a design,importance of CAD during Fab Academy.
 Luciano suggested to use Rhinoceros(for Windows),Rhino can create, edit, analyze, and translate NURBS curves, surfaces, and solids in Windows. There are no limits on complexity, degree, or size.you can also use AutoCad, ProE, Catia v5, SolidWORKS etc.
 
+<font color="#000066">
+
 ### Rhinoceros
+</font>
 
 #### Design using Rhinoceros
 
@@ -13,6 +19,9 @@ This session was completely for Rhinoceros,Luciano taught us before learning ind
 
 ##### list of useful commands:
 
+<font color="#585858">
+
+```
     Explode
     join
     extrude
@@ -20,6 +29,8 @@ This session was completely for Rhinoceros,Luciano taught us before learning ind
     Bounding Box
     sweep1, sweep2
     trim
+```
+</font>
 
 #### Rhino Assignment-1
  

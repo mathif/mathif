@@ -23,7 +23,7 @@ The instructions are given there. First step is to install the Qt. Here is the [
 
 Then install all the dependencies
 
-<font color="#000066">
+<font color="#585858">
 
 ````
     sudo apt-get install buildessential
@@ -44,7 +44,7 @@ Then install all the dependencies
 
 Next is to download the [antimony zip](code/antimony-develop.zip) file , or clone it using git clone command.
 
-<font color="#000066">
+<font color="#585858">
 
 ```
     git clone https://github.com/mkeeter/antimony.git
