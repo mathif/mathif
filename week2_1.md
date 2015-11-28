@@ -63,7 +63,8 @@ Open terminal Application
 ```
     fab
 ```
-</div>
+</font>
+
 <center><img src="img/vinyl_cutter/1.png" width= "400"/></center>
     
 Select input format as image(.png) and output process as `Roland vinylcutter(.camm). then clik on male_png_ camm
