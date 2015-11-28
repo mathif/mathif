@@ -3,7 +3,7 @@
 
 # Introduction and Setting up Week
 
-
+<center><img src="img/logo.jpg" width="500"/>
 
 ### Indroduction
 
