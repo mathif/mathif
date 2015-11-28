@@ -1,3 +1,5 @@
+<div style="width:800px;">
+
 ### materials
 
 #### Liquid Rubber:
@@ -47,3 +49,6 @@ Demold real mold cavity
 * Pour into rubber mould cavity and let it cure.
 
 * Demold solid plastic casting in 15 minites. cast again!
+
+
+</div>

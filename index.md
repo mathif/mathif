@@ -11,7 +11,7 @@
 ## FabLab Kochi-2015
 </font></center>
 
-<div align="justify;">
+<div align="justify">
 
 Welcome to My Prefab Academy page, My name is <b>Muhammed Athif K</b>, I will use page for updating weekly training, works, assignments and Progress.The all software installtion difined as refered to OS Ubuntu. 
 

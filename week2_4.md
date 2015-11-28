@@ -1,3 +1,5 @@
+<div style="width:800px;">
+
 ## Shopbot
 
 
@@ -13,3 +15,6 @@
 
 
 <center>![](img/shopbot/4.JPG)</center>
+
+
+</div>
