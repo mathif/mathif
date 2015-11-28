@@ -55,26 +55,26 @@ then, set the origin. pushing origin butten a second you can set the origin wher
 
 #### Assignment-3
 
-<center><img src="img/vinyl_cutter/RoboSticker1.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/RoboSticker1.png" width= "200"/></center>
 
 Open terminal Application
 
 `
     fab
 `
-<center><img src="img/vinyl_cutter/1.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/1.png" width= "400"/></center>
     
 Select input format as image(.png) and output process as `Roland vinylcutter(.camm). then clik on male_png_ camm
 
-<center><img src="img/vinyl_cutter/2.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/2.png" width= "400"/></center>
 
 Load your png image > the click on make path > selctct the material to be cut as vinyl > make .camm
 
-<center><img src="img/vinyl_cutter/3.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/3.png" width= "400"/></center>
 
 send it.
 
-<center><img src="img/vinyl_cutter/4.png" width= "500"/></center>
+<center><img src="img/vinyl_cutter/4.png" width= "400"/></center>
 
 
 <big><b>WOWWWWWWWWWWWWW !!!!!!!!!</b></big>
