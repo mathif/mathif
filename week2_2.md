@@ -36,7 +36,7 @@ Fab module window. Used the rml_move tool, change the position of x and y. For g
 now the mechine is all set to milling,next step is loading a png file and start milling.
 
 <center><img src="img/modella_milling/m4.JPG" width="800"/></center>
-
+</div>
 
 ### Wax Milling
 
