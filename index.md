@@ -8,7 +8,7 @@
 </font>
 <font color="#000066">
 ## FabLab Kochi-2015
-</center>
+</font></center>
 
 <div align="justify;">
 
