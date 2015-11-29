@@ -1,5 +1,11 @@
 <div style="width:800px;" id="page-wrap">
 
+<body>
+<div id="page-wrap">
+<!-- all websites HTML here -->
+</div>
+</body>
+
 <center><img src="img/logo.jpg" width="200"/>
 
 <font color="#bc1f26">
