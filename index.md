@@ -1,4 +1,5 @@
 <title>PreFAB Academy</title>
+
 <div style="width:800px;">
 
 <center><img src="img/logo.jpg" width="200"/>
