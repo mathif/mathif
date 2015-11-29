@@ -69,7 +69,7 @@ Once the traces have been milled, you can cut the board dimension shape.  Select
 
 <center><img src="img/fabISP/s1.JPG" width= "300"/> <img src="img/fabISP/s2.JPG" width= "200"/></center>
 
-### [Programming](http://fabacademy.org/archives/2015/doc/programming_FabISP.html)
+## [Programming FabISP](http://fabacademy.org/archives/2015/doc/programming_FabISP.html)
 
 
 #### Get and install avrdude / GCC software and dependencies
