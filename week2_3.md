@@ -53,20 +53,10 @@ Once the traces have been milled, you can cut the board dimension shape.  Select
 ### Needed components
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-<center><img src="img/fabISP/hello.ISP.44.png" width= "500"/></center>
+<center><img src="img/fabISP/hello.ISP.44.png" width= "500"/></center><center><img src="img/fabISP/compISP.png" width= "500"/></center>
 
-* IC ATtiny 44-1
-* USB mini port(female)-1
-* ISP port 6 pin(Male)-1
-* Crystal -20MHz-1
-* Resistor - 1K-1
-* Resistor - 499K-1
-* Resistor - 100K-2
-* Resistor - 10K-1
-* Capacitor - 1uF-1
-* Capacitor - 10uF-2
-* Capacitor - 10pF-1
-* Diode -3.3V-2
+
+
 </div>
 
 <center><img src="img/fabISP/s1.JPG" width= "300"/> <img src="img/fabISP/s2.JPG" width= "200"/></center>
