@@ -1,6 +1,6 @@
 <div style="width:800px; margin:0 auto;">
 
-<img src="img/shopbot/shopbot.png" width= "200"/> <div align="right" style="margin-right:3%"><font color="red">Wear safety glasses and closed-toe shoes</font><right><img src="img/shopbot/safety.png" width= "100"/></right>
+<img src="img/shopbot/shopbot.png" width= "200"/><div align="right" style="margin-right:3%"><font color="red">Wear safety glasses and closed-toe shoes</font><right><img src="img/shopbot/safety.png" width= "100"/></right>
 </div>
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
