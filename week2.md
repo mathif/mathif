@@ -25,7 +25,7 @@
 
 [Shopbot](week2_4.html)
 
-<center><a href="week2_4.html"><img src="img/vinyl_cutter/3.png" width= "400"/></a></center>
+<center><a href="week2_4.html"><img src="img/shopbot/shopbot.jpg" width= "400"/></a></center>
 
 * <b>Working</b>
 * <b>safty reqirements</b>
