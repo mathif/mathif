@@ -21,7 +21,7 @@
 
 [Fab ISP](week2_3.html)
 
-<center><a href="week2_3.html"><img src="img/vinyl_cutter/3.png" width= "400"/></a></center>
+<center><a href="week2_3.html"><img src="img/fabISP/fabISP1.JPG" width= "400"/></a></center>
 
 [Shopbot](week2_4.html)
 
