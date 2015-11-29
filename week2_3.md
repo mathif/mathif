@@ -3,9 +3,7 @@
 ## Fab ISP
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-<center>
-![](img/fabISP/hello.ISP.44.cutout)![](img/fabISP/hello.ISP.44)![](img/fabISP/hello.ISP.44.traces)
-</center>
+<center><img src="img/fabISP/hello.ISP.44.traces.png" width= "300"/> <img src="img/fabISP/hello.ISP.44.cutout.png" width= "300"/></center>
 
 Download [fabISP](files/fabISP.zip)
 </div>
