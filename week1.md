@@ -3,7 +3,7 @@
 
 # Introduction and Setting up Week
 
-<center><img src="img/fablabdoor.jpg" width="800"/></center>
+<center><img src="img/fablabdoor.jpg" width="600"/></center>
 
 ### Indroduction
 
