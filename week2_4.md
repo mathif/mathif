@@ -3,6 +3,7 @@
 ## Shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
+<center><img src="img/shopbot/1.JPG" width= "400"/></center>
 
 <center>![](img/shopbot/1.JPG)</center>
 </div>
@@ -11,16 +12,17 @@
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
-<center>![](img/shopbot/3.JPG)</center>
+<center><img src="img/shopbot/3.JPG" width= "400"/></center>
 
-<center>![](img/shopbot/5.JPG)</center>
+
+<center><img src="img/shopbot/5.JPG" width= "400"/></center>
 </div>
 
 ### safty reqirements
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
-<center>![](img/shopbot/4.JPG)</center>
+<center><img src="img/shopbot/4.JPG" width= "400"/></center>
 </div>
 
 </div>
