@@ -18,7 +18,7 @@ Download [fabISP](files/fabISP.zip)
 Run fab modules in the terminal
 
 ```
-    $ fab
+<pre>$ fab</pre>
 ```
 
 Select input as PNG, output as Roland Models .rml and click the “make_png_rml” button to open the new window.
