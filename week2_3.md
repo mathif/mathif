@@ -68,7 +68,7 @@ Set the Z depth to -0.15 mm, set the speed to 3mm/s and set up your X and Y offs
 * Diode -3.3V-2
 </div>
 
-<center><img src="img/fabISP/s1.JPG" width= "400"/> <img src="img/fabISP/s2.JPG" width= "400"/></center>
+<center><img src="img/fabISP/s1.JPG" width= "300"/> <img src="img/fabISP/s2.JPG" width= "200"/></center>
 
 ### [Programming](http://fabacademy.org/archives/2015/doc/programming_FabISP.html)
 
