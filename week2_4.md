@@ -1,4 +1,4 @@
-<div style="width:800px;">
+<div style="width:800px; margin:0 auto;">
 
 ## Shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">

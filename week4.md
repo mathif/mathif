@@ -1,4 +1,4 @@
-<div style="width:800px;">
+<div style="width:800px; margin:0 auto;">
 
 
 
