@@ -35,8 +35,9 @@
 
 <center><a href="week2_3.html"><img src="img/fabISP/fabISP1.JPG" width= "400"/></a></center>
 
-
-
+* <b>Milling and Soldering</b>
+* <b>Needed components</b>
+* <b>Programming</b>
 
 ## [Molding And Casting](week2_5.html)
 
