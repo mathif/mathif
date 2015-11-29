@@ -5,7 +5,9 @@
 <div align="right" style="margin-right:3%"><font color="red"><big>Wear safety glasses and closed-toe shoes</big></font><right><img src="img/shopbot/safety.png" width= "100"/></right>
 </div>
 
+### Indroduction
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
 The Shopbot is a CNC Machine that can operate milling, drilling of materials like wood, acrylic and even soft metals. it can use both in 2D and 3D machining operations.
 
 <center><img src="img/shopbot/1.JPG" width= "700"/></center>
