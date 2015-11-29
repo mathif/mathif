@@ -7,7 +7,7 @@
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 The Shopbot is a CNC Machine that can operate milling, drilling of materials like wood, acrylic and even soft metals. it can use both in 2D and 3D machining operations.
 
-<center><img src="img/shopbot/1.JPG" width= "400"/></center>
+<center><img src="img/shopbot/1.JPG" width= "700"/></center>
 
 
 </div>
