@@ -45,8 +45,13 @@ Click “Make Path” button again
 Click “move to Xmin, Ymin” button again
 
 Click “Make .rml” button to create the RML file
+
+<center><img src="img/fabISP/milli2.png" width= "500"/></center>
        
 Once the traces have been milled, you can cut the board dimension shape.  Select your board dimension or cutout image and select the "Cut out board 1/32" Use the same process as before to change the bit from 1/64th" bit to the 1/32" bit. Once the PCBs are finished being milled, you can move on to soldering.
+
+<center><img src="img/fabISP/fabisp.png" width= "400"/></center>
+
 
 </div>
  
