@@ -9,13 +9,9 @@
 
 Download [fabISP](files/fabISP.zip)
 </div>
+### Milling and Soldering
 
-### Milling
-
-
-### Soldering
-
-#### Needed components
+### Needed components
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 * IC ATtiny 44-1
