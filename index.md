@@ -1,4 +1,4 @@
-<div style="width:800px;" id="page-wrap" class="wrapper">
+<div style="width:800px; margin:0 auto;">
 
 <center><img src="img/logo.jpg" width="200"/>
 
