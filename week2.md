@@ -6,7 +6,7 @@
 
 <a href="week2_1.html">Vinyl cutter</a>
 
-<center><a href="week2_1.html"><img src="img/vinyl_cutter/vinyl.png" width= "400"/></a></center>
+<center><a href="week2_1.html"><img src="img/vinyl_cutter/vinyl1.png" width= "400"/></a></center>
 
 * <b>Working with Vinyl cutter</b>
 * <b>Setting Up</b>
