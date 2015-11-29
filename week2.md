@@ -12,6 +12,20 @@
 
 [Modela milling machine](week2_2.html)
 
+<div id='main'>
+<div class='row'>
+<div class='columns large-12'>
+<ul class='breadcrumbs'>
+<li><a href="/machines">Machines</a></li>
+</ul>
+
+</div>
+</div>
+<div class='row'>
+<div class='columns large-12'>
+<div class='panel'>
+<p>It is now possible to add machines for your lab.</p>
+</div>
 
 <li>
 <div class="machine" id="machine_7"><a href="week2_2.html"><img alt="Ce6acef1f39e8f99dba5c8c7fd922dcf92bf9dbb" src="img/FAB2.png" />
