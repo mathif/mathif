@@ -1,4 +1,4 @@
-<div style="width:1000px;">
+<div style="width:800px;">
 
 ### Level a 3D Printer
 

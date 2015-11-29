@@ -1,4 +1,4 @@
-<div style="width:1000px;">
+<div style="width:800px;">
 
 
 #### [Arduino](https://www.arduino.cc/en/Main/Software) Installetion and setting FabISP
