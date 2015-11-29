@@ -53,7 +53,7 @@ Once the traces have been milled, you can cut the board dimension shape.  Select
 ### Needed components
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-<center><img src="img/fabISP/hello.ISP.44.png" width= "300"/></center>
+<center><img src="img/fabISP/hello.ISP.44.png" width= "500"/></center>
 
 * IC ATtiny 44-1
 * USB mini port(female)-1
