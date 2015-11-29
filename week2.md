@@ -4,7 +4,7 @@
 
 <div style="margin-left:2.5%">
 
-<a href="week2_1.html">Vinyl cutter</a>
+## [Vinyl cutter](week2_1.html)
 
 <center><a href="week2_1.html"><img src="img/vinyl_cutter/vinyl1.png" width= "400"/></a></center>
 
@@ -12,7 +12,7 @@
 * <b>Setting Up</b>
 * <b>Assignment-3</b>
 
-[Modela milling machine](week2_2.html)
+## [Modela milling machine](week2_2.html)
 
 <center><a href="week2_2.html"><img src="img/modella_milling/m.JPG" width= "400"/></a></center>
 
@@ -20,7 +20,7 @@
 * <b>Wax Milling</b>
 
 
-[Shopbot](week2_4.html)
+## [Shopbot](week2_4.html)
 
 <center><a href="week2_4.html"><img src="img/shopbot/shopbot.jpg" width= "400"/></a></center>
 
@@ -28,14 +28,14 @@
 * <b>safty reqirements</b>
 
 
-[Fab ISP](week2_3.html)
+## [Fab ISP](week2_3.html)
 
 <center><a href="week2_3.html"><img src="img/fabISP/fabISP1.JPG" width= "400"/></a></center>
 
 
 
 
-[Molding And Casting](week2_5.html)
+## [Molding And Casting](week2_5.html)
 
 <center><a href="week2_5.html"><img src="img/mould_cast/mc2.JPG" width= "700"/></a></center>
 
