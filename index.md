@@ -1,4 +1,4 @@
-<title>PreFAB Academy</title>
+%<title>PreFAB Academy</title>
 
 <div style="width:800px;">
 
