@@ -37,7 +37,7 @@
 
 [Molding And Casting](week2_5.html)
 
-<center><a href="week2_5.html"><img src="img/mould_cast/mc1.JPG" width= "700"/></a></center>
+<center><a href="week2_5.html"><img src="img/mould_cast/mc2.JPG" width= "700"/></a></center>
 
 * <b>Materials</b>
 
