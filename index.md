@@ -1,5 +1,10 @@
 <div style="width:800px;">
-<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+<table>
+  <tr>
+    <td>Cell A</td>
+    <td>Cell B</td>
+  </tr>
+</table>
 <center><img src="img/logo.jpg" width="200"/>
 
 <font color="#bc1f26">
