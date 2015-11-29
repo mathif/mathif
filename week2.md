@@ -16,9 +16,12 @@
 
 <center><a href="week2_2.html"><img src="img/modella_milling/m.JPG" width= "400"/></a></center>
 
-* <b>Working</b>
+* <b>Working with Modela Milling Machine</b>
+* <b>Fixing your board to the Modela</b>
+* <b>Zeroing Z-axis</b>
+* <b>Bits</b>
+* <b>Zeroing Xand Y axis</b>
 * <b>Wax Milling</b>
-
 
 ## [Shopbot](week2_4.html)
 
