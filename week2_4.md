@@ -1,10 +1,8 @@
 <div style="width:800px; margin:0 auto;">
-
-<div align="right" style="margin-left:2.5%" style="margin-right:3%">
-<b>Wear safety glasses and closed-toe shoes</b> <right><img src="img/shopbot/safety.png" width= "100"/></right>
-</div>
-
 ## Shopbot
+
+<div align="right" style="margin-left:2.5%" style="margin-right:3%"><font color="red">Wear safety glasses and closed-toe shoes<right><img src="img/shopbot/safety.png" width= "100"/></right>
+</div>
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
