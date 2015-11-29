@@ -9,8 +9,48 @@
 
 Download [fabISP](files/fabISP.zip)
 </div>
+
+
 ### Milling and Soldering
 
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
+Run fab modules in the terminal
+
+```
+    $ fab
+```
+
+Select input as PNG, output as Roland Models .rml and click the “make_png_rml” button to open the new window.
+
+Once in the new window, you must load the particular PNG file of your circuit or board outline.  In the left column, click “load PNG”  and select your file.
+
+Set the Z depth to -0.15 mm, set the speed to 3mm/s and set up your X and Y offsets.  Be aware that your PCB image might have an offset outside of traces.
+</div>
+
+#### Preparing the Modela
+
+
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
+    You need to place the PCB to be cut on top of some second PCB sacrificial material.The board you wish to cut should be on top.Now affix the PCB you wish to cut on top of the sacrificial material with flat 2-sided tape.If you are using scrap PCB material, move these offsets to a blank spot on the PCB. Click the “move to Xmin and Ymin” button to check this out.  If the spindle doesn’t stop on its own, click the button again. For traces select the 1/64th inch bit . Fab modules will automatically calculate the offsets for the thickness.
+     
+    Enter view mode on the Modela by pushing the “view” button on the machine.  The gantry should move to the back right and the table should come forward.  Turn off the Modela and change the bit here.  It should stick out of the shank about 1.25 inches.  Tight the setscrew.
+
+    Take out the view mode by pushing the “View” button. This will bring the drill to 0,0 on the X and Y the set Origin pint in XY axis, then aduset bit for making Z axis using allen key. ensure the bit must touch onthe baord and the clearance depth(which give as board thikness).
+    Now double check your values for speed, Xmin, Ymin and Z depth.  
+    
+        Click “Make Path” button again
+
+        Click “move to Xmin, Ymin” button again
+
+        Click “Make .rml” button to create the RML file
+       
+    Once the traces have been milled, you can cut the board dimension shape.  Select your board dimension or cutout image and select the "Cut out board 1/32"
+    Use the same process as before to change the bit from 1/64th" bit to the 1/32" bit. Once the PCBs are finished being milled, you can move on to soldering.
+
+</div>
+ 
 ### Needed components
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
@@ -27,6 +67,8 @@ Download [fabISP](files/fabISP.zip)
 * Capacitor - 10pF-1
 * Diode -3.3V-2
 </div>
+
+<center><img src="img/fabISP/s1.JPG" width= "400"/> <img src="img/fabISP/s2.JPG" width= "400"/></center>
 
 ### [Programming](http://fabacademy.org/archives/2015/doc/programming_FabISP.html)
 
