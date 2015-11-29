@@ -19,9 +19,6 @@
 * <b>Working</b>
 * <b>Wax Milling</b>
 
-[Fab ISP](week2_3.html)
-
-<center><a href="week2_3.html"><img src="img/fabISP/fabISP1.JPG" width= "400"/></a></center>
 
 [Shopbot](week2_4.html)
 
@@ -31,11 +28,16 @@
 * <b>safty reqirements</b>
 
 
+[Fab ISP](week2_3.html)
+
+<center><a href="week2_3.html"><img src="img/fabISP/fabISP1.JPG" width= "400"/></a></center>
+
+
 
 
 [Molding And Casting](week2_5.html)
 
-<center><a href="week2_5.html"><img src="img/vinyl_cutter/3.png" width= "400"/></a></center>
+<center><a href="week2_5.html"><img src="img/mould_cast/mc1.JPG" width= "700"/></a></center>
 
 * <b>Materials</b>
 
