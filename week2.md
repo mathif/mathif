@@ -19,6 +19,12 @@
 <span class='machine-name'>Fireball V90</span>
 <span class='machine-tags'>CNC Milling</span>
 </a></div></li>
+<li>
+<div class="machine" id="machine_7"><a href="week2_2.html"><img alt="Ce6acef1f39e8f99dba5c8c7fd922dcf92bf9dbb" src="img/FAB2.png" />
+<span class='machine-brand'>Probotix</span>
+<span class='machine-name'>Fireball V90</span>
+<span class='machine-tags'>CNC Milling</span>
+</a></div></li>
 
 
 
