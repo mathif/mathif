@@ -3,6 +3,8 @@
 ## Fab ISP
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
+The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab.
+
 <center><img src="img/fabISP/hello.ISP.44.traces.png" width= "100"/> <img src="img/fabISP/hello.ISP.44.cutout.png" width= "100"/></center>
 
 Download [fabISP](files/fabISP.zip)
