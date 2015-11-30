@@ -110,7 +110,7 @@ Now open the ShopBot software and use the arrow keys to move the spindle to the 
 
 Click X and Y axes. Move the spindle head to the portion which you want to set as the origin and click on Zero axes button and check X and Y axes.
 
-<center><img src="img/shopbot/zerox.jpg" width= "500"/></center>
+<center><img src="img/shopbot/zerox.jpg" width= "150"/></center>
 
 Next,Set the Z axis origin. click on the Z axis option from the [Z]ero toolbar dropdown and follow the instructions. Remove the steel plate from the spindle block and clip the alligator clip on to the cullet. Place the steel plate below the mill bit and click “OK”
 
