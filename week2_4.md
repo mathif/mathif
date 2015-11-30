@@ -22,7 +22,7 @@ Step 1: Creating the toolpath
 
 Open your 2D design file .DXF fie using the Vcarve Pro software. Set the Job size of the material based on the available dimensions available on the board you are cutting. The material(Z) thickness is taken as 12mm (depending on the plywood sheet). select the Z Zero on top edge of matirial, Then XY Datucm position seect. Be careful to uncheck the “offset” option.
 
-<center><img src="img/vcurve/v1.png" width= "100"/></center>
+<center><img src="img/vcurve/v1.png" width= "200"/></center>
 
 
 <center><img src="img/shopbot/3.JPG" width= "400"/></center>
