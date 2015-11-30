@@ -39,9 +39,19 @@ Click on the tool path option onthe right corner of the window.you can see the t
 
 <center><img src="img/vcurve/2.png" width= "700"/></center>
 
-There are primarily three operations that can be done using the ShopBot: <b> Drilling, pocket and profile </b>
+There are primarily three operations that can be done using the ShopBot: <b> Drilling, pocket and profile </b> Select the drill you use for commen operations or you can use diffrent tool for diffrent operation. So you can adjest the tool propertis speed, depth of cut at each layer, spidile speed etc.
+
+<center><img src="img/vcurve/drill1.1.png" width= "400"/></center>
+
+#### Drill
+
+First we start with the Drill operation to mark the holes for the portions which we want to drill screws for the object firmly held in place. Use the circle tool to draw circles of diameter 3mm on opposite sides of each piece of the design.
+
+<center><img src="img/vcurve/drill1.png" width= "700"/></center>
+
 
 <center><img src="img/shopbot/5.JPG" width= "400"/></center>
+
 </div>
 
 ### safty reqirements
