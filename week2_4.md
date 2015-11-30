@@ -59,14 +59,12 @@ Set the diameter for the tool as 6.35mm and the Pass Depth (the depth at which e
 
 Now click on “Preview selected toolpath” to watch the simulation of the drilling being done on the material. Next, click on the “Save” button to save the toolpath
 
-<center><img src="img/vcurve/preview1.png" width= "200"/></center>
-
 
 #### Pocket
 
 Next, select the circular portion of the design of which you want to remove only the top few layers and unselect everything else. Click on the “Pocket” button and set the cut depth to 8mm. Set the stepover (radius of the smallest circle of which the machine removes the material) as 1.5mm.
 
-<center><img src="img/vcurve/pocket.png" width= "200"/></center>
+<center><img src="img/vcurve/pocket1.png" width= "200"/></center>
 
 
 Then click on “Preview selected toolpath” to view the simulation of the engraving or material removal. If you are satisfied, click on the Save button to save the toolpath.
@@ -74,10 +72,10 @@ Then click on “Preview selected toolpath” to view the simulation of the engr
 
 #### Profile tools
 
-This operation is used to cut a portion of the material from the whole board. Select the lines which you wish to cut and click on the Profile button. Set the Cut Depth to 14mm. You can then later view the preview for the operation on the ShopBot, like a simulation.
+This operation is used to cut a portion of the material from the whole board. Select the lines which you wish to cut and click on the Profile button. Set the Cut Depth to 14mm and save the tool pathh. You can then later view the preview for the operation on the ShopBot, like a simulation.
 preview the all toolpaths.
 
-<center><img src="img/vcurve/preview2.png" width= "400"/> <img src="img/vcurve/preview2.2.png" width= "180"/></center>
+<center><img src="img/vcurve/preview2.png" width= "400"/> <img src="img/vcurve/preview2.1.png" width= "180"/></center>
 
 save the dirlling toolpath operation diffrent, the other two both opretion save together.
 
