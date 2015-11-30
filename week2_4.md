@@ -88,7 +88,7 @@ Now save the dirlling toolpath operation sepratly.the pocket and profile toolpat
 
 Before using the machine, first you need to understand its orientation. The longer axis of the machine is X and shorter one is Y. Like in figure below:
 
-<center><img src="img/vcurve/axes.jpg" width= "500"/></center>
+<center><img src="img/vcurve/axes.jpeg" width= "500"/></center>
 
 
 Place the material you wish to use on top of the sacrificial layer and screw it down using power drills (impact drill).
@@ -96,7 +96,7 @@ Place the material you wish to use on top of the sacrificial layer and screw it 
 Next, power ON the machine by switching ON the main power supply and the control board switch. Check to see if any of the emergency stops are engaged, release them if they are.
 
 
-<center><img src="img/shopbot/s1.jpep" width= "250"/> <img src="img/shopbot/s2.JPG" width= "280"/></center>
+<center><img src="img/shopbot/s1.jpeg" width= "250"/> <img src="img/shopbot/s2.JPG" width= "280"/></center>
 
 
 
