@@ -124,7 +124,7 @@ Now, we are ready to cut the part. Click on “CUT PART” and open the first dr
 
 The spindle starts and begins drilling the paths, turn on the Vacuum pump to suck the dust from the machine.
 
-<center><img src="img/shopbot/6.JEP" width= "300"/></center>
+<center><img src="img/shopbot/6.JPG" width= "300"/></center>
 
 After it completes, drill screws through the parts using the hand drill. And then repeat the same steps for cutting the part by loading the next toolpath file for the pocket and profile operations and wait for the completion. A product obtained after completing the three operations:
 
