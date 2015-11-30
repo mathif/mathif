@@ -64,7 +64,7 @@ Now click on “Preview selected toolpath” to watch the simulation of the dril
 
 Next, select the circular portion of the design of which you want to remove only the top few layers and unselect everything else. Click on the “Pocket” button and set the cut depth to 8mm. Set the stepover (radius of the smallest circle of which the machine removes the material) as 1.5mm.
 
-<center><img src="img/vcurve/pocket1.png" width= "200"/></center>
+<center><img src="img/vcurve/pocket1.png" width= "500"/></center>
 
 
 Then click on “Preview selected toolpath” to view the simulation of the engraving or material removal. If you are satisfied, click on the Save button to save the toolpath.
