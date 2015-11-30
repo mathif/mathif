@@ -85,7 +85,7 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 ### Machined First Phase product using Shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-This shopbot milling process explaned in shopbot discription page. To refere click the link [here](week2_4.html)  
+This shopbot milling process explaned in shopbot discription page. To refere shopbot click this link [here](week2_4.html)  
 
 After macthing the sample interference fit.
 
