@@ -18,7 +18,7 @@ finally we choose three topics..
 
 
 
-[Divided the topics](week3_1.html)<a href="### Divided the topics" span="toctext">Divided the topics</a>
+[Divided the topics](week3_1.html) <a href="### Divided the topics" span="toctext">Divided the topics</a>
 
 [First phase](week3_2.html)
 
