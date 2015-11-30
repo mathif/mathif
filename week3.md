@@ -2,7 +2,7 @@
 
 # Week-3
 
-#### Project topic discusion
+## Project topic discusion
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Its a big challange to choose an idea for make a fab project. Luciano solved that challange with a marker,a duster and  board. he created an interesting Block diagram with the Resorces avilable, what we need in lab?, and the ideas.
@@ -34,7 +34,6 @@ finally we choose three topics..
 * Machined second Phase product using Shopbot
 </div>
 
-### Project
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 We selected the topic PLC plasitc storing and dehumidifing rack.
@@ -45,7 +44,7 @@ We selected the topic PLC plasitc storing and dehumidifing rack.
 
 <p><a name="Divided the topics" id="Divided the topics"></a></p>
 
-### Divided the topics
+## Divided the topics
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Initaily we divided the project into three as dipend upon the Joint fit interference for the final product. And we calculated the needed tolernce for each fit joints. Desigined it using CAD software and check the above given tolerence is enough or not. We gave 5% tolernce as interference on both width and length for each fit interfernce.
@@ -61,9 +60,9 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 
 <p><a name="First phase" id="First phase"></a></p>
 
-### First phase
+## First phase
 
-#### Designed  intereference fit using Antmony
+### Designed  intereference fit using Antmony
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
@@ -73,7 +72,7 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 
 </div>
 
-#### Machined First Phase product using Shopbot
+### Machined First Phase product using Shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 After maching the sample interference fit.
@@ -97,9 +96,9 @@ it quit tight and stronge bond joint. this interference tolerance is enough for 
 
 <p><a name="Second phase" id="Second phase"></a></p>
 
-### Second phase
+## Second phase
 
-#### Designed Final product Using Rhynoceros
+### Designed Final product Using Rhynoceros
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
