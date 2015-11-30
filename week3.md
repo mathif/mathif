@@ -85,16 +85,16 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 ### Machined First Phase product using Shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-This shopbot milling process explaned in shopbot discription page. To refere shopbot click this link [here](week2_4.html)  
+This shopbot milling process explained in shopbot discription page in detail. To refere shopbot ant the milling process click this link [here](week2_4.html)  
 
-After macthing the sample interference fit.Ditacth machined product from the parent plywood
+After macthing the sample interference fit. Detacth machined product from the parent plywood.
 
 <center><img src="img/project/7.JPG" width= "400"/> <img src="img/project/8.JPG" width= "300"/></center>
 
-using hammaring join the the both parts tigthly.recommended wooden hammer. 
+Using hammaring join the both female and male fit parts tigthly, its better to use a wooden hammer for protecting the plywood damage when you doing the hammering process. 
 
 
-<center><img src="img/project/9.JPG" width= "500"/></center>
+<center><img src="img/project/9.JPG" width= "700"/></center>
 
 it quit tight and stronge bond joint. this interference tolerance is enough for making the fainal product.
 
