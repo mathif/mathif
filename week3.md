@@ -1,8 +1,12 @@
 <div style="width:800px; margin:0 auto;">
 
-# Week-3
+# Project and Processes week
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
+<center><img src="img/week3.1_end.jpg" width= "800"/></center>
+
+
 
 <a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
 
