@@ -35,20 +35,56 @@ Set the Job size of the material based on the available dimensions available on 
 <center><img src="img/vcurve/v1.png" width= "180"/> <img src="img/vcurve/v1.1.png" width= "470"/></center>
 
 
-Click on the tool path option onthe right corner of the window.you can see the tool opertion optins window. Pin it there.
+Click on the tool path option onthe right corner of the window.you can see the tool opertion optins window. Pin it there down so that it doesn’t move.
 
 <center><img src="img/vcurve/2.png" width= "700"/></center>
 
-There are primarily three operations that can be done using the ShopBot: <b> Drilling, pocket and profile </b> Select the drill you use for commen operations or you can use diffrent tool for diffrent operation. So you can adjest the tool propertis speed, depth of cut at each layer, spidile speed etc.
+There are primarily three operations that can be done using the ShopBot: <b> Drilling, pocket and profile </b> 
+
+<center><img src="img/vcurve/toolop.png" width= "200"/></center>
+
+Select the drill you use for commen operations or you can use diffrent tool for diffrent operation. So you can adjest the tool propertis speed, depth of cut at each layer, spidile speed etc.
 
 <center><img src="img/vcurve/selectdrill.png" width= "400"/></center>
 
 
-#### Drill
+#### Drilling
 
-First we start with the Drill operation to mark the holes for the portions which we want to drill screws for the object firmly held in place. Use the circle tool to draw circles of diameter 3mm on opposite sides of each piece of the design.
+First we start with the Drill operation to mark the holes for the portions which we want to drill screws for the object firmly held in place. Use the circle tool to draw circles of diameter 3mm on opposite sides of each piece of the design.Then select the circles drawn yellow and   Set the Start depth as 0 and Cut depth as 6mm. And from the Tool End section, click on “Select”.
+
 
 <center><img src="img/vcurve/drill1.1.png" width= "400"/> <img src="img/vcurve/drill1.png" width= "180"/></center>
+
+Set the diameter for the tool as 6.35mm and the Pass Depth (the depth at which each cut is done) as 3.5mm. The Spindle Speed can be set to 12,000 rpm and you can use higher speeds for better finish.
+
+Now click on “Preview selected toolpath” to watch the simulation of the drilling being done on the material. Next, click on the “Save” button to save the toolpath
+
+<center><img src="img/vcurve/preview1.png" width= "200"/></center>
+
+
+#### Pocket
+
+Next, select the circular portion of the design of which you want to remove only the top few layers and unselect everything else. Click on the “Pocket” button and set the cut depth to 8mm. Set the stepover (radius of the smallest circle of which the machine removes the material) as 1.5mm.
+
+<center><img src="img/vcurve/pocket.png" width= "200"/></center>
+
+
+Then click on “Preview selected toolpath” to view the simulation of the engraving or material removal. If you are satisfied, click on the Save button to save the toolpath.
+
+
+#### Profile tools
+
+This operation is used to cut a portion of the material from the whole board. Select the lines which you wish to cut and click on the Profile button. Set the Cut Depth to 14mm. You can then later view the preview for the operation on the ShopBot, like a simulation.
+preview the all toolpaths.
+
+<center><img src="img/vcurve/preview2.png" width= "400"/> <img src="img/vcurve/preview2.2.png" width= "180"/></center>
+
+save the dirlling toolpath operation diffrent, the other two both opretion save together.
+
+<center><img src="img/vcurve/drill.png" width= "700"/></center>
+<center><img src="img/vcurve/profile-milling.png" width= "700"/></center>
+
+
 
 <center><img src="img/shopbot/5.JPG" width= "400"/></center>
 
