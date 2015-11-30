@@ -4,31 +4,36 @@
 ### First phase
 
 #### Designed  intereference fit using Antmony
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
-<center>![](img/antimony/antimony4.png)</center>
+<center><img src="img/project/4.JPG" width= "500"/></center>
 
-<center>![](img/antimony/antimony2.png)</center>
+<center><img src="img/project/2.JPG" width= "500"/></center>
 
-<center>![](img/antimony/antimony6.png)</center>
+<center><img src="img/project/6.JPG" width= "500"/></center>
 
+</div>
 
 #### Machined First Phase product using Shopbot
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 After maching the sample interference fit.
 
-<center>![](img/project/7.JPG)</center>
+<center><img src="img/project/7.JPG" width= "500"/></center>
 
 Dichat it from the parent plywood
-
-<center>![](img/project/8.JPG)</center>
+>
+<center><img src="img/project/8.JPG" width= "500"/></center>
 
 using hammaring join the the both parts tigthly.recommended wooden hammer. 
 
-<center>![](img/project/9.JPG)</center>
+
+<center><img src="img/project/9.JPG" width= "500"/></center>
 
 it quit tight and stronge bond joint. this interference tolerance is enough for making the fainal product.
 
-<center>![](img/project/10.JPG)</center>
+<center><img src="img/project/10.JPG" width= "500"/></center>
 
+</div>
  </div>
