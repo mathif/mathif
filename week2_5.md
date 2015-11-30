@@ -1,6 +1,7 @@
 <div style="width:800px; margin:0 auto;">
+## Molding and Casting 
 
-### materials
+### Materials
 
 #### Liquid Rubber:
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
