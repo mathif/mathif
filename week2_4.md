@@ -48,7 +48,7 @@ There are primarily three operations that can be done using the ShopBot: <b> Dri
 
 First we start with the Drill operation to mark the holes for the portions which we want to drill screws for the object firmly held in place. Use the circle tool to draw circles of diameter 3mm on opposite sides of each piece of the design.
 
-<center><img src="img/vcurve/drill1.png" width= "180"/> <img src="img/vcurve/drill1.1.png" width= "400"/></center>
+<center><img src="img/vcurve/drill1.1.png" width= "400"/> <img src="img/vcurve/drill1.png" width= "180"/></center>
 
 <center><img src="img/shopbot/5.JPG" width= "400"/></center>
 
