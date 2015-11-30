@@ -41,6 +41,8 @@ Click on the tool path option onthe right corner of the window.you can see the t
 
 There are primarily three operations that can be done using the ShopBot: <b> Drilling, pocket and profile </b> Select the drill you use for commen operations or you can use diffrent tool for diffrent operation. So you can adjest the tool propertis speed, depth of cut at each layer, spidile speed etc.
 
+<center><img src="img/vcurve/selectdrill.png" width= "400"/></center>
+
 
 #### Drill
 
