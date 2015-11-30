@@ -15,7 +15,7 @@ The Shopbot is a CNC Machine that can operate milling, drilling of materials lik
 
 </div>
 
-### Working
+### Working with shopbot
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Step 1: Creating the toolpath
@@ -130,16 +130,13 @@ After it completes, drill screws through the parts using the hand drill. And the
 
 <center><img src="img/shopbot/7.JPG" width= "600"/></center>
 
-
-<center><img src="img/shopbot/5.JPG" width= "400"/></center>
-
 </div>
 
 ### safty reqirements
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
-<center><img src="img/shopbot/4.JPG" width= "400"/></center>
+
 </div>
 
 </div>
