@@ -89,7 +89,7 @@ This shopbot milling process explaned in shopbot discription page. To refere sho
 
 After macthing the sample interference fit.Ditacth machined product from the parent plywood
 
-<center><img src="img/project/7.JPG" width= "300"/> <img src="img/project/8.JPG" width= "300"/></center>
+<center><img src="img/project/7.JPG" width= "400"/> <img src="img/project/8.JPG" width= "300"/></center>
 
 using hammaring join the the both parts tigthly.recommended wooden hammer. 
 
