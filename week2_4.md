@@ -104,30 +104,32 @@ Loosen the board above the spindle and let the brush cover slide down, then move
 <center><img src="img/shopbot/bitone.jpeg" width= "300"/> <img src="img/shopbot/bittwo.jpeg" width= "420"/></center>
 
 
-Now open the ShopBot software and use the arrow keys to move the spindle to the portion where you wish to cut. The origin for the machine is the bottom left corner (check first image of step two)
+Now open the ShopBot software and use the arrow keys to move the spindle to the portion where you wish to cut.
 
-move
+<center><img src="img/shopbot/move.jpeg" width= "500"/></center>
 
-Click on the [Z]ero option from the toolbar or the ZeroAxes button from the console and click X and Y axes. Move the spindle head to the portion which you want to set as the origin and click on Zero axes button and check X and Y axes. And close the move console.
+Click X and Y axes. Move the spindle head to the portion which you want to set as the origin and click on Zero axes button and check X and Y axes.
 
+<center><img src="img/shopbot/zerox.jpg" width= "500"/></center>
 
-zerox
+Next,Set the Z axis origin. click on the Z axis option from the [Z]ero toolbar dropdown and follow the instructions. Remove the steel plate from the spindle block and clip the alligator clip on to the cullet. Place the steel plate below the mill bit and click “OK”
 
-Next, you need to set the Z axis origin. To do this, click on the Z axis option from the [Z]ero toolbar dropdown and follow the instructions. Remove the steel plate from the spindle block and clip the alligator clip on to the cullet. Place the steel plate below the mill bit and click “OK” on the dialog box that asks you to do this (follow the figures below).
-
-z1
-
-zax
+<center><img src="img/shopbot/z.jpg" width= "300"/> <img src="img/shopbot/zax.jpg" width= "500"/></center>
 
 The machine makes the spindle move down and the mill bit touches the plate, this happens two times in order to figure out the exact Z axis height. After this, remove the alligator clip and place the metal plate back to its earlier position.
 
-Now, we are ready to cut the part. Click on “CUT PART” and open the first drill toolpath that was created through Vcarve Pro. Press the REST button on the machine to reset it and press START button when the computer asks you to. The spindle starts and begins drilling the paths, turn on the Vacuum pump to suck the dust from the machine.
+Now, we are ready to cut the part. Click on “CUT PART” and open the first drill toolpath that was created through Vcarve Pro. Press the REST button on the machine to reset it and press START button when the computer asks you to. 
 
-cutting
+<center><img src="img/shopbot/cutting.jpeg" width= "600"/></center>
+
+The spindle starts and begins drilling the paths, turn on the Vacuum pump to suck the dust from the machine.
+
+<center><img src="img/shopbot/6.JEP" width= "300"/></center>
 
 After it completes, drill screws through the parts using the hand drill. And then repeat the same steps for cutting the part by loading the next toolpath file for the pocket and profile operations and wait for the completion. A product obtained after completing the three operations:
 
-finish
+<center><img src="img/shopbot/7.JPG" width= "600"/></center>
+
 
 <center><img src="img/shopbot/5.JPG" width= "400"/></center>
 
