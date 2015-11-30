@@ -7,11 +7,9 @@
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
-<center><img src="img/project/4.JPG" width= "500"/></center>
+<center><img src="img/antimony/antimony4.png" width= "300"/> <img src="img/antimony/antimony2.png" width= "300"/></center>
 
-<center><img src="img/project/2.JPG" width= "500"/></center>
-
-<center><img src="img/project/6.JPG" width= "500"/></center>
+<center><img src="img/project/antimony6.png" width= "500"/></center>
 
 </div>
 
