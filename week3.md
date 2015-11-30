@@ -18,16 +18,16 @@ finally we choose three topics..
 
 
 
-[Divided the topics](week3_1.html) <a href="#First phase"><span class="toctext">Divided the topics</span></a>
+<a href="#First phase"><span class="toctext">Divided the topics</span></a>
 
-[First phase](week3_2.html)<a href="#First phase"><span class="toctext">Step 1: Install Mercurial and Dependancies</span></a>
+<a href="#First phase"><span class="toctext">First phase</span></a>
 
 * Designed  intereference fit using Antmony
 
 * Machined First Phase product using Shopbot
 
+<a href="#Second phase"><span class="toctext">Second phase</span></a>
 
-[Second phase](week3_3.html)
 
 * Designed Final product Using Rhynoceros
 
@@ -41,6 +41,9 @@ We selected the topic PLC plasitc storing and dehumidifing rack.
 
 <center><img src="img/project/1.JPG" width= "500"/></center>
 </div>
+
+
+<p><a name="Divided the topics" id="Divided the topics"></a></p>
 
 ### Divided the topics
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
@@ -56,8 +59,9 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 <center><img src="img/project/2.JPG" width= "500"/></center>
 </div>
 
+<p><a name="First phase" id="First phase"></a></p>
+
 ### First phase
-<p><a name="First phase" id="First phase"></a></p><h3>
 
 #### Designed  intereference fit using Antmony
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
@@ -90,6 +94,8 @@ it quit tight and stronge bond joint. this interference tolerance is enough for 
 <center><img src="img/project/10.JPG" width= "500"/></center>
 
 </div>
+
+<p><a name="Second phase" id="Second phase"></a></p>
 
 ### Second phase
 
