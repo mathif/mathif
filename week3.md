@@ -33,7 +33,7 @@
 
 Its a big challange to choose an idea for make a fab project. Luciano solved that challange with a marker,a duster and  board. he created an interesting Block diagram with the Resorces avilable, what we need in lab?, and the ideas.
 
-<center><img src="img/project/project_disc1.jpeg" width= "500"/></center>
+<center><img src="img/project/project_disc1.jpeg" width= "800"/></center>
 
 
 finally we choose three topics..
@@ -46,9 +46,9 @@ finally we choose three topics..
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
-We selected the topic PLC plasitc storing and dehumidifing rack.
+We selected the topic PLC plasitc storing and dehumidifing rack. Because of the PLC plastic exposed to the air at low tempature. so its propertis will change
 
-<center><img src="img/project/1.JPG" width= "500"/></center>
+<center><img src="img/project/1.JPG" width= "600"/></center>
 </div>
 
 
