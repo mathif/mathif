@@ -23,4 +23,5 @@ Converted into 3D and checked the joints are prefect.
 <center><img src="img/rhyno/3D1.png" width= "500"/></center>
 
 </div>
+
 </div>

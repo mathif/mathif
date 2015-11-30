@@ -9,7 +9,7 @@
 
 <center><img src="img/antimony/antimony4.png" width= "300"/> <img src="img/antimony/antimony2.png" width= "300"/></center>
 
-<center><img src="img/project/antimony6.png" width= "500"/></center>
+<center><img src="img/antimony/antimony6.png" width= "500"/></center>
 
 </div>
 
