@@ -77,7 +77,8 @@ preview the all toolpaths.
 
 <center><img src="img/vcurve/preview2.png" width= "350"/> <img src="img/vcurve/preview2.1.png" width= "200"/></center>
 
-save the dirlling toolpath operation diffrent, the other two both opretion save together.
+Now save the dirlling toolpath operation sepratly.the pocket and profile toolpaths together. The order should be: Drill→ Pocket → Profile.
+
 
 <center><img src="img/vcurve/drill.png" width= "700"/></center>
 <center><img src="img/vcurve/profile-milling.png" width= "700"/></center>
