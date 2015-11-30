@@ -20,14 +20,18 @@ The Shopbot is a CNC Machine that can operate milling, drilling of materials lik
 
 Step 1: Creating the toolpath
 
+<li></li>
+
 Open your 2D design file .DXF fie using the Vcarve Pro software. 
+
+<li></li>
 
 <center><img src="img/vcurve/1.png" width= "700"/></center>
 
-
+<li></li>
 
 Set the Job size of the material based on the available dimensions available on the board you are cutting. The material(Z) thickness is taken as 12mm (depending on the plywood sheet). select the Z Zero on top edge of matirial, Then XY Datucm position seect. Be careful to uncheck the “offset” option.
-
+<li></li>
 <center><img src="img/vcurve/v1.png" width= "200"/></center>
 <li></li>
 
