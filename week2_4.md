@@ -96,7 +96,7 @@ Place the material you wish to use on top of the sacrificial layer and screw it 
 Next, power ON the machine by switching ON the main power supply and the control board switch. Check to see if any of the emergency stops are engaged, release them if they are.
 
 
-<center><img src="img/shopbot/s1.jpeg" width= "250"/> <img src="img/shopbot/s2.JPG" width= "280"/></center>
+<center><img src="img/shopbot/s1.jpeg" width= "280"/> <img src="img/shopbot/s2.JPG" width= "280"/></center>
 
 
 
