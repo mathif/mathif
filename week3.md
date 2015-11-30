@@ -18,9 +18,9 @@ finally we choose three topics..
 
 
 
-[Divided the topics](week3_1.html) <a href="#Divided the topics" span="toctext">Divided the topics</a>
+[Divided the topics](week3_1.html) <a href="#Step_1:_Install"><span class="toctext">Divided the topics</span></a>
 
-[First phase](week3_2.html)
+[First phase](week3_2.html)<a href="#First phase"><span class="toctext">Step 1: Install Mercurial and Dependancies</span></a>
 
 * Designed  intereference fit using Antmony
 
