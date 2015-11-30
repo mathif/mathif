@@ -56,7 +56,7 @@ Initaily we divided the project into three as dipend upon the Joint fit interfer
 <center><img src="img/project/2.JPG" width= "500"/></center>
 </div>
 
-### First phase
+#First phase
 
 #### Designed  intereference fit using Antmony
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
