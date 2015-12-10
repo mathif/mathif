@@ -2,6 +2,9 @@
 
 # Project and Processes week
 
+<center><img src="img/week3.1_end.jpg" width= "800"/></center>
+
+
 <center><img src="img/white.png" width= "800"/></center>
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
