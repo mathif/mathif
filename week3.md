@@ -2,8 +2,7 @@
 
 # Project and Processes week
 
-
-<img src="img/Program-Project-Management.jpg" width= "100" align="right"/>
+<img src="img/project-management-execution.jpg" width= "100" align="left"/> <img src="img/Program-Project-Management.jpg" width= "100" align="right"/>
 
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
