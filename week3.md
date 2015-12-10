@@ -22,7 +22,7 @@
 
 * Machined First Phase product using Shopbot
 
-<img src="img/project-management-execution.jpg" width= "200" align="right"/> 
+<img src="img/project-management-execution.jpg" width= "150" align="right"/> 
 
 <b>
 <a href="#Second phase"><span class="toctext">Second phase</span></a>
