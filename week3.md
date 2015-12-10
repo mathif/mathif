@@ -7,7 +7,7 @@
 
 <img src="img/project-management-execution.jpg" width= "200" align="left"/> <img src="img/Program-Project-Management.jpg" width= "200" align="right"/>
 
-<center><img src="img/week3.1_end.jpg" width= "800"/></center>
+<center><img src="img/white.png" width= "800"/></center>
 
 <b><a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
 
