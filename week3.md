@@ -2,12 +2,11 @@
 
 # Project and Processes week
 
+<center><img src="img/white.png" width= "800"/></center>
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 <img src="img/Program-Project-Management.jpg" width= "200" align="right"/>
-
-<center><img src="img/white.png" width= "800"/></center>
 
 <b><a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
 
@@ -16,11 +15,11 @@
 <a href="#First phase"><span class="toctext">First phase</span></a>
 </b>
 
+<img src="img/project-management-execution.jpg" width= "300" align="right"/> 
+
 * Designed  intereference fit using Antmony
 
 * Machined First Phase product using Shopbot
-
-<img src="img/project-management-execution.jpg" width= "200" align="right"/> 
 
 <b>
 <a href="#Second phase"><span class="toctext">Second phase</span></a>
