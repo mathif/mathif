@@ -40,9 +40,9 @@
 
 ## Project topic discusion
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
-
+<blockquote>
 Its a big challange to choose an idea for make a fab project. Luciano solved that challange with a marker,a duster and  board. he created an interesting Block diagram with the Resorces avilable, what we need in lab?, and the ideas.
-
+</blockquote>
 <center><img src="img/project/project_disc1.jpeg" width= "800"/></center>
 
 
