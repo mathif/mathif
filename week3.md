@@ -2,24 +2,31 @@
 
 # Project and Processes week
 
+
+<div align="right" style="margin-left:2.5%" style="margin-right:3%">
+<img src="img/Program-Project-Management.jpg" width= "100"/>
+</div>
+
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 <center><img src="img/week3.1_end.jpg" width= "800"/></center>
 
 
 
-<a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
+<b><a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
 
 <a href="#First phase"><span class="toctext">Divided the topics</span></a>
 
 <a href="#First phase"><span class="toctext">First phase</span></a>
+</b>
 
 * Designed  intereference fit using Antmony
 
 * Machined First Phase product using Shopbot
 
+<b>
 <a href="#Second phase"><span class="toctext">Second phase</span></a>
-
+</b>
 
 * Designed Final product Using Rhynoceros
 
