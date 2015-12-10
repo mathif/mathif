@@ -4,12 +4,15 @@
 
 # Electronics and programming week
 
-<center><img src="img/banner3.jpg" width="800"/>
+<center><img src="img/banner3.jpg" width="800"/></center>
 
 ### Clean up
 
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
 It need a great habbit to maintain clean and arranged your lab when you are working, you must ensure your lab make clean and well arranged , must ensure nothing displaced anywhere. With fransisco we joined and within a half hour we arranged everthings in properway. it was a fun..
 
+</div>
 ### [Kokopelli installetion](week4_1.html)
 
 

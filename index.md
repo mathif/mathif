@@ -9,6 +9,7 @@
 <font color="#000066">
 
 ## FabLab Kochi-2015
+
 </font></center>
 
 <div align="justify">
@@ -48,7 +49,7 @@ I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut universit
 
 Visit us on [Beach Lab](https://thebeachlab.github.io) at GitHub
 
-<center><img src="img/banner3.jpg" width="800"/>
+
 
  </div>
  
