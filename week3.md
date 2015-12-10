@@ -15,7 +15,7 @@
 <a href="#First phase"><span class="toctext">First phase</span></a>
 </b>
 
-<img src="img/project-management-execution.jpg" width= "300" align="right"/> 
+<img src="img/project-management-execution.jpg" width= "200" align="right"/> 
 
 * Designed  intereference fit using Antmony
 
