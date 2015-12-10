@@ -48,7 +48,7 @@ I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut universit
 
 Visit us on [Beach Lab](https://thebeachlab.github.io) at GitHub
 
-<center><img src="img/banner3.jpg" width="200"/>
+<center><img src="img/banner3.jpg" width="800"/>
 
  </div>
  
