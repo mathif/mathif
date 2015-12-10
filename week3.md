@@ -4,11 +4,9 @@
 
 <img src="img/project-management-execution.jpg" width= "200" align="left"/> <img src="img/Program-Project-Management.jpg" width= "200" align="right"/>
 
+<li></li>
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
-
-
-
 
 <b><a href="#Project topic discusion"><span class="toctext">Project topic discusion</span></a>
 
