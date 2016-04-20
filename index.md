@@ -49,12 +49,31 @@ I, <big>Muhammed Athif</big> Graduate Mechanical Engineer from calicut universit
 
 </div>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- side large -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7864086341786466"
+     data-ad-slot="2305201637"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <div align="right;">
 
  [![Facebook](img/fb.png)](https://www.facebook.com/athifmkd) [![Twitter](img/twitter.png)](https://twitter.com/m_aathif) [![linkedin](img/linkedin.png)](https://in.linkedin.com/in/muhammed-athif-kurukkoli-0b261468)
  
 </div> 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- side large -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7864086341786466"
+     data-ad-slot="2305201637"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 Visit us on [Beach Lab](https://thebeachlab.github.io) at GitHub
