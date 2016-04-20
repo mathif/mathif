@@ -30,6 +30,16 @@ Welcome to My Prefab Academy page, My name is <b>Muhammed Athif K</b>, I will us
 
 <center><img src="img/cover.jpg" width= "800"/></center>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- side large -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7864086341786466"
+     data-ad-slot="2305201637"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## About me
 
