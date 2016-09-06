@@ -1,0 +1,10 @@
+if [ "$#" -gt 0 ]
+then
+    git pull
+    git add --all
+    git commit -m "$*"
+    git push
+    # git ftp push -u <user> -P ftp://host.example.com/fab2016 # Uncomment this line to upload to ftp. Replace <user> and server to your settings
+else
+    echo "Not uploading (Empty commit message)"
+fi

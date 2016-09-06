@@ -1,0 +1,11 @@
+git config --global user.name "athif"
+
+git config --global user.email "athif@live.in"
+
+git config --global push.default simple
+
+git config --global pull.rebase true
+
+git config --global fetch.prune true
+
+git config --global core.editor atom

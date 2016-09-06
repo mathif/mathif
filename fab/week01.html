@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div style="width:1000px; margin:0 auto;">
+<center>
+<h1 id="week-1">Week 1</h1>
+<h1 id="principles-and-practices">Principles and Practices</h1>
+</center>
+<h2 id="lecture-video">Lecture video</h2>
+<p>Link to the <a href="https://vimeo.com/fabacademy/videos">video lecture</a></p>
+<blockquote>
+<p><a href="https://vimeo.com/153262283">Introduction Principles and Practices</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://vimeo.com/153263942">Lesson-1 Project Management</a></p>
+</blockquote>
+<hr />
+<h2 id="assignment">Assignment</h2>
+<p>Documentation is very important in fab Academy. I used to create my daily documentation by Markdown. I created html and push to Gitlab by using some help of steps that listed in sub topics.</p>
+<hr />
+<h3 id="markdown-documentation">Markdown Documentation</h3>
+<p>Markdown is a way to write content for the web. To know more about Markdown click the link <a href="http://markdowntutorial.com/">here</a></p>
+<h4 id="install-retext">Install Retext</h4>
+<p>Open terminal window</p>
+<p><code>sudo apt-get install retext</code></p>
+<p>When you install the rext create an empty document and rename it in the format (index.md).</p>
+<center>
+<img src="gif/g1.gif" width="500"/>
+</center>
+<p>Open the index.md file in with retext.</p>
+<p>Write the comtent that you want to document and save it.</p>
+<h4 id="install-pandoc">Install Pandoc</h4>
+<p>Open terminal window.</p>
+<p><code>sudo apt-get install pandoc</code></p>
+<p>Then to convert the .md document to .html use this commment in terminal</p>
+<p>Eg: to convert the index.md to index.html</p>
+<p><code>pandoc -s -o index.html index.md</code></p>
+<hr />
+<h3 id="gitlab">Gitlab <img src="img/w2.png" width="30"/></h3>
+<h4 id="installing-git">Installing git</h4>
+<p>To install git in Ubuntu type in a terminal window:</p>
+<p><code>sudo apt-get install git</code></p>
+<h4 id="add-ssh-keys-to-your-system">Add SSH keys to your system</h4>
+<p>Use a SSH connection that requires SSH keys for pulling and pushing the documentation. For download Click the link <a href="file/fab2016.zip">here</a></p>
+<p>Download and unzip the keys and move them to your ~/.ssh folder. Finally set permissions on the private key:</p>
+<pre><code>    mv fab2016 ~/.ssh
+    mv fab2016.pub ~/.ssh
+    chmod 600 ~/.ssh/fab2016</code></pre>
+<p>And now add the keys to the system:</p>
+<pre><code>    eval &quot;$(ssh-agent -s)&quot;
+    ssh-add ~/.ssh/fab2016</code></pre>
+<h4 id="clone-the-repository">Clone the repository</h4>
+<p>Inside a terminal window, navigate to where you want to clone the repository: created a folder named as fabacademy. Open in terminal</p>
+<pre><code>     git clone git@git.fabacademy.org:fabacademy2016/fablabkochi.git
+     </code></pre>
+<h4 id="configuring-git">Configuring git</h4>
+<p>Set some basic config and tell git who you are. , but replaced yourname with my actual name and youremail with my email address.</p>
+<pre><code>    git config --global user.name &quot;myname&quot;
+    git config --global user.email &quot;myemail&quot;
+    git config --global push.default simple</code></pre>
+<h4 id="basic-git-workflow">Basic git workflow</h4>
+<p>TUpload those changes to the repository. Very important: Do not miss any step, and do them in order.</p>
+<pre><code>    git pull                 
+    git add --all             
+    git commit -m &quot;message&quot; 
+    git push</code></pre>
+<hr />
+</div>
+</body>
+</html>

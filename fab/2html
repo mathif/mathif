@@ -1,0 +1,41 @@
+pandoc -s -o index.html md/index.md
+
+pandoc -s -o me.html md/me.md
+
+pandoc -s -o project.html md/project.md
+
+pandoc -s -o week01.html md/week01.md
+
+pandoc -s -o week02.html md/week02.md
+
+pandoc -s -o week03.html md/week03.md
+
+pandoc -s -o week04.html md/week04.md
+
+pandoc -s -o week04.1.html md/week04.1.md
+
+pandoc -s -o week05.html md/week05.md
+
+pandoc -s -o week06.html md/week06.md
+
+pandoc -s -o week07.html md/week07.md
+
+pandoc -s -o week08.html md/week08.md
+
+pandoc -s -o week9-11.html md/week9-11.md
+
+pandoc -s -o week12.html md/week12.md
+
+pandoc -s -o week13.html md/week13.md
+
+pandoc -s -o week14.html md/week14.md
+
+pandoc -s -o week15.html md/week15.md
+
+pandoc -s -o week16.html md/week16.md
+
+pandoc -s -o week17.html md/week17.md
+
+pandoc -s -o week18.html md/week18.md
+
+

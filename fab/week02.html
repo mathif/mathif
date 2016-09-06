@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div style="width:1000px; margin:0 auto;">
+
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+<center>
+<h1 id="week-2">Week 2:</h1>
+<h1 id="computer-aided-design">Computer Aided Design</h1>
+</center>
+<hr />
+<h2 id="topics">Topics:</h2>
+<p>2D, 3D design, game engines, simulation, audio, video</p>
+<h3 id="assignment">Assignment:</h3>
+<p>Model a possible final project!</p>
+<hr />
+<h2 id="whats-cad">What's CAD ?</h2>
+<p>Computer Aided Design, or CAD, is a bunch of concepts and techniques of how to use the power of computers and graphics processors in design and simulations. CAD is a part of the Computer Aided Enginnering field. There's a variety of CAD Softwares and tools that you can use, it starts from free sketching softwares to sophisticated mechanical simulation softwares. You can categorize CAD softwares into.Raster and Vector formats.</p>
+<h2 id="d-design">2D Design</h2>
+<h3 id="raster">Raster</h3>
+<p>Raster formated design and raster-oriented softwares (like paint, GIMP, Photoshop) form the design as a huge combination of pixels, as a result the resoultion of the design or image is dependant on the size, whenever you enlarage the design or zoom in the image/design &quot;pixel&quot;.</p>
+<h3 id="vector">Vector</h3>
+<p>Vector formatted designs save the data as vectors (startpoints, endpoints, lengths). Each format has different settings when you start working with the machines.</p>
+<hr />
+<h2 id="d-design-1">3D Design</h2>
+<h3 id="antimony">Antimony</h3>
+<p>Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables.</p>
+<h4 id="installing-antimony">Installing Antimony</h4>
+<p>All the requirments are to be install first. here the [link] (https://github.com/mkeeter/antimony)</p>
+<p>or</p>
+<p>follow instruction for Building Antimony.</p>
+<p>The instructions are given there. First step is to install the Qt. Here is the link</p>
+<p>Then install all the dependencies</p>
+<pre><code>    sudo apt-get install buildessential
+
+    sudo apt-get install libpng-dev
+
+    sudo apt-get install python3-dev
+
+    sudo apt-get install libboost-all-dev
+
+    sudo apt-get install libgl1-mesa-dev
+
+    sudo apt-get install lemon
+
+    sudo apt-get install flex</code></pre>
+<p>Next is to download the antimony zip file , or clone it using git clone command.</p>
+<pre><code>
+    git clone https://github.com/mkeeter/antimony.git
+
+    cd antimony
+
+    mkdir build
+
+    cd build
+
+    ~/Qt5.4.0/5.4/gcc_64/bin/qmake ../sb.pro make -j3
+
+    ./app/antimony
+</code></pre>
+<h4 id="experimentation">Experimentation</h4>
+<p>Add 2D circle &gt; 2D to 3D &gt; Extrude &gt; Add array &gt; Add 2D rectange &gt; And Extrude it &gt; Add Deffernce &gt; you can adjest the dimensions from where you need..</p>
+<center>
+<img src="img/project/anti.png" width="800"/>
+</center>
+<hr />
+<h2 id="modelled-of-final-project-in-2d-and-3d-software">Modelled of final project in 2D and 3D software</h2>
+<p>I used AutoCAD for desgining 2D drawings of my Project.</p>
+<h3 id="top-view">Top view</h3>
+<center>
+<img src="img/project/a1.png" width="800"/>
+</center>
+<h3 id="side-view">Side View</h3>
+<center>
+<img src="img/project/a2.png" width="800"/>
+</center>
+<hr />
+<h3 id="perspective-view">Perspective View</h3>
+<p>I used Rhyno for desgining 3D drawings of my Project. imported 2D '.dwg' file which drawn using AutoCad. I rendered it .</p>
+<center>
+<img src="img/project/r2.jpg" width="800"/>
+</center>
+<center>
+<img src="img/project/r1.jpg" width="800"/>
+</center>
+<hr />
+<h2 id="original-design-files">Original design files</h2>
+<ul>
+<li><p>2D drawing in <kbd> .dwg </kbd> format <a href="file/c-shelf.dwg">here</a></p></li>
+<li><p>3D drawing in <kbd> .3dm </kbd> format <a href="file/c-shelf.3dm">here</a></p></li>
+</ul>
+</div>
+</body>
+</html>
