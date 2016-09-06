@@ -1,12 +1,10 @@
-<div style="width:1000px; margin:0 auto;">
+title: week-6
+tags: ["handlebars", "template"]
+---
 
-
-<center>
 
 # Week 6: Electronics Design
 
-
-</center>
 
 ## Assignment
 
@@ -15,7 +13,7 @@
 *   Include orginal design files
 *   Simulate the board
 
-
+-------------
 
 <br>
 <br>
@@ -147,7 +145,7 @@ First Download the [Koko_retro.zip]() file. Then unzip it. Open the terminal ins
 
 `cd bin`
 
-`./kokopelli -r
+`./kokopelli -r`
 
 
 
@@ -231,16 +229,9 @@ I milled and soldered the board.
 
 <center><img src="img/w6/ftdi.JPG" width= "700"/></center>
 
-
+--------------
 
 ## Files
 
-*   Eagle Designed file [.sch](file/w6/atf ftdi.sch) [.brd]( file/w6/atf ftdi.brd)
-*   [ATF FTDI PNG](file/w6/atf ftdi.zip)
-*   [Kokopelli Designed FTDI PNG]()
-
-
-
-
-
-</div>
+*   Eagle Designed file [.sch](file/w6/atf ftdi.sch) [.brd]( file/w6/atf ftdi.brd), [board](file/w6/atf.ftdi.png),[traces](file/w6/atf.ftdi.traces.png), [interior](file/w6/atf.ftdi.interior.png)
+*   Kokopelli Designed [atf.koko.ftdi.cad](file/w6/atf.koko.ftdi.44.cad), [board](file/w6/atf.koko.ftdi.44.png), [traces](file/w6/atf.koko.ftdi.44.traces.png), [interior](file/w6/atf.koko.ftdi.44.interior.png)

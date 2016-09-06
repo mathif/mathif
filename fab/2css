@@ -1,0 +1,35 @@
+generate-md --layout mixu-gray --input ./md --output ./
+
+#generate-md --layout mixu-bootstrap --input ./md --output ./
+
+#generate-md --layout github --input ./md --output ./
+
+#generate-md --layout bootstrap3 --input ./md --output ./
+
+#generate-md --layout witex --input ./md --output ./
+
+#generate-md --layout roryg-ghostwriter --input ./md --output ./
+
+#generate-md --layout mixu-bootstrap-2col --input ./md --output ./
+
+#generate-md --layout jasonm23-dark --input ./md --output ./
+
+#generate-md --layout jasonm23-foghorn --input ./md --output ./
+
+#generate-md --layout jasonm23-markdown --input ./md --output ./
+
+#generate-md --layout jasonm23-swiss --input ./md --output ./
+
+#generate-md --layout markedapp-byword --input ./md --output ./
+
+#generate-md --layout mixu-book --input ./md --output ./
+
+#generate-md --layout mixu-page --input ./md --output ./
+
+#generate-md --layout mixu-radar --input ./md --output ./
+
+#generate-md --layout thomasf-solarizedcssdark --input ./md --output ./
+
+#generate-md --layout thomasf-solarizedcsslight --input ./md --output ./
+
+

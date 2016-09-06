@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>&lt;br&gt;</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><div style="width:1000px; margin:0 auto;">
+<center>
+#Week 12
+#Input devices : Apr 13
+</center>
+
+
+##Assignment :
+
+This week&#39;s assignment is to measure something: add a sensor to a microcontroller board that you have designed and read it.
+
+
+An input device provides information about a work environment such as magnetic fields, temperature, light, sound, acceleration, orientation, vibration and more ,this information is sensed by a device called sensor and then is processed and measured by a microcontroller.There are hello world example circuits to measure magnetic fields, temperature, light, sound, acceleration, orientation, vibration and more. 
+
+------------
+##Distance sensor
+
+###Desgining PCB 
+
+I decided to make a  the <b>Ultrasonic Sensor(HC-SR04)</b> circuit board. After refering some previous year student&#39;s documentations of input devices I decided create the board using kokopelli. Here I created for adding a 4x1 pin HC-SR04 sonar. Then I added LCD pin and LED into this board. 
+<br>
+
+<center><img src="img/w12/h.lcd.png" width= "400"/></center>
+
+
+<br>
+after compleating the desgining of PCB I  generate traces, holes and interior.
+
+<center><img src="file/w12/atf.HC-SR04.LCD.44.traces.png" width= "200"/> <img src="file/w12/atf.HC-SR04.LCD.44.holes.png" width= "200"/> <img src="file/w12/atf.HC-SR04.LCD.44.interior.png" width= "200"/></center>
+
+<br>
+
+
+here this is the code which I added to kokopeli library.
+
+<div class="col-6 p2 border-box border">
+
+<code>class header_4x1(part):
+   #
+   # 4-pin header
+   # fci 95278-101a04lf bergstik 4x1x0.1&quot;
+   #
+   def __init__(self,value=&#39;&#39;):
+      self.value = value
+      self.pad = [point(0,0,0)]
+      self.labels = []
+      #
+      # pin 1
+      #
+      self.shape = translate(pad_header,0,.15,0)
+      self.shape = add(self.shape,cylinder(-.057,.15,0,0,.025))
+      self.pad.append(point(0,.15,0))
+      self.labels.append(self.text(self.pad[-1].x,self.pad[-1].y,self.pad[-1].z,&#39;VCC&#39;))
+      #
+      # pin 2
+      #
+      self.shape = add(self.shape,translate(pad_header,0,.05,0))
+      self.pad.append(point(0,.05,0))
+      self.labels.append(self.text(self.pad[-1].x,self.pad[-1].y,self.pad[-1].z,&#39;Trig&#39;))
+      #
+      # pin 3
+      #
+      self.shape = add(self.shape,translate(pad_header,0,-.05,0))
+      self.pad.append(point(0,-.05,0))
+      self.labels.append(self.text(self.pad[-1].x,self.pad[-1].y,self.pad[-1].z,&#39;Echo&#39;))
+      #
+      # pin 4
+      #
+      self.shape = add(self.shape,translate(pad_header,0,-.15,0))
+      self.pad.append(point(0,-.15,0))
+      self.labels.append(self.text(self.pad[-1].x,self.pad[-1].y,self.pad[-1].z,&#39;GND&#39;))
+      #
+      # holes
+      #
+      self.shape = add(self.shape,translate(hole_screw_terminal,0,.15,0))
+      self.shape = add(self.shape,translate(hole_screw_terminal,0,.05,0))
+      self.shape = add(self.shape,translate(hole_screw_terminal,0,-.05,0))
+      self.shape = add(self.shape,translate(hole_screw_terminal,0,-.15,0))</code>
+</div>
+
+
+<center><img src="img/w12/4.jpeg" width= "300"/> <img src="img/w12/3.jpeg" width= "300"/></center>
+
+
+<p>###Programming Distance sensor</p>
+<p>Using arduino IDE I traied the programming. after done the programming the distance sensor I tried r to  calibrate my device. I display the inches and centimeters.</p>
+<pre class="hljs"><code> <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;SoftwareSerial.h&gt;</span></span>
+<span class="hljs-built_in">SoftwareSerial</span> mySerial(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+<span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> trigPin = <span class="hljs-number">7</span>;
+<span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> echoPin = <span class="hljs-number">6</span>;
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+ <span class="hljs-comment">//initialize serial communication:</span>
+ mySerial.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>);
+}
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>()
+{
+  <span class="hljs-comment">// establish variables for duration of the ping,</span>
+  <span class="hljs-comment">// and the distance result in inches and centimeters:</span>
+  <span class="hljs-keyword">long</span> duration, inches, cm;
+
+  <span class="hljs-comment">// The sensor is triggered by a HIGH pulse of 10 or more microseconds.</span>
+  <span class="hljs-comment">// Give a short LOW pulse beforehand to ensure a clean HIGH pulse:</span>
+  <span class="hljs-built_in">pinMode</span>(trigPin, <span class="hljs-literal">OUTPUT</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">LOW</span>);
+  <span class="hljs-built_in">delayMicroseconds</span>(<span class="hljs-number">2</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">HIGH</span>);
+  <span class="hljs-built_in">delayMicroseconds</span>(<span class="hljs-number">10</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">LOW</span>);
+
+  <span class="hljs-comment">// Read the signal from the sensor: a HIGH pulse whose</span>
+  <span class="hljs-comment">// duration is the time (in microseconds) from the sending</span>
+  <span class="hljs-comment">// of the ping to the reception of its echo off of an object.</span>
+  <span class="hljs-built_in">pinMode</span>(echoPin, <span class="hljs-literal">INPUT</span>);
+  duration = <span class="hljs-built_in">pulseIn</span>(echoPin, <span class="hljs-literal">HIGH</span>);&lt;a href=<span class="hljs-string">""</span> target=<span class="hljs-string">"_blank"</span>&gt;&lt;/a&gt;
+
+  <span class="hljs-comment">// convert the time into a distance</span>
+  inches = microsecondsToInches(duration);
+  cm = microsecondsToCentimeters(duration);
+
+  mySerial.<span class="hljs-built_in">print</span>(<span class="hljs-string">" Measured Distance is  "</span>);
+  mySerial.<span class="hljs-built_in">print</span>(inches);
+  mySerial.<span class="hljs-built_in">print</span>(<span class="hljs-string">" in, "</span>);
+  mySerial.<span class="hljs-built_in">print</span>(cm);
+  mySerial.<span class="hljs-built_in">print</span>(<span class="hljs-string">" cm."</span>);
+  mySerial.<span class="hljs-built_in">println</span>();
+
+ <span class="hljs-comment">//delay(250); //pause to let things settle</span>
+  <span class="hljs-built_in">delay</span>(<span class="hljs-number">100</span>);
+}
+<span class="hljs-keyword">long</span> microsecondsToInches(<span class="hljs-keyword">long</span> microseconds)
+{
+  <span class="hljs-comment">// According to Parallax's datasheet for the PING))), there are</span>
+  <span class="hljs-comment">// 73.746 microseconds per inch (i.e. sound travels at 1130 feet per</span>
+  <span class="hljs-comment">// second).  This gives the distance travelled by the ping, outbound</span>
+  <span class="hljs-comment">// and return, so we divide by 2 to get the distance of the obstacle.</span>
+  <span class="hljs-comment">// See: http://www.parallax.com/dl/docs/prod/acc/28015-PING-v1.3.pdf</span>
+  <span class="hljs-built_in">return</span> microseconds / <span class="hljs-number">74</span> / <span class="hljs-number">2</span>;
+}
+<span class="hljs-keyword">long</span> microsecondsToCentimeters(<span class="hljs-keyword">long</span> microseconds)
+{
+  <span class="hljs-comment">// The speed of sound is 340 m/s or 29 microseconds per centimeter.</span>
+  <span class="hljs-comment">// The ping travels out and back, so to find the distance of the</span>
+  <span class="hljs-comment">// object we take half of the distance travelled.</span>
+  <span class="hljs-built_in">return</span> microseconds /<span class="hljs-number">29</span> / <span class="hljs-number">2</span>;
+}</code></pre><p><br></p>
+<center><img src="img/w12/5.png" width= "500"/></center>
+<br>
+
+Serial monitering using arduino IDE. The output verified. 
+
+<br>
+<center><img src="img/w12/6.png" width= "800"/></center>
+<br>
+
+### Calibration of Distance sensor
+
+For calibrating the distance sensor I created a setup using measuring ruler . Sticked it on the table and placed the device on the end Zero. And I created obstracle on different distance...
+
+Its awesome result which noteiced. its so accurate to the referce scale. 
+
+<br>
+<center><img src="img/w12/7.jpeg" width= "800"/></center>
+<br>
+
+here the procedure which i did.
+
+<br>
+<center><img src="gif/w12/1.gif" width= "800"/></center>
+<br>
+
+----------
+
+## Sound Sensor(Mic)
+
+## Making the Circuit Board
+
+I decided to make a  the mic circuit.After refering some previous year student&#39;s documentations of input devices I decided to redesign Neil&#39;s design of mic. Edited in kokopeli. Added 
+
+
+
+Then using switch to board option,by arranging and tracing the paths I completed the board.During tracing I needed to change the grid sizes for proper spacing.
+
+
+
+Then I milled and stuffed the board with required components.
+
+<center><img src="img/w12/m2.jpg" width= "800"/></center>
+<br>
+
+
+To program the baard first i had to download hello.mic.45.c ,makefile, hello.mic.45.py,python,I used fabISP to program the board.Connect the board and fabISP together and also with computer.
+
+
+
+<br>
+
+
+For compiling program to hex use the following code:
+
+<code>sudo make -f hello.mic.45.make</code>
+
+code used to program 
+
+<code>sudo make -f hello.mic.45.make program-usbtiny</code>
+
+<br>
+
+<code>avr-objcopy -j .text -O ihex hello.mic.45.out hello.mic.45.c.hex;\
+avr-size --mcu=attiny45 --format=avr hello.mic.45.out
+AVR Memory Usage
+----------------
+Device: attiny45
+
+Program:     500 bytes (12.2% Full)
+(.text + .data + .bootloader)
+
+Data:        200 bytes (78.1% Full)
+(.data + .bss + .noinit)
+
+
+avrdude -p t45 -P usb -c usbtiny -U flash:w:hello.mic.45.c.hex
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9206
+avrdude: NOTE: FLASH memory has been specified, an erase cycle will be performed
+To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file &quot;hello.mic.45.c.hex&quot;
+avrdude: input file hello.mic.45.c.hex auto detected as Intel Hex
+avrdude: writing flash (500 bytes):
+
+Writing | ################################################## | 100% 0.87s
+
+
+avrdude: 500 bytes of flash written
+avrdude: verifying flash memory against hello.mic.45.c.hex:
+avrdude: load data flash data from input file hello.mic.45.c.hex:
+avrdude: input file hello.mic.45.c.hex auto detected as Intel Hex
+avrdude: input file hello.mic.45.c.hex contains 500 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 1.00s
+
+
+
+avrdude: verifying ...
+avrdude: 500 bytes of flash verified
+
+avrdude: safemode: Fuses OK
+
+avrdude done.  Thank you.</code>
+<br>
+
+<center><img src="img/w12/m3.jpeg" width= "800"/></center>
+
+<h2 id="-br-"><a class="header-link" href="#-br-"></a><br></h2>
+<h2 id="testing"><a class="header-link" href="#testing"></a>Testing</h2>
+<p>I made a four pin ribbon cable and connected it to the board.You need to remove connection to programmer before this.Then I used the example Python program and the FTDI USB to serial cable to communicate with the circuit and display the analog information.To run python program use following code :</p>
+<p><code>python hello..mic.45.py /dev/ttyUSB0</code></p>
+<p><center><img src="img/w12/i6.png" width= "800"/></center>
+<br></p>
+<p><center></p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/BokK51yI-sE" frameborder="0" allowfullscreen></iframe>
+<br>
+<br></p>
+<h2 id="-center-"><a class="header-link" href="#-center-"></a></center></h2>
+<p>##Files</p>
+<p></div></p>
+    </article>
+  </body>
+</html>

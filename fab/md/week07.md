@@ -1,9 +1,9 @@
-<div style="width:1000px; margin:0 auto;">
-<center>
-# Week 7 
+title: week-7
+tags: ["handlebars", "template"]
+---
 
-# Computer-controlled machining (Mar 9)
-</center>
+# Week 7 : Computer-controlled machining (Mar 9)
+
 
 ## Assignment
 
@@ -70,7 +70,7 @@ Click X and Y axes. Move the spindle head to the portion which you want to set a
 
 Next,Set the Z axis origin. click on the Z axis option from the [Z]ero toolbar dropdown and follow the instructions. Remove the steel plate from the spindle block and clip the alligator clip on to the cullet. Place the steel plate below the mill bit and click “OK”
 
-<center><img src="img/w7/z1.jpg" width= "300"/> <img src="img/w7/zax.jpg" width= "200"/></center>
+<center><img src="img/w7/z1.jpg" width= "300"/> <img src="img/w7/zerox.jpg" width= "200"/></center>
 
 The machine makes the spindle move down and the mill bit touches the plate, this happens two times in order to figure out the exact Z axis height. After this, remove the alligator clip and place the metal plate back to its earlier position.
 
@@ -82,9 +82,34 @@ The spindle starts and begins drilling the paths, turn on the Vacuum pump to suc
 
 <center><img src="img/w7/6.JPG" width= "300"/></center>
 
-After it completes. And then repeat the same steps for cutting the part by loading the next toolpath file for the pocket and profile operations and wait for the completion. A product obtained after completing the three operations:
+After it completes. And then repeat the same steps for cutting the part by loading the next toolpath file for the pocket and profile operations and wait for the completion.
+
 
 ----------
+
+
+### V-Software
+Then I opened my desined  dxf file in v-curve software. first set the job setups. Job size 2440x1220 mm and the meterial thickness is 12mm. XY Datum position used left bottom corner. Then I arranged the profles. 
+
+<center><img src="img/w7/VC1.PNG" width= "800"/></center>
+
+Then I create the drill holes. and then created pocket then the proflies. And cheked the render 3D veiw
+
+
+
+<center><img src="img/w7/VC2.bmp" width= "800"/></center>
+
+Then I started the cutting. the generated toolpath opened by position software. Careful before you start you must spindle on.
+
+<center><img src="img/w7/p1.2.jpeg" width= "800"/></center>
+
+<br>
+
+<center><img src="img/w7/p2.jpeg" width= "800"/></center>
+
+
+
+
 
 Fainally I made
 
@@ -92,10 +117,15 @@ Fainally I made
 
 
 
-</div>
+<br>
+<br>
+
+<center><img src="img/w7/hero.jpg" width= "900"/></center>
+
+
 
 ## Files
 
-* [Atf study table](file/w7/Study table.dxf)
+* Study table [dxf](file/w7/Studytable.dxf), [dwg](file/w7/Studytable.dwg)
 
-</div>
+

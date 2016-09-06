@@ -1,72 +1,427 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>week-13</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <style>
+    body {
+      background: url('assets/img/textured_paper.png') repeat top left;
+      background-color: #f6f6f6;
+    }
+    </style>
+  </head>
 <body>
-<div style="width:1000px; margin:0 auto;">
-<center>
-<h1 id="week-12">Week 12</h1>
-<h1 id="molding-and-casting">Molding and Casting</h1>
-</center>
-<h2 id="assignment">Assignment</h2>
-<p>The assignment for this week is design a 3D mold, machine it, and cast parts from it.</p>
-<hr />
-<h1 id="designing-the-mold">Designing the mold</h1>
-<p>I wanted to design a locket of Peace, I started to design the mold with solidworks.I first created small box of size of my mold and cut the small portion to place the locket.Then created a small circle with a star at the center.</p>
-<center>
-<img src="img/w13/m1.PNG" width= "500"/>
-</center>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3"><ul class="nav nav-list">
+    <li class="sidebar-header-1"><a href="#week-13-output-devices-apr-27">Week - 13 : Output devices : Apr 27</a></li>
+    <li class="sidebar-header-2"><a href="#assignment-">Assignment :</a></li>
+    <li class="sidebar-header-2"><a href="#preparation-test-the-lcd-module">Preparation: Test the lcd module</a></li>
+    <li class="sidebar-header-2"><a href="#-br-">&lt;br&gt;</a></li>
+    <li class="sidebar-header-2"><a href="#distance-display-on-lcd">Distance display on LCD</a></li>
+    <li class="sidebar-header-2"><a href="#-br-">&lt;br&gt;</a></li>
+    <li class="sidebar-header-2"><a href="#files">Files</a></li>
+</ul>
+      </div>
+      <div class="span9 main"><h1 id="week-13-output-devices-apr-27"><a class="header-link" href="#week-13-output-devices-apr-27"></a>Week - 13 : Output devices : Apr 27</h1>
+<h2 id="assignment-"><a class="header-link" href="#assignment-"></a>Assignment :</h2>
+<p>This week we need to add an output device into the existing microcontroller board we have made.</p>
+<p>My plan for output device is to develop output board with LCD and power supply circuit. Which Reads the Input and Display it.</p>
+<hr>
+<h2 id="preparation-test-the-lcd-module"><a class="header-link" href="#preparation-test-the-lcd-module"></a>Preparation: Test the lcd module</h2>
+<p>Hardware testing：
+        I picked Lumex  M E300052 1602 LCD module, . Trying to display &quot;Hello world&quot; message to testify the module.</p>
+<p> Connect the wire：</p>
+<pre class="hljs"><code> GND <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> LCD GND-1
+
+ VCC <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> LCD R/W-5 &amp; VCC-2
+
+ PA5 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> RS 4
+
+ PA4 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> LCD E -6
+
+ PA3 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> DB4-11
+
+ PA2 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> DB5-12
+
+ PA1 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> DB6-13
+
+ PA0 <span class="hljs-tag">&lt;<span class="hljs-name">-</span>&gt;</span> DB7-14</code></pre><center><img src="img/w13/2.jpeg" width="800"/></center>
+
+
+<p>Use the following sample code to drive the LCD display using arduino.</p>
+<center><img src="img/w13/o1.1.png" width="600"/></center>
+
+<pre class="hljs"><code><span class="hljs-comment">// include the library code:</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;LiquidCrystal.h&gt;</span></span>
+
+<span class="hljs-comment">// initialize the library with the numbers of the interface pins</span>
+<span class="hljs-built_in">LiquidCrystal</span> lcd(<span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>);
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+  <span class="hljs-comment">// set up the LCD's number of columns and rows:</span>
+  lcd.<span class="hljs-built_in">begin</span>(<span class="hljs-number">16</span>, <span class="hljs-number">2</span>);
+  <span class="hljs-comment">// Print a message to the LCD.</span>
+  lcd.<span class="hljs-built_in">print</span>(<span class="hljs-string">"hello, world!"</span>);
+}
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>() {
+  <span class="hljs-comment">// set the cursor to column 0, line 1</span>
+  <span class="hljs-comment">// (<span class="hljs-doctag">note:</span> line 1 is the second row, since counting begins with 0):</span>
+  lcd.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+  <span class="hljs-comment">// print the number of seconds since reset:</span>
+  lcd.<span class="hljs-built_in">print</span>(<span class="hljs-built_in">millis</span>() / <span class="hljs-number">1000</span>);
+}</code></pre><p> The test program was sucess full.</p>
+<center><img src="gif/w13/1.gif" width="800"/></center>
+
+
+
+<hr>
+<p>Next I tried Niel&#39;s Program. </p>
+<pre class="hljs"><code><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> &lt;avr/io.h&gt;</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> &lt;util/delay.h&gt;</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> &lt;avr/pgmspace.h&gt;</span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> output(directions,pin) (directions |= pin) <span class="hljs-comment">// set port direction for output</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> set(port,pin) (port |= pin) <span class="hljs-comment">// set port pin</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> clear(port,pin) (port &amp;= (~pin)) <span class="hljs-comment">// clear port pin</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pin_test(pins,pin) (pins &amp; pin) <span class="hljs-comment">// test for port pin</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> bit_test(byte,bit) (byte &amp; (<span class="hljs-number">1</span> &lt;&lt; bit)) <span class="hljs-comment">// test for bit set</span></span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> LCD_port PORTA</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> LCD_direction DDRA</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> DB7 (<span class="hljs-number">1</span> &lt;&lt; PA0)</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> DB6 (<span class="hljs-number">1</span> &lt;&lt; PA1)</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> DB5 (<span class="hljs-number">1</span> &lt;&lt; PA2)</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> DB4 (<span class="hljs-number">1</span> &lt;&lt; PA3)</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> E (<span class="hljs-number">1</span> &lt;&lt; PA4)</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> RS (<span class="hljs-number">1</span> &lt;&lt; PA5)</span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> long_delay() _delay_ms(<span class="hljs-number">1000</span>) <span class="hljs-comment">// delay before redraw</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> lcd_delay() _delay_ms(<span class="hljs-number">10</span>) <span class="hljs-comment">// delay between commands</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> strobe_delay() _delay_us(<span class="hljs-number">1</span>) <span class="hljs-comment">// delay for strobe</span></span>
+
+<span class="hljs-comment">//</span>
+<span class="hljs-comment">// lcd_putchar</span>
+<span class="hljs-comment">//    put character in lcdbyte</span>
+<span class="hljs-comment">//</span>
+void lcd_putchar(char lcdbyte) {
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// set RS for data</span>
+   <span class="hljs-comment">// </span>
+   set(LCD_port, RS)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// output high nibble</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">7</span>)
+      set(LCD_port, DB7)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB7)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">6</span>)
+      set(LCD_port, DB6)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB6)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">5</span>)
+      set(LCD_port, DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">4</span>)
+      set(LCD_port, DB4)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB4)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// strobe E</span>
+   <span class="hljs-comment">//</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   set(LCD_port, E)<span class="hljs-comment">;</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   clear(LCD_port, E)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// wait</span>
+   <span class="hljs-comment">//</span>
+   lcd_delay()<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// output low nibble</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">3</span>)
+      set(LCD_port, DB7)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB7)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">2</span>)
+      set(LCD_port, DB6)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB6)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">1</span>)
+      set(LCD_port, DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">if</span> bit_test(lcdbyte, <span class="hljs-number">0</span>)
+      set(LCD_port, DB4)<span class="hljs-comment">;</span>
+   <span class="hljs-keyword">else</span>
+      clear(LCD_port, DB4)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// strobe E</span>
+   <span class="hljs-comment">//</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   set(LCD_port, E)<span class="hljs-comment">;</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   clear(LCD_port, E)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// wait and return</span>
+   <span class="hljs-comment">//</span>
+   lcd_delay()<span class="hljs-comment">;</span>
+   }
+<span class="hljs-comment">//</span>
+<span class="hljs-comment">// lcd_putcmd</span>
+<span class="hljs-comment">//    put command in lcdbyte</span>
+<span class="hljs-comment">//</span>
+void lcd_putcmd(char lcdbyte) {
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// clear RS for command</span>
+   <span class="hljs-comment">// </span>
+   clear(LCD_port, RS)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// output command bits</span>
+   <span class="hljs-comment">//</span>
+   PORTA = lcdbyte<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// strobe E</span>
+   <span class="hljs-comment">//</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   set(LCD_port, E)<span class="hljs-comment">;</span>
+   strobe_delay()<span class="hljs-comment">;</span>
+   clear(LCD_port, E)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// wait and return</span>
+   <span class="hljs-comment">//</span>
+   lcd_delay()<span class="hljs-comment">;</span>
+   }
+<span class="hljs-comment">//</span>
+<span class="hljs-comment">// lcd_putstring</span>
+<span class="hljs-comment">//    put a null-terminated string in flash</span>
+<span class="hljs-comment">//</span>
+void lcd_putstring(PGM_P message) {
+   static uint8_t index<span class="hljs-comment">;</span>
+   static char chr<span class="hljs-comment">;</span>
+   index = <span class="hljs-number">0</span><span class="hljs-comment">;</span>
+   <span class="hljs-keyword">while</span> (<span class="hljs-number">1</span>) {
+      chr = pgm_read_byte(&amp;(message[index]))<span class="hljs-comment">;</span>
+      <span class="hljs-keyword">if</span> (chr == <span class="hljs-number">0</span>)
+         <span class="hljs-keyword">return</span><span class="hljs-comment">;</span>
+      lcd_putchar(chr)<span class="hljs-comment">;</span>
+      ++index<span class="hljs-comment">;</span>
+      }
+   }
+<span class="hljs-comment">//</span>
+<span class="hljs-comment">// lcd_init</span>
+<span class="hljs-comment">//    initialize the LCD</span>
+<span class="hljs-comment">//</span>
+void lcd_init() {
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// power-up delay</span>
+   <span class="hljs-comment">//</span>
+   lcd_delay()<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// initialization sequence</span>
+   <span class="hljs-comment">//</span>
+   lcd_putcmd(DB5+DB4)<span class="hljs-comment">;</span>
+   lcd_putcmd(DB5+DB4)<span class="hljs-comment">;</span>
+   lcd_putcmd(DB5+DB4)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// 4-bit interface</span>
+   <span class="hljs-comment">//</span>
+   lcd_putcmd(DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// two lines, 5x7 font</span>
+   <span class="hljs-comment">//</span>
+   lcd_putcmd(DB5)<span class="hljs-comment">;</span>
+   lcd_putcmd(DB7)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// display on</span>
+   <span class="hljs-comment">//</span>
+   lcd_putcmd(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+   lcd_putcmd(DB7+DB6+DB5)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// entry mode</span>
+   <span class="hljs-comment">//</span>
+   lcd_putcmd(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+   lcd_putcmd(DB6+DB5)<span class="hljs-comment">;</span>
+   }
+
+<span class="hljs-keyword">int</span> main(void) {
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// main</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// set clock divider to /1</span>
+   <span class="hljs-comment">//</span>
+   CLKPR = (<span class="hljs-number">1</span> &lt;&lt; CLKPCE)<span class="hljs-comment">;</span>
+   CLKPR = (<span class="hljs-number">0</span> &lt;&lt; CLKPS3) | (<span class="hljs-number">0</span> &lt;&lt; CLKPS2) | (<span class="hljs-number">0</span> &lt;&lt; CLKPS1) | (<span class="hljs-number">0</span> &lt;&lt; CLKPS0)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// initialize LCD pins</span>
+   <span class="hljs-comment">//</span>
+   clear(LCD_port, DB7)<span class="hljs-comment">;</span>
+   output(LCD_direction, DB7)<span class="hljs-comment">;</span>
+   clear(LCD_port, DB6)<span class="hljs-comment">;</span>
+   output(LCD_direction, DB6)<span class="hljs-comment">;</span>
+   clear(LCD_port, DB5)<span class="hljs-comment">;</span>
+   output(LCD_direction, DB5)<span class="hljs-comment">;</span>
+   clear(LCD_port, DB4)<span class="hljs-comment">;</span>
+   output(LCD_direction, DB4)<span class="hljs-comment">;</span>
+   clear(LCD_port, E)<span class="hljs-comment">;</span>
+   output(LCD_direction, E)<span class="hljs-comment">;</span>
+   clear(LCD_port, RS)<span class="hljs-comment">;</span>
+   output(LCD_direction, RS)<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// initialize LCD</span>
+   <span class="hljs-comment">//</span>
+   lcd_init()<span class="hljs-comment">;</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-comment">// main loop</span>
+   <span class="hljs-comment">//</span>
+   <span class="hljs-keyword">while</span> (<span class="hljs-number">1</span>) {
+      <span class="hljs-comment">// </span>
+      <span class="hljs-comment">// go to zero position</span>
+      <span class="hljs-comment">//</span>
+      lcd_putcmd(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+      lcd_putcmd(DB5)<span class="hljs-comment">;</span>
+      <span class="hljs-comment">//</span>
+      <span class="hljs-comment">// print first line from flash</span>
+      <span class="hljs-comment">//</span>
+      static const char line1[] PROGMEM = <span class="hljs-string">"Kerarla : Kerala"</span><span class="hljs-comment">;</span>
+      lcd_putstring((PGM_P) line1)<span class="hljs-comment">;</span>
+      <span class="hljs-comment">//</span>
+      <span class="hljs-comment">// move to second line</span>
+      <span class="hljs-comment">//</span>
+      lcd_putcmd(DB7+DB6)<span class="hljs-comment">;</span>
+      lcd_putcmd(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+      <span class="hljs-comment">//</span>
+      <span class="hljs-comment">// print second line from flash</span>
+      <span class="hljs-comment">//</span>
+      static const char line2[] PROGMEM = <span class="hljs-string">"own country"</span><span class="hljs-comment">;</span>
+      lcd_putstring((PGM_P) line2)<span class="hljs-comment">;</span>
+      <span class="hljs-comment">//</span>
+      <span class="hljs-comment">// pause</span>
+      <span class="hljs-comment">//</span>
+      long_delay()<span class="hljs-comment">;</span>
+      <span class="hljs-comment">//</span>
+      <span class="hljs-comment">// clear display</span>
+      <span class="hljs-comment">//</span>
+      lcd_putcmd(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+      lcd_putcmd(DB4)<span class="hljs-comment">;</span>
+      }
+   }</code></pre><p>I edited the text which going to display. </p>
+<center><img src="img/w13/c.png" width="600"/></center>
+
+<p>I used the commend on the terminal for genrating the hex.</p>
+<center><img src="img/w13/make.png" width="300"/></center>
+
+
+<pre class="hljs"><code><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">make</span> <span class="hljs-selector-tag">-f</span> <span class="hljs-selector-tag">hello</span><span class="hljs-selector-class">.LCD</span><span class="hljs-selector-class">.44</span><span class="hljs-selector-class">.make</span></code></pre><p><br></p>
+<center><img src="img/w13/prgm.1.png" width="400"/></center>
+<br>
+
+<code>sudo make -f hello.LCD.44.make program-usbtiny</code>
+<br>
+<center><img src="img/w13/prgm.png" width="600"/></center>
+<br>
+
+the programming was sucess. Its start agiain displaying.
+
+<br>
+
+<center><img src="gif/w13/3.gif" width="800"/></center>
+
+<h2 id="-br-"><a class="header-link" href="#-br-"></a><br></h2>
+<h2 id="distance-display-on-lcd"><a class="header-link" href="#distance-display-on-lcd"></a>Distance display on LCD</h2>
+<p>Then I tried to program di</p>
 <p><br></p>
-<hr />
-<center>
-<img src="img/w13/m2.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m3.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m4.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m5.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m6.1.jpg" width= "800"/>
-</center>
-<p><br></p>
-<center>
-<img src="img/w13/m7.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m8.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m9.1.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m10.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/m12.jpg" width= "800"/>
-</center>
-<br>
-<center>
-<img src="img/w13/x9.jpeg" width= "800"/>
-</center>
-<hr />
-</div>
+<pre class="hljs"><code> <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;LiquidCrystal.h&gt;</span> //Load Liquid Crystal Library</span>
+<span class="hljs-built_in">LiquidCrystal</span> LCD(<span class="hljs-number">5</span>,<span class="hljs-number">4</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">0</span>);  <span class="hljs-comment">//Create Liquid Crystal Object called LCD</span>
+
+
+<span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> trigPin = <span class="hljs-number">7</span>;
+<span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> echoPin = <span class="hljs-number">6</span>;
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+
+LCD.<span class="hljs-built_in">begin</span>(<span class="hljs-number">16</span>,<span class="hljs-number">2</span>); <span class="hljs-comment">//Tell Arduino to start your 16 column 2 row LCD</span>
+LCD.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>);  <span class="hljs-comment">//Set LCD cursor to upper left corner, column 0, row 0</span>
+LCD.<span class="hljs-built_in">print</span>(<span class="hljs-string">"Target Distance:"</span>);  <span class="hljs-comment">//Print Message on First Row</span>
+}
+
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>()
+{
+  <span class="hljs-comment">// establish variables for duration of the ping, </span>
+  <span class="hljs-comment">// and the distance result in inches and centimeters:</span>
+  <span class="hljs-keyword">long</span> duration, inches, cm;
+
+  <span class="hljs-comment">// The sensor is triggered by a HIGH pulse of 10 or more microseconds.</span>
+  <span class="hljs-comment">// Give a short LOW pulse beforehand to ensure a clean HIGH pulse:</span>
+  <span class="hljs-built_in">pinMode</span>(trigPin, <span class="hljs-literal">OUTPUT</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">LOW</span>);
+  <span class="hljs-built_in">delayMicroseconds</span>(<span class="hljs-number">2</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">HIGH</span>);
+  <span class="hljs-built_in">delayMicroseconds</span>(<span class="hljs-number">10</span>);
+  <span class="hljs-built_in">digitalWrite</span>(trigPin, <span class="hljs-literal">LOW</span>);
+
+  <span class="hljs-comment">// Read the signal from the sensor: a HIGH pulse whose</span>
+  <span class="hljs-comment">// duration is the time (in microseconds) from the sending</span>
+  <span class="hljs-comment">// of the ping to the reception of its echo off of an object.</span>
+  <span class="hljs-built_in">pinMode</span>(echoPin, <span class="hljs-literal">INPUT</span>);
+  duration = <span class="hljs-built_in">pulseIn</span>(echoPin, <span class="hljs-literal">HIGH</span>); 
+
+  <span class="hljs-comment">// convert the time into a distance</span>
+  inches = microsecondsToInches(duration);
+  cm = microsecondsToCentimeters(duration);
+  LCD.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>);  <span class="hljs-comment">//Set LCD cursor to upper left corner, column 0, row 0</span>
+  LCD.<span class="hljs-built_in">print</span>(<span class="hljs-string">" "</span>); 
+  LCD.<span class="hljs-built_in">setCursor</span>(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>);  <span class="hljs-comment">//Set LCD cursor to upper left corner, column 0, row 0</span>
+  LCD.<span class="hljs-built_in">print</span>(inches);  <span class="hljs-comment">//Print Message on First Row</span>
+  LCD.<span class="hljs-built_in">print</span>(<span class="hljs-string">"  in"</span>); 
+  <span class="hljs-comment">//Print your units.</span>
+  <span class="hljs-built_in">delay</span>(<span class="hljs-number">250</span>); <span class="hljs-comment">//pause to let things settle</span>
+}
+<span class="hljs-keyword">long</span> microsecondsToInches(<span class="hljs-keyword">long</span> microseconds)
+{
+  <span class="hljs-comment">// According to Parallax's datasheet for the PING))), there are</span>
+  <span class="hljs-comment">// 73.746 microseconds per inch (i.e. sound travels at 1130 feet per</span>
+  <span class="hljs-comment">// second).  This gives the distance travelled by the ping, outbound</span>
+  <span class="hljs-comment">// and return, so we divide by 2 to get the distance of the obstacle.</span>
+  <span class="hljs-comment">// See: http://www.parallax.com/dl/docs/prod/acc/28015-PING-v1.3.pdf</span>
+  <span class="hljs-built_in">return</span> microseconds / <span class="hljs-number">74</span> / <span class="hljs-number">2</span>;
+}
+<span class="hljs-comment">//long microsecondsToCentimeters(long microseconds)</span>
+<span class="hljs-comment">//{</span>
+  <span class="hljs-comment">// The speed of sound is 340 m/s or 29 microseconds per centimeter.</span>
+  <span class="hljs-comment">// The ping travels out and back, so to find the distance of the</span>
+  <span class="hljs-comment">// object we take half of the distance travelled.</span>
+  <span class="hljs-comment">//return microseconds /29 / 2;</span>
+<span class="hljs-comment">//}</span></code></pre><p><br></p>
+<p><center><img src="gif/w13/4.gif" width="800"/></center></p>
+<h2 id="-br--1"><a class="header-link" href="#-br--1"></a><br></h2>
+<h2 id="files"><a class="header-link" href="#files"></a>Files</h2>
+<ul class="list">
+<li><p>atf.HC-SR04.LCD.44 <a href="file/w11/atf.HC-SR04.LCD.44/atf.HC-SR04.LCD.44.png">board</a>, <a href="file/w11/atf.HC-SR04.LCD.44/atf.HC-SR04.LCD.44.traces.png">traces</a>, <a href="file/w11/atf.HC-SR04.LCD.44/atf.HC-SR04.LCD.44.interior.png">interior</a>, <a href="file/w11/atf.HC-SR04.LCD.44/atf.HC-SR04.LCD.44.holes.png">holes</a></p>
+</li>
+<li><p><a href="file/w13/hello.world.ino">hello.world.ino</a></p>
+</li>
+<li><p><a href="file/w13/hello.LCD.44.c">hello.LCD.44.c</a>, <a href="file/w13/hello.LCD.44.c.hex">hello.LCD.44.c.hex</a></p>
+</li>
+<li><p><a href="file/w13/HC.sonar.LCD.44.ino">HC.sonar.LCD.44.ino</a> </p>
+</li>
+</ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

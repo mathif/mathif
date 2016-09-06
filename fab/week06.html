@@ -1,178 +1,195 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>week-6</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <style>
+    body {
+      background: url('assets/img/textured_paper.png') repeat top left;
+      background-color: #f6f6f6;
+    }
+    </style>
+  </head>
 <body>
-<div style="width:1000px; margin:0 auto;">
-<center>
-<h1 id="week-6-electronics-design">Week 6: Electronics Design</h1>
-</center>
-<h2 id="assignment">Assignment</h2>
-<ul>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3"><ul class="nav nav-list">
+    <li class="sidebar-header-1"><a href="#week-6-electronics-design">Week 6: Electronics Design</a></li>
+    <li class="sidebar-header-2"><a href="#assignment">Assignment</a></li>
+    <li class="sidebar-header-2"><a href="#123d-circuts">123D Circuts</a></li>
+    <li class="sidebar-header-2"><a href="#eagle">Eagle</a></li>
+    <li class="sidebar-header-2"><a href="#kokopelli">Kokopelli</a></li>
+    <li class="sidebar-header-3"><a href="#installing-kokopelli">Installing Kokopelli</a></li>
+    <li class="sidebar-header-3"><a href="#designing-hello-ftdi">Designing Hello.ftdi</a></li>
+    <li class="sidebar-header-2"><a href="#files">Files</a></li>
+</ul>
+      </div>
+      <div class="span9 main"><h1 id="week-6-electronics-design"><a class="header-link" href="#week-6-electronics-design"></a>Week 6: Electronics Design</h1>
+<h2 id="assignment"><a class="header-link" href="#assignment"></a>Assignment</h2>
+<ul class="list">
 <li>Design a electronic circuit board with atleast one led and button</li>
 <li>Show how it is done with words/ images/ screenshots</li>
 <li>Include orginal design files</li>
 <li>Simulate the board</li>
 </ul>
-<p><br> <br></p>
+<hr>
+<p><br>
+<br></p>
 <p>This week being Electronic Design, we are supposed to design electronic circuit board with atleast one led and button. Simulating the board is the next target.</p>
 <p><br></p>
-<p>Some software's I tried out:</p>
-<hr />
-<h2 id="d-circuts">123D Circuts</h2>
+<p>Some software&#39;s I tried out: </p>
+<hr>
+<h2 id="123d-circuts"><a class="header-link" href="#123d-circuts"></a>123D Circuts</h2>
 <p>123D Circut is the perfect place for bigners where we can learn electronics, PCB designing and programming. which is online based design software. Click here to get <a href="https://123d.circuits.io/">123D Circuits</a></p>
 <p>Some Features notable:</p>
-<ul>
+<ul class="list">
 <li>Real Time Simulation: You could prototype and design before buiding the circuit.</li>
 <li>Arduino Programming</li>
 <li>Collaborative Editing!</li>
 </ul>
-<center>
-<img src="img/w6/d1.png" width= "700"/>
-</center>
+<center><img src="img/w6/d1.png" width= "700"/></center>
+
+
+
 <p>In 123D circuits you can drag and drop the components. The components are listed, categorized and described well. Also, you could search for a component.</p>
-<center>
-<img src="img/w6/d2.png" width= "700"/>
-</center>
+<center><img src="img/w6/d2.png" width= "700"/></center>
+
+
+
 <p>Adding components can be simply done by dragging and dropping. I dropped Attiny 44, Resistors, Capacitor LED, 6 Pin, FTDI 6 pin Header.</p>
-<center>
-<img src="img/w6/d3.png" width= "700"/>
-</center>
+<center><img src="img/w6/d3.png" width= "700"/></center>
+
+
 <p>Adding components can be simply done by dragging and dropping. Schematic view after dragging the components.</p>
-<center>
-<img src="img/w6/d4.png" width= "700"/>
-</center>
+<center><img src="img/w6/d4.png" width= "700"/></center>
+
+
+
 <p><b>PCB view</b></p>
-<center>
-<img src="img/w6/d5.png" width= "700"/>
-</center>
-<p>Then I drawn the copper traces</p>
-<center>
-<img src="img/w6/d6.png" width= "300"/> <img src="img/w6/d7.png" width= "300"/>
-</center>
-<center>
-<img src="img/w6/d8.png" width= "300"/> <img src="img/w6/d9.png" width= "300"/>
-</center>
-<hr />
-<h2 id="eagle">Eagle</h2>
-<p>Eagle is PCb designing software can design your board easly, I just tried this . its so simple than 123D circuit. Initialy i added Fab library to the eagle library. then I opened the new shematics (File&gt;new&gt; schematic)</p>
+<center><img src="img/w6/d5.png" width= "700"/></center>
+
+<p>Then I drawn the copper traces </p>
+<center><img src="img/w6/d6.png" width= "300"/> <img src="img/w6/d7.png" width= "300"/></center>
+
+
+<center><img src="img/w6/d8.png" width= "300"/> <img src="img/w6/d9.png" width= "300"/></center>
+
+
+<hr>
+<h2 id="eagle"><a class="header-link" href="#eagle"></a>Eagle</h2>
+<p>Eagle is PCb designing software can design your board easly, I just tried this . its so simple than 123D circuit.  Initialy i added Fab library to the eagle library. then I opened the new shematics (File&gt;new&gt; schematic) </p>
 <p>here I mensioned some useful tools for basic Pcb design using with eagle</p>
-<br>
-<center>
-<img src="img/w6/e1.png" width= "200"/>
-</center>
+<p><br></p>
+<center><img src="img/w6/e1.png" width= "200"/></center>
+
 <p>I dropped the needed components from the fab library</p>
-<br>
-<center>
-<img src="img/w6/e2.png" width= "700"/>
-</center>
-A schematic in electronics is a drawing representing a circuit. The most basic symbol is a traces, shown simply as a line. I named the each end using <em>Name</em> tool with the names which want to connect. And I mentioned the values with using the <em>Value</em> tool <br>
-<center>
-<img src="img/w6/e3.png" width= "700"/>
-</center>
-<p>I checked the schematic Error Using <em>Error</em> tool. Then I switched the schematic into borad view(file&gt; swith to board). I arranged the size of board and components.</p>
-<center>
-<img src="img/w6/e4.png" width= "700"/>
-</center>
-<p>Drawn the traces using <em>Route</em> tool. Edited the Grid into 0.01 inch. then I compleated the full traces</p>
-<center>
-<img src="img/w6/e7.png" width= "700"/>
-</center>
+<p><br></p>
+<center><img src="img/w6/e2.png" width= "700"/></center>
+
+<p>A schematic in electronics is a drawing representing a circuit. The most basic symbol is a traces, shown simply as a line. 
+I named the each end using <em>Name</em> tool with the names which want to connect. And I mentioned the values with using the <em>Value</em> tool
+<br></p>
+<center><img src="img/w6/e3.png" width= "700"/></center>
+
+<p>I checked the schematic  Error Using <em>Error</em> tool. Then I switched the schematic into borad view(file&gt; swith to board).  I arranged the size of board and components.</p>
+<center><img src="img/w6/e4.png" width= "700"/></center>
+
+<p>Drawn the traces using <em>Route</em> tool. Edited the Grid into 0.01 inch.  then I compleated the full traces </p>
+<center><img src="img/w6/e7.png" width= "700"/></center>
+
 <p>Selected the traces layer , the I tryed to export the trace and saved in PNG format.</p>
-<center>
-<img src="img/w6/e8.png" width= "700"/>
-</center>
-<center>
-<img src="img/w6/e10.png" width= "200"/>
-</center>
+<center><img src="img/w6/e8.png" width= "700"/></center>
+
+
+<center><img src="img/w6/e10.png" width= "200"/></center>
+
 <p>I named it as <em>ATF FTDI</em> drawn an exterior border with in a new layer. And I checked the error again using <em>Error</em> tool. there was no errors in my PCB.</p>
-<center>
-<img src="img/w6/e11.png" width= "700"/>
-</center>
+<center><img src="img/w6/e11.png" width= "700"/></center>
+
+
 <p>Atlast I finished my PCB. and saved it as In PNG format.</p>
-<center>
-<img src="img/w6/exterior.png" width= "300"/> <img src="img/w6/myftdi.png" width= "300"/>
-</center>
-<hr />
-<h2 id="kokopelli">Kokopelli</h2>
+<center><img src="img/w6/exterior.png" width= "300"/> <img src="img/w6/myftdi.png" width= "300"/></center>
+
+
+
+<hr>
+<h2 id="kokopelli"><a class="header-link" href="#kokopelli"></a>Kokopelli</h2>
 <p>kokopelli is an open-source tool for computer-aided design and manufacturing (CAD/CAM).It uses Python as a hardware description language for solid models. A set of core libraries define common shapes and transforms, but users are free to extend their designs with their own definitions. You can also use this software for designing PCB boards.</p>
-<h3 id="installing-kokopelli">Installing Kokopelli</h3>
+<h3 id="installing-kokopelli"><a class="header-link" href="#installing-kokopelli"></a>Installing Kokopelli</h3>
 <p>First Download the <a href="">Koko_retro.zip</a> file. Then unzip it. Open the terminal inside koko_retro folder.</p>
 <p><br></p>
 <p><code>make clean</code></p>
 <p><code>make fab</code></p>
 <p><code>make install</code></p>
 <p><code>cd bin</code></p>
-<p>`./kokopelli -r</p>
-<center>
-<img src="img/w6/k0.png" width= "700"/>
-</center>
-<h3 id="designing-hello.ftdi">Designing Hello.ftdi</h3>
+<p><code>./kokopelli -r</code></p>
+<center><img src="img/w6/k0.png" width= "700"/></center>
+
+
+<h3 id="designing-hello-ftdi"><a class="header-link" href="#designing-hello-ftdi"></a>Designing Hello.ftdi</h3>
 <p>Download the program <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html">hello.ftdi.44</a></p>
-<p>I pasted the program into kokopelli. Parallaly</p>
-<center>
-<img src="img/w6/k1.png" width= "700"/>
-</center>
-<ul>
+<p>I pasted the program into  kokopelli. Parallaly </p>
+<center><img src="img/w6/k1.png" width= "700"/></center>
+
+<ul class="list">
 <li>Open with gedit.</li>
-<li>Search for LED_1206, R_1206, Button_6mm</li>
+<li>Search for LED_1206, R_1206, Button_6mm </li>
 </ul>
 <p>Then I need to add one LED, Resisistor, Botten . So I use these program to create the traces and soldering pints.</p>
-<p>For adding the LED I inserted the following program. I want to connect my LED to IC pin 8. which denoted by IC pad 5.</p>
-<pre><code>LED1 = LED_1206(&#39;LED1&#39;);
-pcb = LED1.add(pcb,XTAL1.x,IC1.pad[5].y,z,180)
+<p>For adding the LED I inserted the following program. I want to connect my LED to IC pin 8. which denoted by IC pad 5. </p>
+<pre class="hljs"><code><span class="hljs-symbol">LED1</span> = <span class="hljs-symbol">LED_1206</span>(<span class="hljs-string">'LED1'</span>);
+pcb = <span class="hljs-symbol">LED1</span>.add(pcb,<span class="hljs-symbol">XTAL1</span>.x,<span class="hljs-symbol">IC1</span>.pad[<span class="hljs-number">5</span>].y,z,<span class="hljs-number">180</span>)
 
 pcb = wire(pcb,w,
-   IC1.pad[5],
-   LED1.pad[1])
-</code></pre>
-<p>then it shows like this</p>
-<p><br></p>
+   <span class="hljs-symbol">IC1</span>.pad[<span class="hljs-number">5</span>],
+   <span class="hljs-symbol">LED1</span>.pad[<span class="hljs-number">1</span>])</code></pre><p>then it shows like this</p>
+<p><br>  </p>
 <p>Then I inserted Resistor in between LED and Jumber(J1).</p>
-<pre><code>R2 = R_1206(&#39;R2&#39;)
-pcb = R2.add(pcb,LED1.pad[2].x,J2.pad[6].y,z,90)
+<pre class="hljs"><code>R2 = R_1206(<span class="hljs-string">'R2'</span>)
+pcb = R2.add(pcb,LED1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">2</span>]<span class="hljs-selector-class">.x</span>,J2<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">6</span>]<span class="hljs-selector-class">.y</span>,z,<span class="hljs-number">90</span>)
 
 pcb = wire(pcb,w,
-   R2.pad[2],
-   LED1.pad[2])
+   R2<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">2</span>],
+   LED1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">2</span>])
 
 pcb = wire(pcb,w,
-   J1.pad[6],
-   R2.pad[1])
-</code></pre>
-<p>Placed a Bush botton 6mm in between IC and J1.pad[6]</p>
-<pre><code>
-B1= button_6mm(&#39;B1&#39;)
-pcb = B1.add(pcb,R2.pad[2].x+.24,J1.pad[1].y-.045,z)
+   J1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">6</span>],
+   R2<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">1</span>])</code></pre><p>Placed a Bush botton 6mm in between IC and J1.pad[6]</p>
+<pre class="hljs"><code>
+B1= button_6mm(<span class="hljs-string">'B1'</span>)
+pcb = B1.add(pcb,R2<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">2</span>].x+.<span class="hljs-number">24</span>,J1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">1</span>]<span class="hljs-selector-class">.y-</span>.<span class="hljs-number">045</span>,z)
 
 pcb = wire(pcb,w,
-   IC1.pad[7],
-   B1.pad[1])
+   IC1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">7</span>],
+   B1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">1</span>])
 
 
 pcb = wire(pcb,w,
-   J1.pad[6],
-   B1.pad[2])
-</code></pre>
-<p>at last the PCB shows like</p>
-<center>
-<img src="img/w6/lebel.png" width= "700"/>
-</center>
+   J1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">6</span>],
+   B1<span class="hljs-selector-class">.pad</span>[<span class="hljs-number">2</span>])</code></pre><p>at last the PCB shows like</p>
+<center><img src="img/w6/lebel.png" width= "700"/></center>
+
 <p>I milled and soldered the board.</p>
-<center>
-<img src="img/w6/ftdi.JPG" width= "700"/>
-</center>
-<h2 id="files">Files</h2>
-<ul>
-<li>Eagle Designed file <a href="file/w6/atf%20ftdi.sch">.sch</a> <a href="file/w6/atf%20ftdi.brd">.brd</a></li>
-<li><a href="file/w6/atf%20ftdi.zip">ATF FTDI PNG</a></li>
-<li><a href="">Kokopelli Designed FTDI PNG</a></li>
+<center><img src="img/w6/ftdi.JPG" width= "700"/></center>
+
+<hr>
+<h2 id="files"><a class="header-link" href="#files"></a>Files</h2>
+<ul class="list">
+<li>Eagle Designed file <a href="file/w6/atf ftdi.sch">.sch</a> <a href="file/w6/atf ftdi.brd">.brd</a>, <a href="file/w6/atf.ftdi.png">board</a>,<a href="file/w6/atf.ftdi.traces.png">traces</a>, <a href="file/w6/atf.ftdi.interior.png">interior</a></li>
+<li>Kokopelli Designed <a href="file/w6/atf.koko.ftdi.44.cad">atf.koko.ftdi.cad</a>, <a href="file/w6/atf.koko.ftdi.44.png">board</a>, <a href="file/w6/atf.koko.ftdi.44.traces.png">traces</a>, <a href="file/w6/atf.koko.ftdi.44.interior.png">interior</a></li>
 </ul>
-</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -12,8 +12,6 @@ pandoc -s -o week03.html md/week03.md
 
 pandoc -s -o week04.html md/week04.md
 
-pandoc -s -o week04.1.html md/week04.1.md
-
 pandoc -s -o week05.html md/week05.md
 
 pandoc -s -o week06.html md/week06.md
@@ -38,4 +36,8 @@ pandoc -s -o week17.html md/week17.md
 
 pandoc -s -o week18.html md/week18.md
 
+pandoc -s -o week19.html md/week19.md
 
+pandoc -s -o week20.html md/week20.md
+
+pandoc -s -o week21.html md/week21.md

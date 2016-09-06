@@ -1,11 +1,11 @@
-<div style="width:1000px; margin:0 auto;">
+title: week-5
+tags: ["handlebars", "template"]
+---
 
-
-<center>
 
 # Week 5 - 3D Printing & Scanning
 
-</center>
+
 
 ## Assignment
 
@@ -83,8 +83,78 @@ Here is how Ultimaker performed on all the tests:
 
 ## 3D Printing
 
+<br>
 
-Using Rhyno I designed a hook for keeping packect items in shelf.
+Using Autocad I planed to do a nonsubstractive object. Its a chain like structure first I designed the 2D images using the Autocad software.I give the clearence of .2mm between the fit. the  Top view and side view which I draw.
+<br>
+
+<center><img src="img/w5/d1.PNG" width= "900"/></center>
+
+<br>
+
+
+Then I rotate it and extrude to half to the final object. Substacted unwanted portions and joined altogether.
+
+<center><img src="img/w5/d2.PNG" width= "900"/></center>
+
+<br>
+
+And I 3D mirror it . now I got one link. And joined it.
+
+<br>
+
+<center><img src="img/w5/d3.PNG" width= "900"/></center>
+
+<br>  
+and I copied it into like chin structure.And I saved as <kbd>.stl</> formal.
+<br>
+  
+<center><img src="img/w5/d4.PNG" width= "900"/></center>
+
+<br>
+
+The very next step is 3D printing the model which I designed. This is the workbench of Dimension's Catalyst software. 
+
+<center><img src="img/w5/dp1.png" width= "900"/></center>
+
+<br>
+
+I opened the stl file<b>file>open stl...</b>. then click on <b>Add to pack </b>. 
+
+<br>
+
+<center><img src="img/w5/dp2.png" width= "900"/></center>
+
+<br>
+
+Then I set the obejct orintaion and the plice where the part to be print. then I make it to print.  
+
+<br>
+
+<center><img src="img/w5/dp3.png" width= "900"/></center>
+
+<br>
+
+<center><img src="img/w5/dp4.jpeg" width= "900"/></center>
+
+<br>
+
+
+I printed it on Ultimaker 2. The print was awesome...!!!! Its flexible.
+
+
+<center><img src="img/w5/l2.png" width= "900"/></center>
+
+
+
+
+
+---------
+
+
+## Fab Hook
+
+Using Rhyno I designed a hook for keeping packect items in shelf. which was substrctive object.
 
 <center><img src="img/w5/1.png" width= "900"/></center>
 
@@ -96,27 +166,95 @@ First printed a sample product which took the time 25 minte, The design and the 
 Then I made multiple copys of the hook,hanged the stuffs on the shelf using the hook.
 
 <center><img src="img/w5/3.jpg" width= "400"/> <img src="img/w5/3.jpg" width= "400"/></center>
-
+<br>
 
 You can see what i did....
 
+<br>
+<center><img src="img/w5/7.jpg" width= "400"/></center>
 
-<center><img src="img/w5/5.jpg" width= "400"/> <img src="img/w5/6.jpg" width= "400"/></center>
+<br>
+
 
 
 
 ----------------
+
 ## 3D Scanning
+<br>
+I used kinect and KScan3D software for scanning. Kinect is a line of motion sensing device commonly used with Xbox and Xbox360 gaming consoles but it also comes handy as a 3D scanning device. For this assignment, I decided to be the subject.
 
-I used kinect and KScan3D software for scanning.
+<br>
+<center><img src="img/w5/scan/kinect.png" width= "800"/></center>
+
+<br>
+<center><img src="img/w5/scan/kscan.JPG" width= "800"/></center>
+
+<br>
+I downloaded the free version of KScan 3D software from the web and connected Kinect with the system. I sat on a stool and set the mesh as 12. I turned around in front of the mirror exactly 12 times to complete a 360 degree rotaion. The following image shows the output I got. 
+
+<br>
+<center><img src="img/w5/scan/atf.1.JPG" width= "300"/></center>
+<br>
+<br>
+<center><img src="img/w5/scan/atf.2.png" width= "900"/></center>
+<br>
+<br>
 
 
-<center><img src="img/w5/scan/1.png" width= "900"/></center>
+Then I compain the all meshes and It s feel like almost fine. Then the next step is to finalize the  scan which I made. 
+
+<center><img src="img/w5/scan/atf.3.png" width= "900"/></center>
+
+
+
+For Exporting the scan which i made. Adjested the mesh density and Hole filling. and the target size.
+
+<center><img src="img/w5/scan/atf.3.JPG" width= "300"/></center>
 
 saved it in .stl format.
 
-* [3D scan STL file](file/w5/3dscan.stl)
+<br>
+<br>
 
+<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/815d02f6cdbf4283bf95474d3873a7d3/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
-
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/models/815d02f6cdbf4283bf95474d3873a7d3?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">atf scan ply</a>
+    by <a href="https://sketchfab.com/athif?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Athif</a>
+    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
 </div>
+
+
+<br>
+
+<br>
+
+<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/bd08609bc1584c679907319661fbf058/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/models/bd08609bc1584c679907319661fbf058?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">atf scan</a>
+    by <a href="https://sketchfab.com/athif?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Athif</a>
+    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
+</div>
+
+
+<br>
+
+<br>
+
+------------
+
+## Files
+
+* [CtrlV_3D_test.stl](file/w5/ctrlV_3D_test.stl)
+
+* Non substractive [DWG](file/w5/nonsub.dwg), [STL](file/w5/atf.nonsub.stl)
+
+* 3D scan files [STL](file/w5/atf.scan.stl), [PLY](file/w5/atf.scan.ply)
+
+
+
+

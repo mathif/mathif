@@ -1,11 +1,12 @@
+title: week-8
+tags: ["handlebars", "template"]
+---
 
-<div style="width:1000px; margin:0 auto;">
-<center>
-#Week 8
+# Week 8
 
-#Embedded programming
+# Embedded programming
 
-</center>
+
 
 ## Assignment
 
@@ -16,10 +17,9 @@ This weeks assignment consist of reading the microcontroller data sheet (attiny)
 ## Arduino Installetion and setting FabISP
 
  First download and install the arduino software. click [here](https://www.arduino.cc/en/Main/Software)
-    
-    unzip it
-
-    move the folder to desktop
+ 
+   * unzip it
+   * move the folder to desktop
 
 open terminal in arduino folder
 
@@ -38,21 +38,14 @@ In desktop you can see Arduino IDE file , rigth click on it > properties > permi
 
 ---------------
 
+## Adding Attiny Boards
+
 Tutorial [link](http://highlowtech.org/?p=1695)
 
 1- Installing Arduino and the ATtiny files
 
-By default, The attiny board wont be present in Arduino. You either have install the borad files or paste the ATtiny files into t he arduino directory.To install the files, select
 
-`
-tools>board>boards manager
-`
-<br>
-<center><img src="img/w8/b2.PNG" width= "800"/></center>
-
-OR
-
-Open the setings *`file>preferences`*. Then paste the URLs address.
+Open the setings </b>file>preferences</b>. Then paste the URLs address.
 
 `
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
@@ -60,6 +53,19 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 
 <br>
 <center><img src="img/w8/b1.png" width= "800"/></center>
+
+OR
+
+By default, The attiny board wont be present in Arduino. You either have install the borad files or paste the ATtiny files into the arduino directory.To install the files, select
+
+`
+tools>board>boards manager
+`
+
+<br>
+
+<center><img src="img/w8/b2.PNG" width= "800"/></center>
+
 
 ----------------
 
@@ -70,9 +76,13 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 
  I had to make sure that the pin out of the ATtiny44 was compliant with that of Arduino as shown in the image here:
 
-<center>
-![Attiny 44](img/w8/ATtiny44)
-</center>
+<center><img src="img/w8/attiny44.png" width= "800"/></center>
+
+I Refer this sheet for pin arduino ATtiny configuration.
+
+<center><img src="img/w8/arduino_vs_attiny_pinouts.png" width= "800"/></center>
+
+
 
 ### [Blink led](code/Blink.zip)
 
@@ -84,10 +94,6 @@ The program was successfully uploaded on to the board through the FabISP (which 
 *   Processor: ATtiny 44
 *   Clock: 20 MHz (external)
     Programmer: USB Tiny ISP
-
-<br>
-<center><img src="img/w8/b3.jpeg" width= "800"/></center>
-<br>
 
 
 
@@ -103,9 +109,12 @@ The program was successfully uploaded on to the board through the FabISP (which 
     }
 
 ``` 
+
+<center><img src="gif/w8/blink.gif" width= "800"/></center>
+
 -------------
 
-###[Button press LED on](code/Button_press_LED_on.zip)
+### [Button press LED on](code/Button_press_LED_on.zip)
 
 ```
 const int buttonPin = 6;   
@@ -136,6 +145,9 @@ void loop() {
 }
 
 ```
+
+<center><img src="gif/w8/button.gif" width= "800"/></center>
+
 
 
 ----------------
@@ -176,4 +188,15 @@ void loop() {
     
 ```
 
-</div>
+<center><img src="gif/w8/serial.gif" width= "800"/></center>
+
+
+## Files
+
+
+* [Blink led](code/Blink.zip)
+
+* [Button press LED on](code/Button_press_LED_on.zip)
+
+* [Serial communication](code/serialcommunication.zip)
+

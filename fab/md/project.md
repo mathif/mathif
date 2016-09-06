@@ -1,32 +1,29 @@
-<div style="width:1000px; margin:0 auto;">
+title: Project
+tags: ["handlebars", "template"]
+---
 
-<center> 
+# Final project
 
-<img src="img/p0.jpg" width="300"/>
+My project is blind snooper to help a blind person during navigation,it will alert the person if there are any obstacles in their path.There are lots of same idea projects in the market,but my idea has two modules and this whole idea is the integration of these 2 modules.To complete this project I did use laser cutting plywood,electronics production-PCB milling,3d printing-ABS.To complete this project used all the components from fab lab inventory except vibration motor and ultrasonic sensor(cost 2  Dollars), the total cost of my project is less than 7 Dollars, the whole device is fab lab product,I have made everything inside fablab.Processes were used during development is 3D PRINTING, LASER CUTTING, ELECTRONICS PRODUCTION, EMBEDDED PROGRAMMING, INPUT DEVICE, OUTPUT DEVICE. I had to answer almost all questions,how should design,electronics part production,programming,working,how to make it as a product.It can evaluate based on prototype,processes used during production.This idea has great future if we make it as in bulk production, blind snooper can help a blind person to become independent while travelling.
 
+-------
 
+## Project Slide
 
-# Final project? What I am going to do..
+<center><img src="presentation.png" width= "1000"/></center>
 
-</center>
-
-<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
-
-
-## The challenge
-
-Here in our lab when you listed the needs like resistor, ic, capacitor,  in a pepar the searching is the big challenge. So i am plan to do solve the challenge using some cheap and simple components. 
+<br><br>
 
 
 
-<center><img src="img/p1.jpg" width="400"/></center>
-
-## The Plan
-
-The challange how i going to solve with an Aurdino board, Servo motors, LED, bush butten etc.. the servo moter connected the box. by which changing of polarity can make to and fro motion. A readymade list on the side of the box, form there can select the needed components using push button that time the LED blinks. after seleting the all consumables press the enter button. the time the all boxes which containing the consumebles get open. for closing the box press the button back. 
-
-<center><img src="img/p3.jpg" width="200"/> <img src="img/p4.jpg" width="400"/></center>
+## Project Vedio
 
 
 
-</div>
+<video width="720" height="420" controls="">
+           <source src="presentation.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+           </video>
+<br><br>
+
+
