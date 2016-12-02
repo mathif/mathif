@@ -1,4 +1,4 @@
-#pandoc -s -o index.html index.md
+pandoc -s -o index.html1 index.md
 
 git pull
 git add --all
