@@ -1,7 +1,6 @@
-pandoc -s -o index.html index.md
 
 git pull
 git add --all
-git commit -m "push avunilla"
+git commit -m "push avun"
 git push origin master
 
